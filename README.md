@@ -1,0 +1,1 @@
+# EM algorithm for Speaker-Identification in Novel task based on transformer-based Quote Attribution model and Quote-Character MBTI Personality Classifier.
