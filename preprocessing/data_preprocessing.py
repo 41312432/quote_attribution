@@ -1,7 +1,7 @@
 import copy
 
 from tqdm import tqdm
-from transformers import BertTokenizer
+from transformers import AutoTokenizer
 
 from torch.utils.data import Dataset, DataLoader
 
@@ -183,10 +183,11 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
     Ouput:
 
     """
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 
     for alias in alias_to_id:
-        tokenizer.add_tokens(alias)
+        print(alias, end='\n')
+        tokenizer.add_tokens(alias.lower())
 
     #load instances from file
     with open(data_file, 'r', encoding='utf-8') as f:
@@ -205,7 +206,7 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
         
         #line[1]~[10]:context line[11]:quote line[12]~[21]:context
         if offset < 22:
-            raw_sentences_in_list.append(line.strip())
+            raw_sentences_in_list.append(line.strip().lower())
 
         # speaker
         if offset == 22:
@@ -232,7 +233,7 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
 import copy
 
 from tqdm import tqdm
-from transformers import BertTokenizer
+from transformers import AutoTokenizer
 
 from torch.utils.data import Dataset, DataLoader
 
@@ -414,7 +415,7 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
     Ouput:
 
     """
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 
     for alias in alias_to_id:
         tokenizer.add_tokens(alias)
@@ -452,7 +453,7 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
                 continue
         
             candidate_specific_segements, sentence_lens, mention_positions, quote_indicies = \
-            create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size, args.length_limit)
+            create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size, args.len_limit)
 
             one_hot_label = [0 if character_index != alias_to_id[speaker_name.lower()] else 1 for character_index in candidate_mention_positions.keys()]
             true_index = one_hot_label.index(1) if 1 in one_hot_label else 0
