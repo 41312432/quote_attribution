@@ -1,0 +1,34 @@
+Mrs. Bennet;Bennet;Mrs_Bennet
+Mr. Bennet;Bennet;Mr_Bennet
+Elizabeth Bennet;Miss Elizabeth Bennet;Miss Elizabeth;Miss Lizzy;Miss Bennet;Miss Eliza;Eliza Bennet;Elizabeth;Lizzy;Liz;Eliza;Elizabeth_Bennet
+Kitty Bennet;Catherine Bennet;Kitty;Kitty_Bennet
+Lydia Bennet;Miss Lydia Bennet;Miss Lydia;Lydia;Lydia_Bennet
+Mr. Bingley;Bingley;Mr_Bingley
+Mr. Darcy;Mr. Fitzwilliam Darcy;Fitzwilliam Darcy;Darcy;Mr_Darcy
+Jane Bennet;Jane;Jane_Bennet
+Charlotte;Charlotte Lucas;Mrs. Collins;Miss Lucas;Charlotte
+Mary Bennet;Mary;Mary_Bennet
+a young male Lucas;a_young_male_Lucas
+Sir William;Sir William Lucas;Sir_William
+Caroline Bingley;Caroline;Miss Bingley;Caroline_Bingley
+Catherine and Lydia;Catherine_and_Lydia
+Louisa Hurst;Louisa;Mrs. Hurst;Louisa_Hurst
+Mr. Hurst;Mr_Hurst
+Mr. Collins;William Collins;Mr_Collins
+Mr. Wickham;George Wickham;George;Wickham;Mr_Wickham
+Mr. Denny;Mr_Denny
+Mrs. Gardiner;Mrs_Gardiner
+Maria Lucas;Maria_Lucas
+Lady Catherine;Catherine;Lady_Catherine
+Colonel Fitzwilliam;Colonel F.;Colonel_Fitzwilliam
+maria;maria
+Kitty and Lydia;Kitty_and_Lydia
+Mrs. Reynolds;Mrs_Reynolds
+Mr. Gardiner;EDW. Gardiner;E. Gardiner;Mr_Gardiner
+Mrs. Hill;Mrs_Hill
+The Butler;The_Butler
+Elizabeth and Jane;Elizabeth_and_Jane
+Mrs. Phillips;Mrs_Phillips
+one of the girls;one_of_the_girls
+NOTANUTTERANCE
+UNSURE
