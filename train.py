@@ -3,8 +3,7 @@ import time
 import json
 import os
 import logging
-from torch.utils.tensorboard import SummaryWriter
-
+import wandb
 
 import numpy as np
 import torch
@@ -45,13 +44,6 @@ def train():
 
     #checkpoint
     checkpoint_dir = os.path.join(args.checkpoint_dir, os.path.join(args.model_name, timestamp))
-
-    #log
-    writer = SummaryWriter(log_dir=os.path.join(checkpoint_dir, 'tensorboard'))
-    logging.basicConfig(level=logging.INFO,
-                        format=LOG_FORMAT,
-                        datefmt=DATE_FORMAT,
-                        filename=os.path.join(checkpoint_dir, 'training_log.log'))
 
     #device
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -101,22 +93,22 @@ def train():
     print(true_index)
     print('\n##############VAL EXAMPLE#################\n')
 
-    # tokenizer = BertTokenizer.from_pretrained(args.bert_pretrained_dir)
-    # model = CSN(args)
-    # model = model.to(device)
+    tokenizer = BertTokenizer.from_pretrained(args.bert_pretrained_dir)
+    model = CSN(args)
+    model = model.to(device)
 
-    # # initialize optimizer
-    # if args.optimizer == 'sgd':
-    #     optimizer = torch.optim.SGD(model.parameters(), lr=args.lr)
-    # elif args.optimizer == 'adam':
-    #     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
-    # else:
-    #     raise ValueError("Unknown optimizer type...")
+    # initialize optimizer
+    if args.optimizer == 'sgd':
+        optimizer = torch.optim.SGD(model.parameters(), lr=args.lr)
+    elif args.optimizer == 'adam':
+        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+    else:
+        raise ValueError("Unknown optimizer type...")
 
-    # # loss
-    # loss_function = nn.MarginRankingLoss()
+    # loss
+    loss_function = nn.MarginRankingLoss()
 
-    # print('\n##############TRAIN BEGIN#################\n')
+    print('\n##############TRAIN BEGIN#################\n')
 
     # #Logging
     # best_val_acc = 0
@@ -133,10 +125,16 @@ def train():
     #     optimizer.zero_grad()
 
     #     print(f'Epoch: {epoch+1}')
-    #     for i, (_, )
+    #     for i, (_, candidate_specific_segements, sentence_lens, mention_positions, quote_indicies, _, true_indx) in enumerate(tqdm(train_data)):
+    #         try:
+    #             features = 
+    #         except Exception as e:
+    #             print(e)
 
 if __name__ == '__main__':
     # run several times and calculate average accuracy and standard deviation
+    wandb.init(project="QA-test")
+    wandb.config.update(get_train_args())
     train()
     # val = []
     # test = []
