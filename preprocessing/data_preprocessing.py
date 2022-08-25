@@ -181,7 +181,7 @@ def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
             tokenized_sentences, candidate_mention_positions = tokenize_and_locate_mention(raw_sentences_in_list, alias_to_id, tokenizer)
 
             candidate_specific_segements, mention_positions, quote_indicies = \
-            create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size, args.length_limit)
+            create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size)
 
             one_hot_label = [0 if character_index != alias_to_id[speaker_name.lower()] else 1 for character_index in candidate_mention_positions.keys()]
             true_index = one_hot_label.index(1) if 1 in one_hot_label else 0
