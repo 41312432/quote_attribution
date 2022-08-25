@@ -1,0 +1,61 @@
+######Options######
+{
+    "model_name": "CSN",
+    "checkpoint_dir": "/home/wansik/QA/quote_attribution/checkpoint",
+    "train_file": "/home/wansik/QA/quote_attribution/data/train/pnp_train.txt",
+    "val_file": "/home/wansik/QA/quote_attribution/data/val/pnp_val.txt",
+    "test_file": "/home/wansik/QA/quote_attribution/data/test/pnp_test.txt",
+    "name_list": "/home/wansik/QA/quote_attribution/data/pnp_name_list.txt",
+    "window_size": 10,
+    "len_limit": 510,
+    "pooling_type": "max_pooling",
+    "classifier_intermediate_dim": 100,
+    "nonlinear_type": "relu",
+    "bert_pretrained_dir": "bert-base-uncased",
+    "margin": 1.0,
+    "lr": 2e-05,
+    "optimizer": "adam",
+    "dropout": 0.5,
+    "num_epochs": 50,
+    "batch_size": 16,
+    "lr_decay": 0.95,
+    "patience": 10
+}
+alias2id :
+ {'mrs. bennet': 0, 'bennet': 1, 'mrs_bennet': 0, 'mr. bennet': 1, 'mr_bennet': 1, 'elizabeth bennet': 2, 'miss elizabeth bennet': 2, 'miss elizabeth': 2, 'miss lizzy': 2, 'miss bennet': 2, 'miss eliza': 2, 'eliza bennet': 2, 'elizabeth': 2, 'lizzy': 2, 'liz': 2, 'eliza': 2, 'elizabeth_bennet': 2, 'kitty bennet': 3, 'catherine bennet': 3, 'kitty': 3, 'kitty_bennet': 3, 'lydia bennet': 4, 'miss lydia bennet': 4, 'miss lydia': 4, 'lydia': 4, 'lydia_bennet': 4, 'mr. bingley': 5, 'bingley': 5, 'mr_bingley': 5, 'mr. darcy': 6, 'mr. fitzwilliam darcy': 6, 'fitzwilliam darcy': 6, 'darcy': 6, 'mr_darcy': 6, 'jane bennet': 7, 'jane': 7, 'jane_bennet': 7, 'charlotte': 8, 'charlotte lucas': 8, 'mrs. collins': 8, 'miss lucas': 8, 'mary bennet': 9, 'mary': 9, 'mary_bennet': 9, 'a young male lucas': 10, 'a_young_male_lucas': 10, 'sir william': 11, 'sir william lucas': 11, 'sir_william': 11, 'caroline bingley': 12, 'caroline': 12, 'miss bingley': 12, 'caroline_bingley': 12, 'catherine and lydia': 13, 'catherine_and_lydia': 13, 'louisa hurst': 14, 'louisa': 14, 'mrs. hurst': 14, 'louisa_hurst': 14, 'mr. hurst': 15, 'mr_hurst': 15, 'mr. collins': 16, 'william collins': 16, 'mr_collins': 16, 'mr. wickham': 17, 'george wickham': 17, 'george': 17, 'wickham': 17, 'mr_wickham': 17, 'mr. denny': 18, 'mr_denny': 18, 'mrs. gardiner': 19, 'mrs_gardiner': 19, 'maria lucas': 20, 'maria_lucas': 20, 'lady catherine': 21, 'catherine': 21, 'lady_catherine': 21, 'colonel fitzwilliam': 22, 'colonel f.': 22, 'colonel_fitzwilliam': 22, 'maria': 23, 'kitty and lydia': 24, 'kitty_and_lydia': 24, 'mrs. reynolds': 25, 'mrs_reynolds': 25, 'mr. gardiner': 26, 'edw. gardiner': 26, 'e. gardiner': 26, 'mr_gardiner': 26, 'mrs. hill': 27, 'mrs_hill': 27, 'the butler': 28, 'the_butler': 28, 'elizabeth and jane': 29, 'elizabeth_and_jane': 29, 'mrs. phillips': 30, 'mrs_phillips': 30, 'one of the girls': 31, 'one_of_the_girls': 31, 'notanutterance': 32, 'unsure': 33}
+ 62%|██████████████████████████████████▎                    | 19055/30575 [00:02<00:01, 7542.33it/s]Token indices sequence length is longer than the specified maximum sequence length for this model (3114 > 512). Running this sequence through the model will result in indexing errors
+
+100%|███████████████████████████████████████████████████████| 30575/30575 [00:04<00:00, 7062.70it/s]
+100%|█████████████████████████████████████████████████████████| 3600/3600 [00:00<00:00, 5652.84it/s]
+100%|█████████████████████████████████████████████████████████| 3599/3599 [00:00<00:00, 6418.24it/s]
+##############VAL EXAMPLE#################
+Tokenized Sentences :
+[['instance', 'index', ':', '142', '##5'], ['though', 'elizabeth', 'would', 'not', ',', 'for', 'the', 'mere', 'purpose', 'of', 'ob', '##li', '##ging', 'lady catherine', ',', 'have', 'answered', 'this', 'question', ',', 'she', 'could', 'not', 'but', 'say', ',', 'after', 'a', 'moment', '’', 's', 'del', '##ibe', '##ration', ':'], ['"', 'i', 'am', 'not', '.', '"'], ['lady catherine', 'seemed', 'pleased', '.'], ['"', 'and', 'will', 'you', 'promise', 'me', ',', 'never', 'to', 'enter', 'into', 'such', 'an', 'engagement', '?', '"'], ['"', 'i', 'will', 'make', 'no', 'promise', 'of', 'the', 'kind', '.', '"'], ['"', 'miss bennet', 'i', 'am', 'shocked', 'and', 'astonished', '.', 'i', 'expected', 'to', 'find', 'a', 'more', 'reasonable', 'young', 'woman', '.', 'but', 'do', 'not', 'dec', '##ei', '##ve', 'yourself', 'into', 'a', 'belief', 'that', 'i', 'will', 'ever', 'rec', '##ede', '.', 'i', 'shall', 'not', 'go', 'away', 'till', 'you', 'have', 'given', 'me', 'the', 'assurance', 'i', 'require', '.', '"'], ['"', 'and', 'i', 'certainly', 'never', 'shall', 'give', 'it', '.', 'i', 'am', 'not', 'to', 'be', 'intimidated', 'into', 'anything', 'so', 'wholly', 'unreasonable', '.', 'your', 'lady', '##ship', 'wants', 'mr. darcy', 'to', 'marry', 'your', 'daughter', ';', 'but', 'would', 'my', 'giving', 'you', 'the', 'wished', '-', 'for', 'promise', 'make', 'their', 'marriage', 'at', 'all', 'more', 'probable', '?', 'su', '##pp', '##osing', 'him', 'to', 'be', 'attached', 'to', 'me', ',', 'would', 'my', 'refusing', 'to', 'accept', 'his', 'hand', 'make', 'him', 'wish', 'to', 'best', '##ow', 'it', 'on', 'his', 'cousin', '?', 'allow', 'me', 'to', 'say', ',', 'lady catherine', ',', 'that', 'the', 'arguments', 'with', 'which', 'you', 'have', 'supported', 'this', 'extraordinary', 'application', 'have', 'been', 'as', 'fr', '##ivo', '##lous', 'as', 'the', 'application', 'was', 'ill', '-', 'judged', '.', 'you', 'have', 'widely', 'mistaken', 'my', 'character', ',', 'if', 'you', 'think', 'i', 'can', 'be', 'worked', 'on', 'by', 'such', 'persuasion', '##s', 'as', 'these', '.', 'how', 'far', 'your', 'nephew', 'might', 'approve', 'of', 'your', 'interference', 'in', 'his', 'affairs', ',', 'i', 'cannot', 'tell', ';', 'but', 'you', 'have', 'certainly', 'no', 'right', 'to', 'concern', 'yourself', 'in', 'mine', '.', 'i', 'must', 'beg', ',', 'therefore', ',', 'to', 'be', 'import', '##une', '##d', 'no', 'farther', 'on', 'the', 'subject', '.', '"'], ['"', 'not', 'so', 'hasty', ',', 'if', 'you', 'please', '.', 'i', 'have', 'by', 'no', 'means', 'done', '.', 'to', 'all', 'the', 'objections', 'i', 'have', 'already', 'urged', ',', 'i', 'have', 'still', 'another', 'to', 'add', '.', 'i', 'am', 'no', 'stranger', 'to', 'the', 'particular', '##s', 'of', 'your', 'youngest', 'sister', '’', 's', 'infamous', 'el', '##ope', '##ment', '.', 'i', 'know', 'it', 'all', ';', 'that', 'the', 'young', 'man', '’', 's', 'marrying', 'her', 'was', 'a', 'patch', '##ed', '-', 'up', 'business', ',', 'at', 'the', 'ex', '##pen', '##ce', 'of', 'your', 'father', 'and', 'uncles', '.', 'and', 'is', 'such', 'a', 'girl', 'to', 'be', 'my', 'nephew', '’', 's', 'sister', '?', 'is', 'her', 'husband', ',', 'who', 'is', 'the', 'son', 'of', 'his', 'late', 'father', '’', 's', 'steward', ',', 'to', 'be', 'his', 'brother', '?', 'heaven', 'and', 'earth', '!', '—', 'of', 'what', 'are', 'you', 'thinking', '?', 'are', 'the', 'shades', 'of', 'pe', '##mber', '##ley', 'to', 'be', 'thus', 'poll', '##uted', '?', '"'], ['"', 'you', 'can', 'now', 'have', 'nothing', 'further', 'to', 'say', ',', '"'], ['she', 'res', '##ent', '##fully', 'answered', '.'], ['"', 'you', 'have', 'insulted', 'me', 'in', 'every', 'possible', 'method', '.', 'i', 'must', 'beg', 'to', 'return', 'to', 'the', 'house', '.', '"'], ['and', 'she', 'rose', 'as', 'she', 'spoke', '.'], ['lady catherine', 'rose', 'also', ',', 'and', 'they', 'turned', 'back', '.'], ['her', 'lady', '##ship', 'was', 'highly', 'incense', '##d', '.'], ['"', 'you', 'have', 'no', 'regard', ',', 'then', ',', 'for', 'the', 'honour', 'and', 'credit', 'of', 'my', 'nephew', '!', 'un', '##fe', '##elin', '##g', ',', 'selfish', 'girl', '!', 'do', 'you', 'not', 'consider', 'that', 'a', 'connection', 'with', 'you', 'must', 'disgrace', 'him', 'in', 'the', 'eyes', 'of', 'everybody', '?', '"'], ['"', 'lady catherine', ',', 'i', 'have', 'nothing', 'further', 'to', 'say', '.', 'you', 'know', 'my', 'sentiments', '.', '"'], ['"', 'you', 'are', 'then', 'resolved', 'to', 'have', 'him', '?', '"'], ['"', 'i', 'have', 'said', 'no', 'such', 'thing', '.', 'i', 'am', 'only', 'resolved', 'to', 'act', 'in', 'that', 'manner', ',', 'which', 'will', ',', 'in', 'my', 'own', 'opinion', ',', 'constitute', 'my', 'happiness', ',', 'without', 'reference', 'to', 'you', ',', 'or', 'to', 'any', 'person', 'so', 'wholly', 'un', '##connected', 'with', 'me', '.', '"'], ['"', 'it', 'is', 'well', '.', 'you', 'refuse', ',', 'then', ',', 'to', 'ob', '##li', '##ge', 'me', '.', 'you', 'refuse', 'to', 'obey', 'the', 'claims', 'of', 'duty', ',', 'honour', ',', 'and', 'gratitude', '.', 'you', 'are', 'determined', 'to', 'ruin', 'him', 'in', 'the', 'opinion', 'of', 'all', 'his', 'friends', ',', 'and', 'make', 'him', 'the', 'contempt', 'of', 'the', 'world', '.', '"'], ['"', 'neither', 'duty', ',', 'nor', 'honour', ',', 'nor', 'gratitude', ',', '"'], ['replied', 'elizabeth', ',']]
+Candidate-specific segments:
+ sheres##ent##fullyanswered."youhaveinsultedmeineverypossiblemethod.imustbegtoreturntotheandsheroseasshespoke.lady catherinerosealso,andtheyturnedback.herlady##shipwashighlyincense##d."youhavenoregard,then,forthehonourandcreditofmynephew!un##fe"lady catherine,ihavenothingfurthertosay.youknowmysentiments.""youarethenresolvedtohavehim?""ihavesaidnosuchthing.iamonlyresolvedtoactinthatmanner,which"itiswell.yourefuse,then,toob##li##geme.yourefusetoobeythe"neitherduty,norhonour,norgratitude,"repliedelizabeth,
+ sheres##ent##fullyanswered."youhaveinsultedmeineverypossiblemethod.imustbegtoreturntothehouse."andsheroseasshespoke.lady catherinerosealso,andtheyturnedback.
+ "andicertainlynevershallgiveit.iamnottobeintimidatedintoanythingsowhollyunreasonable.yourlady##shipwantsmr. darcytomarryyourdaughter;butwouldmygivingyouthewished-forpromisemaketheirmarriageatallmoreprobable?su##pp##osinghim"notsohasty,ifyouplease.ihavebynomeansdone.toalltheobjectionsihavealreadyurged,ihavestillanothertoadd.iamnostrangertotheparticular##sofyouryoungestsister’sinfamousel##ope##ment.iknowitall;thattheyoungman’smarryingherwasapatch"youcannowhavenothingfurthertosay,"sheres##ent##fullyanswered.
+Sentence Length:
+[[27, 61, 21, 41, 33, 60, 62, 30, 60, 58, 37, 17], [27, 68, 21, 41], [223, 225, 35, 27]]
+Mention Positions:
+[(11, 497, 506), (3, 116, 130), (0, 104, 113)]
+Quote Indices:
+[0, 0, 3]
+one-hot-label:
+[1, 0, 0]
+true index:
+0
+##############VAL EXAMPLE#################
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/home/wansik/QA/quote_attribution/train.py", line 181, in <module>
+    train()
+  File "/home/wansik/QA/quote_attribution/train.py", line 122, in train
+    for epoch, _ in enumerate(tqdm(args.num_epochs)):
+  File "/home/wansik/anaconda3/lib/python3.9/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+TypeError: 'int' object is not iterable
+##############TRAIN BEGIN#################

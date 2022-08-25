@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch
+from transformers import AutoModel
 
 def get_nonlinear(nonlinear):
     """

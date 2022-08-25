@@ -1,0 +1,181 @@
+2022-08-25 04:56:24,912 INFO    StreamThr :1095971 [internal.py:wandb_internal():90] W&B internal server running at pid: 1095971, started at: 2022-08-25 04:56:24.912363
+2022-08-25 04:56:24,914 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: status
+2022-08-25 04:56:24,914 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: status
+2022-08-25 04:56:24,915 DEBUG   SenderThread:1095971 [sender.py:send():302] send: header
+2022-08-25 04:56:24,915 INFO    WriterThread:1095971 [datastore.py:open_for_write():75] open: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/run-qafx5189.wandb
+2022-08-25 04:56:24,918 DEBUG   SenderThread:1095971 [sender.py:send():302] send: run
+2022-08-25 04:56:25,327 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: check_version
+2022-08-25 04:56:25,327 INFO    SenderThread:1095971 [dir_watcher.py:__init__():216] watching files in: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files
+2022-08-25 04:56:25,327 INFO    SenderThread:1095971 [sender.py:_start_run_threads():913] run started: qafx5189 with start time 1661403384.910031
+2022-08-25 04:56:25,327 DEBUG   SenderThread:1095971 [sender.py:send():302] send: summary
+2022-08-25 04:56:25,327 INFO    SenderThread:1095971 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-25 04:56:25,327 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: check_version
+2022-08-25 04:56:25,361 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: run_start
+2022-08-25 04:56:25,365 DEBUG   HandlerThread:1095971 [meta.py:__init__():35] meta init
+2022-08-25 04:56:25,365 DEBUG   HandlerThread:1095971 [meta.py:__init__():50] meta init done
+2022-08-25 04:56:25,365 DEBUG   HandlerThread:1095971 [meta.py:probe():216] probe
+2022-08-25 04:56:25,371 DEBUG   HandlerThread:1095971 [meta.py:_setup_git():206] setup git
+2022-08-25 04:56:25,380 DEBUG   HandlerThread:1095971 [meta.py:_setup_git():213] setup git done
+2022-08-25 04:56:25,380 DEBUG   HandlerThread:1095971 [meta.py:_save_pip():54] save pip
+2022-08-25 04:56:25,380 DEBUG   HandlerThread:1095971 [meta.py:_save_pip():68] save pip done
+2022-08-25 04:56:25,380 DEBUG   HandlerThread:1095971 [meta.py:_save_conda():75] save conda
+2022-08-25 04:56:26,328 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/conda-environment.yaml
+2022-08-25 04:56:26,328 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/requirements.txt
+2022-08-25 04:56:26,329 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-summary.json
+2022-08-25 04:56:29,700 DEBUG   HandlerThread:1095971 [meta.py:_save_conda():85] save conda done
+2022-08-25 04:56:29,700 DEBUG   HandlerThread:1095971 [meta.py:probe():254] probe done
+2022-08-25 04:56:29,782 DEBUG   SenderThread:1095971 [sender.py:send():302] send: files
+2022-08-25 04:56:29,782 INFO    SenderThread:1095971 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-25 04:56:29,785 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-25 04:56:29,786 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: stop_status
+2022-08-25 04:56:29,998 DEBUG   SenderThread:1095971 [sender.py:send():302] send: telemetry
+2022-08-25 04:56:29,999 DEBUG   SenderThread:1095971 [sender.py:send():302] send: config
+2022-08-25 04:56:30,330 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/conda-environment.yaml
+2022-08-25 04:56:30,331 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:30,331 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-metadata.json
+2022-08-25 04:56:30,455 INFO    Thread-16 :1095971 [upload_job.py:push():138] Uploaded file /tmp/tmpxx5bsxruwandb/3ehntsbn-wandb-metadata.json
+2022-08-25 04:56:32,331 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:39,334 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:41,334 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:43,335 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:45,001 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-25 04:56:45,001 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: stop_status
+2022-08-25 04:56:51,339 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:53,535 DEBUG   SenderThread:1095971 [sender.py:send():302] send: stats
+2022-08-25 04:56:56,342 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/config.yaml
+2022-08-25 04:56:58,343 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:56:59,343 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:00,210 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-25 04:57:00,210 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: stop_status
+2022-08-25 04:57:05,345 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:06,346 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:06,783 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:06,783 DEBUG   SenderThread:1095971 [sender.py:send():302] send: exit
+2022-08-25 04:57:06,784 INFO    SenderThread:1095971 [sender.py:send_exit():438] handling exit code: 255
+2022-08-25 04:57:06,784 INFO    SenderThread:1095971 [sender.py:send_exit():440] handling runtime: 41
+2022-08-25 04:57:06,784 INFO    SenderThread:1095971 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-25 04:57:06,784 INFO    SenderThread:1095971 [sender.py:send_exit():446] send defer
+2022-08-25 04:57:06,784 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:06,784 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,784 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-25 04:57:06,784 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,784 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-25 04:57:06,785 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 1
+2022-08-25 04:57:06,785 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,785 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-25 04:57:06,856 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,856 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-25 04:57:06,856 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 2
+2022-08-25 04:57:06,856 DEBUG   SenderThread:1095971 [sender.py:send():302] send: stats
+2022-08-25 04:57:06,857 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,857 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-25 04:57:06,857 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,857 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-25 04:57:06,857 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 3
+2022-08-25 04:57:06,857 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,857 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-25 04:57:06,857 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,857 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-25 04:57:06,857 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 4
+2022-08-25 04:57:06,857 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,858 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-25 04:57:06,858 DEBUG   SenderThread:1095971 [sender.py:send():302] send: summary
+2022-08-25 04:57:06,858 INFO    SenderThread:1095971 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-25 04:57:06,858 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,858 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-25 04:57:06,858 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 5
+2022-08-25 04:57:06,858 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,858 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-25 04:57:06,858 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,858 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-25 04:57:06,858 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 6
+2022-08-25 04:57:06,859 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:06,859 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-25 04:57:06,859 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:06,859 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-25 04:57:06,885 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:07,346 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:07,347 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-summary.json
+2022-08-25 04:57:08,347 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:09,116 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 7
+2022-08-25 04:57:09,116 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,118 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:09,118 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-25 04:57:09,118 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:09,118 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-25 04:57:09,118 INFO    SenderThread:1095971 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-25 04:57:09,219 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,348 INFO    Thread-12 :1095971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:09,349 INFO    SenderThread:1095971 [dir_watcher.py:finish():392] scan: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files
+2022-08-25 04:57:09,349 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log output.log
+2022-08-25 04:57:09,350 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/requirements.txt requirements.txt
+2022-08-25 04:57:09,356 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/conda-environment.yaml conda-environment.yaml
+2022-08-25 04:57:09,362 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/config.yaml config.yaml
+2022-08-25 04:57:09,363 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-summary.json wandb-summary.json
+2022-08-25 04:57:09,363 INFO    SenderThread:1095971 [dir_watcher.py:finish():406] scan save: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-metadata.json wandb-metadata.json
+2022-08-25 04:57:09,363 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 8
+2022-08-25 04:57:09,363 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,368 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:09,368 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-25 04:57:09,368 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:09,369 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-25 04:57:09,369 INFO    SenderThread:1095971 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-25 04:57:09,465 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,466 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,568 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,568 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,670 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,670 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,772 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,772 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,874 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,875 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:09,977 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:09,978 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,014 INFO    Thread-20 :1095971 [upload_job.py:push():138] Uploaded file /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/config.yaml
+2022-08-25 04:57:10,030 INFO    Thread-18 :1095971 [upload_job.py:push():138] Uploaded file /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/requirements.txt
+2022-08-25 04:57:10,051 INFO    Thread-19 :1095971 [upload_job.py:push():138] Uploaded file /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/conda-environment.yaml
+2022-08-25 04:57:10,080 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,080 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,085 INFO    Thread-21 :1095971 [upload_job.py:push():138] Uploaded file /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/wandb-summary.json
+2022-08-25 04:57:10,188 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,188 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,202 INFO    Thread-17 :1095971 [upload_job.py:push():138] Uploaded file /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/files/output.log
+2022-08-25 04:57:10,290 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,291 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,393 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,394 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,404 INFO    Thread-11 :1095971 [sender.py:transition_state():459] send defer: 9
+2022-08-25 04:57:10,405 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:10,405 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-25 04:57:10,405 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:10,405 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-25 04:57:10,496 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,596 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 10
+2022-08-25 04:57:10,597 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,598 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:10,598 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-25 04:57:10,599 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:10,599 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-25 04:57:10,599 INFO    SenderThread:1095971 [sender.py:transition_state():459] send defer: 11
+2022-08-25 04:57:10,601 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: defer
+2022-08-25 04:57:10,601 INFO    HandlerThread:1095971 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-25 04:57:10,602 DEBUG   SenderThread:1095971 [sender.py:send():302] send: final
+2022-08-25 04:57:10,602 DEBUG   SenderThread:1095971 [sender.py:send():302] send: footer
+2022-08-25 04:57:10,602 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: defer
+2022-08-25 04:57:10,603 INFO    SenderThread:1095971 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-25 04:57:10,703 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-25 04:57:10,703 DEBUG   SenderThread:1095971 [sender.py:send_request():316] send_request: poll_exit
+2022-08-25 04:57:10,704 INFO    SenderThread:1095971 [file_pusher.py:join():176] waiting for file pusher
+2022-08-25 04:57:11,221 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-25 04:57:11,223 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-25 04:57:11,224 INFO    MainThread:1095971 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-25 04:57:11,225 INFO    MainThread:1095971 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-25 04:57:11,225 INFO    MainThread:1095971 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-25 04:57:11,226 DEBUG   HandlerThread:1095971 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-25 04:57:11,226 INFO    HandlerThread:1095971 [handler.py:finish():810] shutting down handler
+2022-08-25 04:57:11,602 INFO    WriterThread:1095971 [datastore.py:close():279] close: /home/wansik/QA/quote_attribution/wandb/run-20220825_045624-qafx5189/run-qafx5189.wandb
+2022-08-25 04:57:12,120 INFO    SenderThread:1095971 [sender.py:finish():1312] shutting down sender
+2022-08-25 04:57:12,120 INFO    SenderThread:1095971 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-25 04:57:12,120 INFO    SenderThread:1095971 [file_pusher.py:join():176] waiting for file pusher
+2022-08-25 04:57:12,230 INFO    MainThread:1095971 [internal.py:handle_exit():80] Internal process exited

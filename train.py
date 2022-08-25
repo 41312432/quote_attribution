@@ -12,6 +12,7 @@ import torch.nn as nn
 from preprocessing.data_preprocessing import build_data_loader
 
 from utils.arguments import get_train_args
+from model.bert import *
 
 from transformers import BertTokenizer
 from model.model import CSN
@@ -110,26 +111,73 @@ def train():
 
     print('\n##############TRAIN BEGIN#################\n')
 
-    # #Logging
-    # best_val_acc = 0
-    # best_val_loss = 0
-    # new_best = False
+    #Logging
+    best_val_acc = 0
+    best_val_loss = 0
+    new_best = False
 
-    # #TRAIN
-    # for epoch in tqdm(args.num_epochs):
-    #     acc_numerator = 0
-    #     acc_denominator = 0
-    #     train_loss = 0
+    backward_counter = 0
 
-    #     model.train()
-    #     optimizer.zero_grad()
+    #TRAIN
+    for epoch, _ in enumerate(tqdm(range(args.num_epochs))):
+        acc_numerator = 0
+        acc_denominator = 0
+        train_loss = 0
 
-    #     print(f'Epoch: {epoch+1}')
-    #     for i, (_, candidate_specific_segements, sentence_lens, mention_positions, quote_indicies, _, true_indx) in enumerate(tqdm(train_data)):
-    #         try:
-    #             features = 
-    #         except Exception as e:
-    #             print(e)
+        model.train()
+        optimizer.zero_grad()
+
+        print(f'Epoch: {epoch+1}')
+        for i, (_, candidate_specific_segements, sentence_lens, mention_positions, quote_indicies, _, true_indx) in enumerate(tqdm(train_data)):
+            try:
+                features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
+                scores, scores_false, scores_true = model(features, sentence_lens, mention_positions, quote_indicies, true_index, device)
+
+                for (false, true) in zip(scores_false, scores_true):
+                    #Loss
+                    loss = loss_function(false.unsqueeze(0), true.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device))
+                    train_loss += loss.item()
+
+                    #Back Propagation
+                    loss = loss / args.batch_size
+                    loss.backward(retain_graph=True)
+                    backward_counter += 1
+
+                    #Update Weights
+                    if backward_counter % args.batch_size == 0:
+                        optimizer.step()
+                        optimizer.zero_grad()
+            
+                print(scores)
+                #print(scores(max(0)))
+                #acc_numerator += 1 if scores.max(0)[1].item()==true_index else 0
+                acc_numertate += 1
+                acc_denominator += 1
+
+            except Exception as e:
+                print(e)
+        
+        ######Train Finish#####
+        train_acc = acc_numerator / acc_denominator
+        train_loss = train_loss / len(train_data)
+
+        print(f'{epoch+1} : train acc : {train_acc}, train loss : {train_loss} \n')
+
+        wandb.log(
+            (
+                {
+                    "train_loss" : train_loss,
+                    "train_acc" : train_acc,
+                }
+            )
+        )
+
+        #Adjust lr
+        for param_group in optimizer.param_groups:
+            param_group['lr'] *= args.lr_decay
+
+        #Evaluation
+        model.eval()
 
 if __name__ == '__main__':
     # run several times and calculate average accuracy and standard deviation

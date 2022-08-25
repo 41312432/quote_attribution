@@ -1,22 +1,4 @@
-['ThoughElizabethwouldnot,\
-forthemerepurposeofobligingLadyCatherine,\
-haveansweredthisquestion,\
-shecould"Iamnot."LadyCatherineseemedpleased."Andwillyoupromiseme,\
-nevertoenterintosuchanengagement?""Iwillmakenopromiseofthekind.""MissBennetIamshockedandastonished.Iexpectedtofindamorereasonableyoungwoman.Butdonotdeceive"AndIcertainlynevershallgiveit.Iamnottobeintimidatedintoanythingsowhollyunreasonable.Yourladyship"Notsohasty,\
-ifyouplease.Ihavebynomeansdone.ToalltheobjectionsIhavealreadyurged,\
-Ihavestillanotherto',\
- '"Notsohasty,\
-ifyouplease.Ihavebynomeansdone.ToalltheobjectionsIhavealreadyurged,\
-Ihavestillanothertoadd.Iamnostrangertotheparticularsofyouryoungestsister’sinfamouselopement.Iknowitall;thattheyoungman’smarryingherwasapatched-upbusiness,\
-attheexpenceofyourfatheranduncles.Andissuchagirltobemynephew’ssister?Isherhusband,\
-whoisthe"Youcannowhavenothingfurthertosay,\
-"sheresentfullyanswered."Youhaveinsultedmeineverypossiblemethod.Imustbegtoreturntothehouse."Andsheroseasshespoke.LadyCatherinerosealso,\
-andtheyturnedback.',\
- '"MissBennetIamshockedandastonished.Iexpectedtofindamorereasonableyoungwoman.ButdonotdeceiveyourselfintoabeliefthatIwilleverrecede.Ishallnotgoawaytillyouhavegivenmethe"AndIcertainlynevershallgiveit.Iamnottobeintimidatedintoanythingsowhollyunreasonable.YourladyshipwantsMr.Darcytomarryyourdaughter;butwouldmygivingyouthewished-forpromise"Notsohasty,\
-ifyouplease.Ihavebynomeansdone.ToalltheobjectionsIhavealreadyurged,\
-Ihavestillanothertoadd.Iamnostrangertotheparticularsofyouryoungestsister’sinfamouselopement.I',\
- '"AndIcertainlynevershallgiveit.Iamnottobeintimidatedintoanythingsowhollyunreasonable.YourladyshipwantsMr.Darcytomarryyourdaughter;butwouldmygivingyouthewished-forpromisemaketheirmarriageatallmoreprobable?Supposinghimtobeattachedtome,\
-wouldmyrefusingtoaccept"Notsohasty,\
-ifyouplease.Ihavebynomeansdone.ToalltheobjectionsIhavealreadyurged,\
-Ihavestillanothertoadd.Iamnostrangertotheparticularsofyouryoungestsister’sinfamouselopement.Iknowitall;thattheyoungman’smarryingherwasapatched-upbusiness,\
-attheexpenceofyour']
+te = ['a', 'b', 'c']
+
+for i, _ in enumerate(te):
+    print(i)

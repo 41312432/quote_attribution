@@ -29,6 +29,7 @@ def convert_examples_to_features(examples, tokenizer):
         new_tokens = []
         input_type_ids = []
 
+        #중국어니까 이렇게 한건데 수정해야 함
         new_tokens.append("[CLS]")
         input_type_ids.append(0)
         new_tokens += tokens
