@@ -20,7 +20,6 @@ def get_train_args():
     parser.add_argument('--name_list', type=str, default='')
 
     parser.add_argument('--window_size', type=int, default=10)
-    parser.add_argument('--len_limit', type=int, default=510)
 
     #model
     parser.add_argument('--pooling_type', type=str, default='max_pooling')

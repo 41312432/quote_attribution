@@ -128,10 +128,10 @@ def train():
         optimizer.zero_grad()
 
         print(f'Epoch: {epoch+1}')
-        for i, (_, candidate_specific_segements, sentence_lens, mention_positions, quote_indicies, _, true_indx) in enumerate(tqdm(train_data)):
+        for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(train_data)):
             try:
                 features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
-                scores, scores_false, scores_true = model(features, sentence_lens, mention_positions, quote_indicies, true_index, device)
+                scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
 
                 for (false, true) in zip(scores_false, scores_true):
                     #Loss

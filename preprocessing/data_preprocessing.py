@@ -136,7 +136,7 @@ class InstanceDataSet(Dataset):
         return self.data[idx]
 
 
-def build_data_loader(data_file, alias_to_id, args, skip_only_one=False):
+def build_data_loader(data_file, alias_to_id, args):
     """
     Build dataloader
 
