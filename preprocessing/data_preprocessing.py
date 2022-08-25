@@ -117,7 +117,7 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
             #if candidate in after quote, 0 is quote
             quote_index = 0
 
-        candidate_specific_segments.append(''.join([''.join(sentence) for sentence in cut_candidate_specific_segment]))
+        candidate_specific_segments.append([' '.join(candidate_specific_segment)])
         mention_positions.append(mention_position)
         quote_indices.append(quote_index)
     
