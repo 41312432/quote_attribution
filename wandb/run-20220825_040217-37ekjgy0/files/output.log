@@ -1,8 +1,0 @@
-usage: train.py [-h] [--model_name MODEL_NAME] [--checkpoint_dir CHECKPOINT_DIR] [--train_file TRAIN_FILE]
-                [--val_file VAL_FILE] [--test_file TEST_FILE] [--name_list NAME_LIST] [--window_size WINDOW_SIZE]
-                [--len_limit LEN_LIMIT] [--pooling_type POOLING_TYPE]
-                [--classifier_intermediate_dim CLASSIFIER_INTERMEDIATE_DIM] [--nonlinear_type NONLINEAR_TYPE]
-                [--bert_pretrained_dir BERT_PRETRAINED_DIR] [--margin MARGIN] [--lr LR] [--optimizer OPTIMIZER]
-                [--dropout DROPOUT] [--num_epochs NUM_EPOCHS] [--batch_size BATCH_SIZE] [--lr_decay LR_DECAY]
-                [--patience PATIENCE]
-train.py: error: unrecognized arguments: --dev_file /home/wansik/QA/quote_attribution/data/dev/pnp_val.txt --name_list_path /home/wansik/QA/quote_attribution/data/pnp_name_list.txt --length_limit 510
