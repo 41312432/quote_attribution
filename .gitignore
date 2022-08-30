@@ -1,2 +1,4 @@
 *pycache*
 *.sh
+wandb*
+checkpoint*
