@@ -22,21 +22,19 @@ def convert_examples_to_features(examples, tokenizer):
     return
         features: BERT features in a list.
     """
-    features = []
+    features = []  
     for (ex_index, example) in enumerate(examples):
-        tokens = tokenizer.tokenize(example)
+        tokens = example.split()
 
         new_tokens = []
         input_type_ids = []
 
-        #중국어니까 이렇게 한건데 수정해야 함
         new_tokens.append("[CLS]")
         input_type_ids.append(0)
         new_tokens += tokens
         input_type_ids += [0] * len(tokens)
         new_tokens.append("[SEP]")
         input_type_ids.append(0)
-        
 
         input_ids = tokenizer.convert_tokens_to_ids(new_tokens)
         input_mask = [1] * len(input_ids)

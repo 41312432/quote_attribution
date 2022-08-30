@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from transformers import AutoModel
+from transformers import AutoModel, TransfoXLModel
 
 def get_nonlinear(nonlinear):
     """
@@ -69,68 +69,80 @@ class CSN(nn.Module):
 
     It's built on BERT with an MLP and other simple components.
     """
-    def __init__(self, args):
+    def __init__(self, args, model):
         super(CSN, self).__init__()
         self.args = args
-        self.bert_model = AutoModel.from_pretrained(args.bert_pretrained_dir)
-        self.pooling = SeqPooling(args.pooling_type, self.bert_model.config.hidden_size)
-        self.mlp_scorer = MLP_Scorer(args, self.bert_model.config.hidden_size * 3)
+        self.model = model
+        self.pooling = SeqPooling(args.pooling_type, self.model .config.hidden_size)
+        self.mlp_scorer = MLP_Scorer(args, self.model .config.hidden_size * 3)
         self.dropout = nn.Dropout(args.dropout)
 
-    def forward(self, features, sent_char_lens, mention_poses, quote_idxes, true_index, device):
+    def forward(self, features, mention_positions, quote_indicies, true_index, device):
         """
         params
             features: the candidate-specific segments (CSS) converted into the form of BERT input.  
             sent_char_lens: character-level lengths of sentences in CSSs.
                 [[character-level length of sentence 1,...] in the CSS of candidate 1,...]
-            mention_poses: the positions of the nearest candidate mentions.
+            mention_positions: the positions of the nearest candidate mentions.
                 [(sentence-level index of nearest mention in CSS, 
                  character-level index of the leftmost character of nearest mention in CSS, 
                  character-level index of the rightmost character + 1) of candidate 1,...]
-            quote_idxes: the sentence-level index of the quotes in CSSs.
+            quote_indicies: the sentence-level index of the quotes in CSSs.
                 [index of quote in the CSS of candidate 1,...]
             true_index: the index of the true speaker.
             device: gpu/tpu/cpu device.
         """
         # encoding
+        quote_hidden = [] #quote
+        context_hidden = [] #context
+        candidate_hidden = [] #mention
         qs_hid = []
         ctx_hid = []
         cdd_hid = []
-        for i, (cdd_sent_char_lens, cdd_mention_pos, cdd_quote_idx) in enumerate(zip(sent_char_lens, mention_poses, quote_idxes)):
+        for i, (cdd_mention_pos, cdd_quote_idx) in enumerate(zip(mention_positions, quote_indicies)):
 
-            bert_output = self.bert_model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device), token_type_ids=None, 
-                attention_mask=torch.tensor([features[i].input_mask], dtype=torch.long).to(device))
+            bert_output = self.model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device))
 
-            accum_char_len = [0]
-            for sent_idx in range(len(cdd_sent_char_lens)):
-                accum_char_len.append(accum_char_len[-1] + cdd_sent_char_lens[sent_idx])
+            accum_char_len = []#전체 char 길이 [0, 10, 20, 30]요런식으로 (각 세 문장 길이가 10이였다면)
+
+            print(bert_output['last_hidden_state'][0])
+            #bert_output['last_hidden_state'][0] : feature word 길이
+            #bert_output['last_hidden_state'][0][0] : 한 word는 768차원 tensor
+
+            # css_hidden = bert_output['last_hidden_state'][0][1:-1]
+
+            # quote_hidden.append(css_hidden[])
+
+            # CSS_hid = bert_output['last_hidden_state'][0][1:sum(cdd_sent_char_lens) + 1]
+            # qs_hid.append(CSS_hid[accum_char_len[cdd_quote_idx]:accum_char_len[cdd_quote_idx + 1]])
+
+            # if len(cdd_sent_char_lens) == 1:
+            #     ctx_hid.append(torch.zeros(1, CSS_hid.size(1)).to(device))
+            # elif cdd_mention_pos[0] == 0:
+            #     ctx_hid.append(CSS_hid[:accum_char_len[-2]])
+            # else:
+            #     ctx_hid.append(CSS_hid[accum_char_len[1]:])
             
-            CSS_hid = bert_output['last_hidden_state'][0][1:sum(cdd_sent_char_lens) + 1]
-            qs_hid.append(CSS_hid[accum_char_len[cdd_quote_idx]:accum_char_len[cdd_quote_idx + 1]])
-
-            if len(cdd_sent_char_lens) == 1:
-                ctx_hid.append(torch.zeros(1, CSS_hid.size(1)).to(device))
-            elif cdd_mention_pos[0] == 0:
-                ctx_hid.append(CSS_hid[:accum_char_len[-2]])
-            else:
-                ctx_hid.append(CSS_hid[accum_char_len[1]:])
-            
-            cdd_hid.append(CSS_hid[cdd_mention_pos[1]:cdd_mention_pos[2]])
+            # cdd_hid.append(CSS_hid[cdd_mention_pos[1]:cdd_mention_pos[2]])
 
         # pooling
-        qs_rep = self.pooling(qs_hid)
-        ctx_rep = self.pooling(ctx_hid)
-        cdd_rep = self.pooling(cdd_hid)
+        # qs_rep = self.pooling(qs_hid)
+        # ctx_rep = self.pooling(ctx_hid)
+        # cdd_rep = self.pooling(cdd_hid)
 
-        # concatenate
-        feature_vector = torch.cat([qs_rep, ctx_rep, cdd_rep], dim=-1)
+        # # concatenate
+        # feature_vector = torch.cat([qs_rep, ctx_rep, cdd_rep], dim=-1)
 
-        # dropout
-        feature_vector = self.dropout(feature_vector)
+        # # dropout
+        # feature_vector = self.dropout(feature_vector)
         
-        # scoring
-        scores = self.mlp_scorer(feature_vector).view(-1)
-        scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
-        scores_true = [scores[true_index] for i in range(scores.size(0) - 1)]
+        # # scoring
+        # scores = self.mlp_scorer(feature_vector).view(-1)
+        # scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
+        # scores_true = [scores[true_index] for i in range(scores.size(0) - 1)]
+
+        scores = None
+        scores_false = None
+        scores_true = None
 
         return scores, scores_false, scores_true
