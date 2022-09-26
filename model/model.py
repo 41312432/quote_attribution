@@ -60,7 +60,6 @@ class MLP_Scorer(nn.Module):
     def forward(self, x):
         for model in self.scorer:
             x = self.nonlinear(model(x))
-        ###print('X', x)
         return x
 
 class CSN(nn.Module):
@@ -106,11 +105,13 @@ class CSN(nn.Module):
 
             model_output = self.model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device))
 
+            print(f"{i} Tokens : {features[i].tokens}")
+
             accum_char_len = []#전체 char 길이 [0, 10, 20, 30]요런식으로 (각 세 문장 길이가 10이였다면)
 
             #그리고 char len 없이 짤라보는거 생각
-            # print(cdd_mention_pos, cdd_quote_idx)
-            # print(len(model_output['last_hidden_state'][0]))    #instance i의 css마다 [CLS], [SEP] 추가시킨 last hidden state
+            print(cdd_mention_pos, cdd_quote_idx)
+            print(len(model_output['last_hidden_state'][0]))    #instance i의 css마다 [CLS], [SEP] 추가시킨 last hidden state
             #model_output['last_hidden_state'][0] : feature word 길이
             #model_output['last_hidden_state'][0][0] : 한 word는 768차원 tensor
 
@@ -129,20 +130,6 @@ class CSN(nn.Module):
             
             # cdd_hid.append(CSS_hid[cdd_mention_pos[1]:cdd_mention_pos[2]])
 
-        ###print('hidden', css_hidden, css_hidden[0].size())
-        ##css_represent = self.pooling(css_hidden)
-        ###
-        css_represent = []
-        for seq in css_hidden:
-            css_represent.append(seq)
-        css_represent = torch.stack(css_represent, dim=0)
-        print('css_represent', css_represent, css_represent.size())
-
-        # feature_vector = torch.cat([css_represent], dim=-1)
-        feature_vector = torch.cat([css_represent], dim=-1)
-        ###
-        print('feature_vector cat', feature_vector)
-
         # pooling
         # qs_rep = self.pooling(qs_hid)
         # ctx_rep = self.pooling(ctx_hid)
@@ -154,13 +141,10 @@ class CSN(nn.Module):
 
         # # dropout
         # feature_vector = self.dropout(feature_vector)
-        feature_vector = self.dropout(feature_vector)
-        print('feature_vec', feature_vector, feature_vector.size())
-        ###
 
         # # scoring
-        # true index가 안들어온당
         scores = self.mlp_scorer(feature_vector).view(-1)
+        
         print('scores', scores, scores.size())
         scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
         print('s false', scores_false, len(scores_false))

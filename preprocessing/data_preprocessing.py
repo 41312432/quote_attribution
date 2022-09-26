@@ -29,7 +29,7 @@ def locate_nearest_mention(tokenized_sentences, mention_positions, window_size):
 
         #mention in quote
         if position[0] == window_size:
-            return window_size*2
+            return window_size*200
         
         #mention before quote
         elif position[0] < window_size:
@@ -89,9 +89,13 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
     Return
         
     """
-
+    #To Do : 걍 여기서 Quote, Mention, Context 찍어버려 아니네 index만 찍어야되는게 bert 들어갈 때 앞뒤 있어야함
     candidate_specific_segments = []
     mention_positions = []
+    quote_indices = []
+
+    context_indices = []
+    mention_indices = []
     quote_indices = []
 
     for character_id in candidate_mention_positions.keys():
@@ -166,11 +170,11 @@ def build_data_loader(data_file, alias_to_id, args, tokenizer):
             raw_sentences_in_list = []
         
         #line[1]~[10]:context line[11]:quote line[12]~[21]:context
-        if offset < 22:
+        elif offset < 22:
             raw_sentences_in_list.append(line.strip().lower())
 
         # speaker
-        if offset == 22:
+        elif offset == 22:
             speaker_name = line.strip().split()[-1]
             
             tokenized_sentences, candidate_mention_positions = tokenize_and_locate_mention(raw_sentences_in_list, alias_to_id, tokenizer)

@@ -86,6 +86,7 @@ def train():
 
     print('\n##############VAL EXAMPLE#################\n')
     val_test_iter = iter(val_data)
+    val_test_iter.next()
     tokenized_sentences, candidate_specific_segements, mention_positions, quote_indicies, one_hot_label, true_index= val_test_iter.next()
     print('Tokenized Sentences :')
     print(tokenized_sentences)
@@ -137,11 +138,7 @@ def train():
         print(f'#########\nEpoch: {epoch+1} begins:\n')
         for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(train_data)):
             try:
-                # for css in candidate_specific_segements:
-                #     print(css.split())        //[CLS], [SEP] 추가 되기 전
-                #     print(len(css.split()))   // 즉, features보다 len 2개 짧음
-
-                #print(candidate_specific_segements[0].split())
+                #candidate_specific_segments : instance의 css들 list
                 features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
                 scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
 
