@@ -12,13 +12,12 @@ import torch.nn as nn
 from preprocessing.data_preprocessing import build_data_loader
 
 from utils.arguments import get_train_args
-from model.bert import *
+from model.xl import *
 
-from transformers import AutoTokenizer, AutoModel, TransfoXLModel, TransfoXLTokenizer
+from transformers import TransfoXLModel, TransfoXLTokenizer
 from model.model import CSN
 
 from tqdm import tqdm
-
 
 #----------import section----------
 
@@ -26,9 +25,6 @@ import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-#training log
-LOG_FORMAT = '%(asctime)s %(name)s %(levelname)s %(pathname)s %(message)s'
-DATE_FORMAT = '%Y-%m-%d %H:%m:%s %a'
 
 def train():
     """
@@ -40,8 +36,11 @@ def train():
     """
 
     args = get_train_args()
-    
+
     timestamp = time.strftime("%y%m%d%H%M", time.localtime()) #for checkpoint
+
+    checkpoint_dir = os.path.join(args.checkpoint_dir, 
+                                  os.path.join(args.model_name, timestamp))
 
     print("######Options######")
     print(json.dumps(vars(args), indent=4))
@@ -56,6 +55,7 @@ def train():
     train_file = args.train_file
     val_file = args.val_file
     test_file = args.test_file
+
     name_list = args.name_list
 
     """
@@ -69,22 +69,15 @@ def train():
         for alias in line.strip().split(';'):
             alias_to_id[alias.lower()] = i
 
-    alias_len = len(alias_to_id)
-
-    print("alias2id : \n", alias_to_id)
-
     #tokenizer
-    #tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     tokenizer = TransfoXLTokenizer.from_pretrained('transfo-xl-wt103', lower_case=True)
 
     for alias in alias_to_id:
         tokenizer.add_tokens(alias)
 
     #model
-    #bert_model = AutoModel.from_pretrained('bert-base-uncased')
     model = TransfoXLModel.from_pretrained('transfo-xl-wt103')
-    model.resize_token_embeddings(tokenizer.vocab_size+alias_len)
-
+    model.resize_token_embeddings(tokenizer.vocab_size+len(alias_to_id))
 
     #data_loaders
     train_data = build_data_loader(train_file, alias_to_id, args, tokenizer)
@@ -93,7 +86,6 @@ def train():
 
     print('\n##############VAL EXAMPLE#################\n')
     val_test_iter = iter(val_data)
-    val_test_iter.next()
     tokenized_sentences, candidate_specific_segements, mention_positions, quote_indicies, one_hot_label, true_index= val_test_iter.next()
     print('Tokenized Sentences :')
     print(tokenized_sentences)
@@ -126,11 +118,11 @@ def train():
 
     print('\n##############TRAIN BEGIN#################\n')
 
-    #Logging
     best_val_acc = 0
     best_val_loss = 0
     new_best = False
 
+    patience_counter = 0
     backward_counter = 0
 
     #TRAIN
@@ -142,38 +134,36 @@ def train():
         model.train()
         optimizer.zero_grad()
 
-        print(f'Epoch: {epoch+1}')
+        print(f'#########\nEpoch: {epoch+1} begins:\n')
         for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(train_data)):
-            # for css, mp in zip(candidate_specific_segements, mention_positions):
-            #     print(css, mp)
             try:
+                # for css in candidate_specific_segements:
+                #     print(css.split())        //[CLS], [SEP] 추가 되기 전
+                #     print(len(css.split()))   // 즉, features보다 len 2개 짧음
+
+                #print(candidate_specific_segements[0].split())
                 features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
-                for e, feature in enumerate(features):
-                    print(i, e, 'tokens : ', feature.tokens, len(feature.tokens))
-
-                #feautre 0도 있는거고 1도 있는거고 csss 길이만큼 있는건가?? 그러네..
-
                 scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
 
-                # for (false, true) in zip(scores_false, scores_true):
-                #     #Loss
-                #     loss = loss_function(false.unsqueeze(0), true.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device))
-                #     train_loss += loss.item()
+                for (false, true) in zip(scores_false, scores_true):
+                    #Loss
+                    loss = loss_function(false.unsqueeze(0), true.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device))
+                    train_loss += loss.item()
 
-                #     #Back Propagation
-                #     loss = loss / args.batch_size
-                #     loss.backward(retain_graph=True)
-                #     backward_counter += 1
+                    #Back Propagation
+                    loss = loss / args.batch_size
+                    loss.backward(retain_graph=True)
+                    backward_counter += 1
 
-                #     #Update Weights
-                #     if backward_counter % args.batch_size == 0:
-                #         optimizer.step()
-                #         optimizer.zero_grad()
+                    #Update Weights
+                    if backward_counter % args.batch_size == 0:
+                        optimizer.step()
+                        optimizer.zero_grad()
             
-                # #print(scores(max(0)))
-                # #acc_numerator += 1 if scores.max(0)[1].item()==true_index else 0
-                # acc_numertate += 1
-                # acc_denominator += 1
+                #print(scores(max(0)))
+                acc_numerator += 1 if scores.max(0)[1].item()==true_index else 0
+                #acc_numertate += 1
+                acc_denominator += 1
 
             except Exception as e:
                 print(e)
@@ -186,12 +176,11 @@ def train():
         print(f'{epoch+1} : train acc : {train_acc}, train loss : {train_loss} \n')
 
         wandb.log(
-            (
                 {
                     "train_loss" : train_loss,
                     "train_acc" : train_acc,
+                    "epoch" : epoch+1
                 }
-            )
         )
 
         #Adjust lr
@@ -201,25 +190,102 @@ def train():
         #Evaluation
         model.eval()
 
+        def eval(eval_data, subset_name):
+            """
+            Evaluate performance on a given subset.
+
+            params
+                eval_data: the set of instances to be evaluate on.
+                subset_name: the name of the subset for logging.
+
+            return
+                acc_numerator_sub: the number of correct predictions.
+                acc_denominator_sub: the total number of instances.
+                sum_loss: the sum of evaluation loss on positive-negative pairs.
+            """
+            eval_acc_numerator = 0
+            eval_acc_denominator = len(eval_data)
+
+            eval_sum_loss = 0
+
+            for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(eval_data)):
+                with torch.no_grad():
+                    features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
+                    scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
+                    loss_list = [loss_function(x.unsqueeze(0), y.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device)) for x, y in zip(scores_false, scores_true)]
+                
+                eval_sum_loss += sum(x.item() for x in loss_list)
+
+                # evaluate accuracy
+                correct = 1 if scores.max(0)[1].item() == true_index else 0
+                eval_acc_numerator += correct
+
+            eval_acc = eval_acc_numerator / eval_acc_denominator
+            eval_avg_loss = eval_sum_loss / eval_acc_denominator
+
+            wandb.log(
+                    {
+                    f"{subset_name} acc" : eval_acc,
+                    f"{subset_name} loss": eval_avg_loss,
+                    "epoch" : epoch+1
+                    }
+            )
+            print(f'{epoch+1} : {subset_name} acc : {eval_acc}, {subset_name} loss : {eval_avg_loss} \n')
+
+            return eval_acc, eval_avg_loss
+
+        # development stage
+        val_acc, val_avg_loss = eval(val_data, 'val')
+
+        # # save the model with best performance
+        if val_acc > best_val_acc:
+            best_val_acc = val_acc
+            best_val_loss = val_avg_loss
+            
+            patience_counter = 0
+            new_best = True
+        else:
+            patience_counter += 1
+            new_best = False
+
+        # only save the model which outperforms the former best on development set
+        if new_best:
+            # test stage
+            test_acc, test_avg_loss = eval(test_data, 'test')
+            try:
+                try:
+                    os.makedirs(checkpoint_dir)
+                except Exception as e:
+                    print(e)
+                with open(os.path.join(checkpoint_dir, 'info.json'), 'w', encoding='utf-8') as f:
+                    json.dump({
+                        'args': vars(args),
+                        'training_loss': train_loss,
+                        'best_val_acc': best_val_acc,
+                        'best_overall_dev_loss': best_val_loss,
+                        'test_acc': test_acc,
+                        'overall_test_loss': test_avg_loss
+                        }, f, indent=4)
+                torch.save({
+                        'model': model.state_dict(),
+                        'optimizer': optimizer.state_dict()}, os.path.join(checkpoint_dir, 'csn.ckpt'))
+            except Exception as e:
+                print(e)
+
+        # early stopping
+        if patience_counter > args.patience:
+            print("Early stopping...")
+            break
+
+        print('------------------------------------------------------')
+
+    return best_val_acc, test_acc                
+
 if __name__ == '__main__':
     # run several times and calculate average accuracy and standard deviation
     wandb.init(project="QA-test")
     wandb.config.update(get_train_args())
-    train()
-    # val = []
-    # test = []
-    # for i in range(3):    
-    #     val_acc, test_acc = train()
-    #     val.append(val_acc)
-    #     test.append(test_acc)
 
-    # val = np.array(val)
-    # test = np.array(test)
+    val_acc, test_acc = train()
 
-    # val_mean = np.mean(val)
-    # val_std = np.std(val)
-    # test_mean = np.mean(test)
-    # test_std = np.std(test)
-
-    # print(str(val_mean) + '(±' + str(val_std) + ')')
-    # print(str(test_mean) + '(±' + str(test_std) + ')')
+    print('final :', val_acc, test_acc)

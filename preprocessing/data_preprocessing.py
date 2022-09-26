@@ -71,6 +71,7 @@ def tokenize_and_locate_mention(raw_sentences_in_list, alias_to_id, tokenizer):
                 else:
                     character_mention_positions[alias_to_id[token]]=[[sentence_index, token_index]]
 
+    #TODO : for token split 중간에 [;] 같은거 놓고 split 그거로 하면 되지 않나??/?
     return tokenized_sentences, character_mention_positions
 
 def create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, window_size):
@@ -88,11 +89,6 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
     Return
         
     """
-
-    #TODO : Naming
-    r_candidate_specific_segments = []
-    r_mention_positions = []
-    r_quote_indices = []
 
     candidate_specific_segments = []
     mention_positions = []
@@ -117,7 +113,12 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
             #if candidate in after quote, 0 is quote
             quote_index = 0
 
-        candidate_specific_segments.append(' '.join([' '.join(sentence) for sentence in candidate_specific_segment]))
+        #i think it doesnt need
+        #candidate_specific_segments.append(' '.join([' '.join(sentence) for sentence in candidate_specific_segment]))
+        css = []
+        for x in candidate_specific_segment:
+            css.append(x)
+        candidate_specific_segments.append(css)
         mention_positions.append(mention_position)
         quote_indices.append(quote_index)
     

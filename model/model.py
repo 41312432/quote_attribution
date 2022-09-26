@@ -34,7 +34,7 @@ class SeqPooling(nn.Module):
     def attn_pool(self, seq):
         attn_score = torch.mm(seq, self.query_vec.view(-1, 1)).view(-1)
         attn_w = nn.Softmax(dim=0)(attn_score)
-        weighted_sum = torch.mm(attn_w.view(1, -1), seq).view(-1)     
+        weighted_sum = torch.mm(attn_w.view(1, -1), seq).view(-1)
         return weighted_sum
 
     def forward(self, batch_seq):
@@ -53,7 +53,6 @@ class MLP_Scorer(nn.Module):
     def __init__(self, args, classifier_input_size):
         super(MLP_Scorer, self).__init__()
         self.scorer = nn.ModuleList()
-
         self.scorer.append(nn.Linear(classifier_input_size, args.classifier_intermediate_dim))
         self.scorer.append(nn.Linear(args.classifier_intermediate_dim, 1))
         self.nonlinear = get_nonlinear(args.nonlinear_type)
@@ -61,6 +60,7 @@ class MLP_Scorer(nn.Module):
     def forward(self, x):
         for model in self.scorer:
             x = self.nonlinear(model(x))
+        ###print('X', x)
         return x
 
 class CSN(nn.Module):
@@ -73,8 +73,8 @@ class CSN(nn.Module):
         super(CSN, self).__init__()
         self.args = args
         self.model = model
-        self.pooling = SeqPooling(args.pooling_type, self.model .config.hidden_size)
-        self.mlp_scorer = MLP_Scorer(args, self.model .config.hidden_size * 3)
+        self.pooling = SeqPooling(args.pooling_type, self.model.config.hidden_size)
+        self.mlp_scorer = MLP_Scorer(args, self.model.config.hidden_size)
         self.dropout = nn.Dropout(args.dropout)
 
     def forward(self, features, mention_positions, quote_indicies, true_index, device):
@@ -92,6 +92,7 @@ class CSN(nn.Module):
             true_index: the index of the true speaker.
             device: gpu/tpu/cpu device.
         """
+        
         # encoding
         quote_hidden = [] #quote
         context_hidden = [] #context
@@ -99,21 +100,24 @@ class CSN(nn.Module):
         qs_hid = []
         ctx_hid = []
         cdd_hid = []
+
+        css_hidden = []
         for i, (cdd_mention_pos, cdd_quote_idx) in enumerate(zip(mention_positions, quote_indicies)):
 
-            bert_output = self.model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device))
+            model_output = self.model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device))
 
             accum_char_len = []#전체 char 길이 [0, 10, 20, 30]요런식으로 (각 세 문장 길이가 10이였다면)
 
-            print(bert_output['last_hidden_state'][0])
-            #bert_output['last_hidden_state'][0] : feature word 길이
-            #bert_output['last_hidden_state'][0][0] : 한 word는 768차원 tensor
+            #그리고 char len 없이 짤라보는거 생각
+            # print(cdd_mention_pos, cdd_quote_idx)
+            # print(len(model_output['last_hidden_state'][0]))    #instance i의 css마다 [CLS], [SEP] 추가시킨 last hidden state
+            #model_output['last_hidden_state'][0] : feature word 길이
+            #model_output['last_hidden_state'][0][0] : 한 word는 768차원 tensor
 
-            # css_hidden = bert_output['last_hidden_state'][0][1:-1]
+            #css_hidden.append(model_output['last_hidden_state'][0]) #Except [CLS], [SEP]
+            css_hidden.append(model_output['last_hidden_state'][0][0])
 
-            # quote_hidden.append(css_hidden[])
-
-            # CSS_hid = bert_output['last_hidden_state'][0][1:sum(cdd_sent_char_lens) + 1]
+            # CSS_hid = model_output['last_hidden_state'][0][1:sum(cdd_sent_char_lens) + 1]
             # qs_hid.append(CSS_hid[accum_char_len[cdd_quote_idx]:accum_char_len[cdd_quote_idx + 1]])
 
             # if len(cdd_sent_char_lens) == 1:
@@ -125,6 +129,20 @@ class CSN(nn.Module):
             
             # cdd_hid.append(CSS_hid[cdd_mention_pos[1]:cdd_mention_pos[2]])
 
+        ###print('hidden', css_hidden, css_hidden[0].size())
+        ##css_represent = self.pooling(css_hidden)
+        ###
+        css_represent = []
+        for seq in css_hidden:
+            css_represent.append(seq)
+        css_represent = torch.stack(css_represent, dim=0)
+        print('css_represent', css_represent, css_represent.size())
+
+        # feature_vector = torch.cat([css_represent], dim=-1)
+        feature_vector = torch.cat([css_represent], dim=-1)
+        ###
+        print('feature_vector cat', feature_vector)
+
         # pooling
         # qs_rep = self.pooling(qs_hid)
         # ctx_rep = self.pooling(ctx_hid)
@@ -132,17 +150,21 @@ class CSN(nn.Module):
 
         # # concatenate
         # feature_vector = torch.cat([qs_rep, ctx_rep, cdd_rep], dim=-1)
+        #feature_vector = torch.cat([css_represent], dim=-1)
 
         # # dropout
         # feature_vector = self.dropout(feature_vector)
-        
-        # # scoring
-        # scores = self.mlp_scorer(feature_vector).view(-1)
-        # scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
-        # scores_true = [scores[true_index] for i in range(scores.size(0) - 1)]
+        feature_vector = self.dropout(feature_vector)
+        print('feature_vec', feature_vector, feature_vector.size())
+        ###
 
-        scores = None
-        scores_false = None
-        scores_true = None
+        # # scoring
+        # true index가 안들어온당
+        scores = self.mlp_scorer(feature_vector).view(-1)
+        print('scores', scores, scores.size())
+        scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
+        print('s false', scores_false, len(scores_false))
+        scores_true = [scores[true_index] for i in range(scores.size(0) - 1)]
+        print('s truye', scores_true, len(scores_true))
 
         return scores, scores_false, scores_true
