@@ -1,0 +1,301 @@
+name	link	movie_title	num_votes	num_comments	mbti
+Donatello "Donnie"	https://www.personality-database.com/profile/74935/donatello-donnie-rise-of-the-teenage-mutant-ninja-turtles-2018-mbti-personality-type	Rise of the Teenage Mutant Ninja Turtles (2018)	514	71	ENTJ
+Hunter	https://www.personality-database.com/profile/334201/hunter-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	2.4k	737	ISTP
+Stewie Griffin	https://www.personality-database.com/profile/1294/stewie-griffin-family-guy-1999-mbti-personality-type	Family Guy (1999)	1.5k	357	INTJ
+Amity Blight	https://www.personality-database.com/profile/84408/amity-blight-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	2.6k	301	ISTJ
+Heather	https://www.personality-database.com/profile/8588/heather-total-drama-2007-mbti-personality-type	Total Drama (2007)	1.7k	265	ENTJ
+Stanley Pines “Grunkle Stan”	https://www.personality-database.com/profile/1106/stanley-pines-grunkle-stan-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	1.7k	118	ESTP
+Stella	https://www.personality-database.com/profile/9153/stella-winx-club-2004-mbti-personality-type	Winx Club (2004)	1.3k	37	ESFP
+Adora "She-Ra"	https://www.personality-database.com/profile/25086/adora-shera-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	2.2k	260	ENFJ
+Chris McLean	https://www.personality-database.com/profile/8574/chris-mclean-total-drama-2007-mbti-personality-type	Total Drama (2007)	1.9k	229	ENTP
+Dee	https://www.personality-database.com/profile/137003/dee-metal-family-mbti-personality-type	Metal Family	709	74	INTJ
+Bee	https://www.personality-database.com/profile/25120/bee-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	469	68	ENFP
+Jayce Talis	https://www.personality-database.com/profile/403994/jayce-talis-arcane-2021-mbti-personality-type	Arcane (2021)	1.8k	272	ENFJ
+Mel Medarda	https://www.personality-database.com/profile/403996/mel-medarda-arcane-2021-mbti-personality-type	Arcane (2021)	1.6k	158	ENTJ
+Peter Griffin	https://www.personality-database.com/profile/1298/peter-griffin-family-guy-1999-mbti-personality-type	Family Guy (1999)	1.4k	466	ENTP
+Musa	https://www.personality-database.com/profile/9155/musa-winx-club-2004-mbti-personality-type	Winx Club (2004)	1.4k	52	INFP
+King Clawthorne	https://www.personality-database.com/profile/84406/king-clawthorne-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	1.4k	98	ESFP
+Lois Griffin	https://www.personality-database.com/profile/1296/lois-griffin-family-guy-1999-mbti-personality-type	Family Guy (1999)	864	62	XXXX
+Dawn	https://www.personality-database.com/profile/32002/dawn-total-drama-2007-mbti-personality-type	Total Drama (2007)	947	140	INFJ
+Ekko	https://www.personality-database.com/profile/417398/ekko-arcane-2021-mbti-personality-type	Arcane (2021)	952	154	ENTP
+Augustus "Gus" Porter	https://www.personality-database.com/profile/84410/augustus-gus-porter-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	584	58	ESFJ
+Fluttershy (Equestria Girls)	https://www.personality-database.com/profile/501948/fluttershy-equestria-girls-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	167	9	XXXX
+Heather	https://www.personality-database.com/profile/552778/heather-my-story-animated-mbti-personality-type	My Story Animated	87	9	XXXX
+Stan Marsh	https://www.personality-database.com/profile/1305/stan-marsh-south-park-1997-mbti-personality-type	South Park (1997)	2k	242	ISFP
+Marcy Regina Wu	https://www.personality-database.com/profile/175193/marcy-regina-wu-amphibia-2019-mbti-personality-type	Amphibia (2019)	1.5k	250	INTP
+Beth Smith	https://www.personality-database.com/profile/3190/beth-smith-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	900	93	ESTJ
+Tecna	https://www.personality-database.com/profile/9156/tecna-winx-club-2004-mbti-personality-type	Winx Club (2004)	926	35	ISTJ
+Megatron "Meg" Griffin	https://www.personality-database.com/profile/1299/megatron-meg-griffin-family-guy-1999-mbti-personality-type	Family Guy (1999)	774	150	INFP
+Izzy	https://www.personality-database.com/profile/8576/izzy-total-drama-2007-mbti-personality-type	Total Drama (2007)	985	135	ENFP
+Gideon Gleeful	https://www.personality-database.com/profile/1238/gideon-gleeful-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	806	41	ENTJ
+Lilith Clawthorne	https://www.personality-database.com/profile/96177/lilith-clawthorne-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	952	81	ISTJ
+Lindsay	https://www.personality-database.com/profile/8592/lindsay-total-drama-2007-mbti-personality-type	Total Drama (2007)	786	61	ESFJ
+Lif	https://www.personality-database.com/profile/434743/lif-metal-family-mbti-personality-type	Metal Family	290	77	ISFP
+Clay Puppington	https://www.personality-database.com/profile/84962/clay-puppington-moral-orel-mbti-personality-type	Moral Orel	351	50	ESTP
+Leonardo "Leo"	https://www.personality-database.com/profile/74933/leonardo-leo-rise-of-the-teenage-mutant-ninja-turtles-2018-mbti-personality-type	Rise of the Teenage Mutant Ninja Turtles (2018)	184	17	ESTP
+Rarity	https://www.personality-database.com/profile/1580/rarity-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	2.4k	176	ENFJ
+Phineas Flynn	https://www.personality-database.com/profile/2729/phineas-flynn-phineas-and-ferb-2007-mbti-personality-type	Phineas and Ferb (2007)	1.7k	223	ENTP
+Princess Carolyn	https://www.personality-database.com/profile/6929/princess-carolyn-bojack-horseman-2014-mbti-personality-type	BoJack Horseman (2014)	2k	185	ENTJ
+Todd Chavez	https://www.personality-database.com/profile/6930/todd-chavez-bojack-horseman-2014-mbti-personality-type	BoJack Horseman (2014)	2.1k	225	ENFP
+(Doctor) Nicole Watterson	https://www.personality-database.com/profile/1761/doctor-nicole-watterson-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	1.9k	196	ENTJ
+Princess Luna	https://www.personality-database.com/profile/1582/princess-luna-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	1.5k	186	INTJ
+Jake the Dog	https://www.personality-database.com/profile/1260/jake-the-dog-adventure-time-2010-mbti-personality-type	Adventure Time (2010)	1.5k	128	ENTP
+Stanford Pines “Grunkle Ford”	https://www.personality-database.com/profile/1310/stanford-pines-grunkle-ford-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	1.5k	156	INTJ
+Sarah Lynn	https://www.personality-database.com/profile/6933/sarah-lynn-bojack-horseman-2014-mbti-personality-type	BoJack Horseman (2014)	1.5k	150	ESTP
+Jesus “Soos” Ramirez	https://www.personality-database.com/profile/1233/jesus-soos-ramirez-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	1.1k	118	ENFP
+Dream (Dream SMP)	https://www.personality-database.com/profile/253556/dream-dream-smp-dream-smp-mbti-personality-type	Dream SMP	642	120	ENTJ
+Alastor	https://www.personality-database.com/profile/27633/alastor-hazbin-hotel-2019-mbti-personality-type	Hazbin Hotel (2019)	1.2k	166	ENTP
+Noah	https://www.personality-database.com/profile/8593/noah-total-drama-2007-mbti-personality-type	Total Drama (2007)	998	97	INTJ
+Charlie Brown	https://www.personality-database.com/profile/9825/charlie-brown-peanuts-mbti-personality-type	Peanuts	695	99	INFP
+Evil Morty	https://www.personality-database.com/profile/19267/evil-morty-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	732	90	INTJ
+Raine Whispers	https://www.personality-database.com/profile/340399/raine-whispers-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	666	140	INFJ
+Blake Belladonna	https://www.personality-database.com/profile/3677/blake-belladonna-rwby-2012-mbti-personality-type	RWBY (2012)	606	83	INFJ
+Heavy	https://www.personality-database.com/profile/137006/heavy-metal-family-mbti-personality-type	Metal Family	472	71	ESFP
+Alador Blight	https://www.personality-database.com/profile/201378/alador-blight-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	445	45	INTP
+Bandit Heeler (Dad)	https://www.personality-database.com/profile/47415/bandit-heeler-dad-bluey-mbti-personality-type	Bluey	147	21	ENTP
+Pearl	https://www.personality-database.com/profile/1272/pearl-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	2k	257	ISTJ
+Apple White	https://www.personality-database.com/profile/55332/apple-white-ever-after-high-2013-mbti-personality-type	Ever After High (2013)	1.9k	278	ESFJ
+Kyle Broflovski	https://www.personality-database.com/profile/1308/kyle-broflovski-south-park-1997-mbti-personality-type	South Park (1997)	2.1k	303	INFJ
+Finn "the Human" Mertens	https://www.personality-database.com/profile/1259/finn-the-human-mertens-adventure-time-2010-mbti-personality-type	Adventure Time (2010)	1.8k	231	ESFP
+Leopold “Butters” Stotch	https://www.personality-database.com/profile/1741/leopold-butters-stotch-south-park-1997-mbti-personality-type	South Park (1997)	1.6k	136	INFP
+Bart Simpson	https://www.personality-database.com/profile/1290/bart-simpson-the-simpsons-1989-mbti-personality-type	The Simpsons (1989)	1.6k	175	ESTP
+Perry the Platypus	https://www.personality-database.com/profile/2731/perry-the-platypus-phineas-and-ferb-2007-mbti-personality-type	Phineas and Ferb (2007)	1.2k	109	ISTP
+Summer Smith	https://www.personality-database.com/profile/3192/summer-smith-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	908	67	ESTP
+Duncan	https://www.personality-database.com/profile/8583/duncan-total-drama-2007-mbti-personality-type	Total Drama (2007)	1.3k	98	ESTP
+Blitzø	https://www.personality-database.com/profile/70349/blitz-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	1.3k	207	ENTP
+Brian Griffin	https://www.personality-database.com/profile/1295/brian-griffin-family-guy-1999-mbti-personality-type	Family Guy (1999)	1k	252	INTP
+Jerry Smith	https://www.personality-database.com/profile/3191/jerry-smith-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	817	179	ESFJ
+Gary the Snail	https://www.personality-database.com/profile/16352/gary-the-snail-spongebob-squarepants-1999-mbti-personality-type	SpongeBob SquarePants (1999)	918	145	INTP
+Tom the Cat	https://www.personality-database.com/profile/29337/tom-the-cat-tom-and-jerry-mbti-personality-type	Tom and Jerry	920	52	ESFP
+Félix Graham	https://www.personality-database.com/profile/70781/flix-graham-miraculous-tales-of-ladybug-cat-noir-2015-mbti-personality-type	Miraculous: Tales of Ladybug & Cat Noir (2015)	838	193	INTJ
+Sebastian "Glam" Shvagenbagen	https://www.personality-database.com/profile/137001/sebastian-glam-shvagenbagen-metal-family-mbti-personality-type	Metal Family	649	124	INTJ
+Wei Wuxian / Ying “Yiling Patriarch”	https://www.personality-database.com/profile/23747/wei-wuxian-ying-yiling-patriarch-grandmaster-of-demonic-cultivation-mo-dao-zu-shi-mbti-personality-type	Grandmaster of Demonic Cultivation (Mo Dao Zu Shi)	942	85	ENTP
+Alejandro Burromuerto	https://www.personality-database.com/profile/31983/alejandro-burromuerto-total-drama-2007-mbti-personality-type	Total Drama (2007)	827	160	ENTJ
+Leshawna	https://www.personality-database.com/profile/8591/leshawna-total-drama-2007-mbti-personality-type	Total Drama (2007)	830	58	ESTP
+Max	https://www.personality-database.com/profile/9894/max-camp-camp-2016-mbti-personality-type	Camp Camp (2016)	838	120	INTJ
+ENA	https://www.personality-database.com/profile/192457/ena-ena-2020-web-mbti-personality-type	ENA (2020) (Web)	712	49	ENFP
+Cody Anderson	https://www.personality-database.com/profile/8580/cody-anderson-total-drama-2007-mbti-personality-type	Total Drama (2007)	586	48	ENFP
+Michelangelo “Mikey”	https://www.personality-database.com/profile/13075/michelangelo-mikey-teenage-mutant-ninja-turtles-2012-mbti-personality-type	Teenage Mutant Ninja Turtles (2012)	553	26	ENFP
+Lin Beifong	https://www.personality-database.com/profile/10889/lin-beifong-the-legend-of-korra-2012-mbti-personality-type	The Legend of Korra (2012)	610	41	ESTJ
+Rayla	https://www.personality-database.com/profile/16639/rayla-the-dragon-prince-2018-mbti-personality-type	The Dragon Prince (2018)	463	56	ISTP
+Frosta	https://www.personality-database.com/profile/28095/frosta-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	443	31	ISTP
+Carmilla	https://www.personality-database.com/profile/18373/carmilla-castlevania-2017-mbti-personality-type	Castlevania (2017)	459	26	ENTJ
+Glenn Quagmire	https://www.personality-database.com/profile/1302/glenn-quagmire-family-guy-1999-mbti-personality-type	Family Guy (1999)	428	37	ESTP
+Rob	https://www.personality-database.com/profile/44779/rob-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	408	57	INFJ
+Odalia Blight	https://www.personality-database.com/profile/198479/odalia-blight-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	363	39	ESTJ
+Clown	https://www.personality-database.com/profile/45916/clown-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	133	17	XXXX
+Spectra Vondergeist	https://www.personality-database.com/profile/30900/spectra-vondergeist-monster-high-2010-mbti-personality-type	Monster High (2010)	172	3	INFJ
+Orel Puppington	https://www.personality-database.com/profile/84961/orel-puppington-moral-orel-mbti-personality-type	Moral Orel	309	32	ENFJ
+Nursula Bendy	https://www.personality-database.com/profile/128912/nursula-bendy-moral-orel-mbti-personality-type	Moral Orel	127	13	ESFP
+Sheldon J. Plankton	https://www.personality-database.com/profile/4751/sheldon-j-plankton-spongebob-squarepants-1999-mbti-personality-type	SpongeBob SquarePants (1999)	1.8k	208	ENTJ
+Marceline Abadeer	https://www.personality-database.com/profile/1603/marceline-abadeer-adventure-time-2010-mbti-personality-type	Adventure Time (2010)	2k	178	ISFP
+Princess Bonnibel Bubblegum	https://www.personality-database.com/profile/1265/princess-bonnibel-bubblegum-adventure-time-2010-mbti-personality-type	Adventure Time (2010)	2k	174	ENTJ
+Madeline Hatter	https://www.personality-database.com/profile/55331/madeline-hatter-ever-after-high-2013-mbti-personality-type	Ever After High (2013)	1.5k	121	ENTP
+Raven Queen	https://www.personality-database.com/profile/55330/raven-queen-ever-after-high-2013-mbti-personality-type	Ever After High (2013)	1.5k	105	INFP
+Garfield the Cat	https://www.personality-database.com/profile/3099/garfield-the-cat-garfield-mbti-personality-type	Garfield	1.5k	336	INTP
+Candace Flynn	https://www.personality-database.com/profile/2733/candace-flynn-phineas-and-ferb-2007-mbti-personality-type	Phineas and Ferb (2007)	1.4k	161	ESTJ
+Spinel	https://www.personality-database.com/profile/56449/spinel-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	800	127	ESFP
+Peridot	https://www.personality-database.com/profile/1594/peridot-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	1.4k	161	ESTJ
+Ice Bear	https://www.personality-database.com/profile/7539/ice-bear-we-bare-bears-2014-mbti-personality-type	We Bare Bears (2014)	1.3k	105	ISTP
+Wirt	https://www.personality-database.com/profile/12413/wirt-over-the-garden-wall-2014-mbti-personality-type	Over the Garden Wall (2014)	1.3k	121	INFP
+Marge Simpson	https://www.personality-database.com/profile/1292/marge-simpson-the-simpsons-1989-mbti-personality-type	The Simpsons (1989)	1.3k	88	ISFJ
+Starlight Glimmer	https://www.personality-database.com/profile/7587/starlight-glimmer-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	962	94	ESTJ
+Bow	https://www.personality-database.com/profile/25089/bow-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	1k	97	ESFJ
+Marco Diaz	https://www.personality-database.com/profile/7520/marco-diaz-star-vs-the-forces-of-evil-2015-mbti-personality-type	Star vs. the Forces of Evil (2015)	892	177	ISFJ
+Dr. Flug Slys	https://www.personality-database.com/profile/25545/dr-flug-slys-villainous-mbti-personality-type	Villainous	580	62	XXXX
+Leonardo “Leo”	https://www.personality-database.com/profile/13072/leonardo-leo-teenage-mutant-ninja-turtles-2012-mbti-personality-type	Teenage Mutant Ninja Turtles (2012)	616	78	ENFJ
+Tord	https://www.personality-database.com/profile/5149/tord-eddsworld-mbti-personality-type	Eddsworld	654	121	ISTP
+Pacifica Northwest	https://www.personality-database.com/profile/15638/pacifica-northwest-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	709	40	ESTJ
+Anne Savisa Boonchuy	https://www.personality-database.com/profile/39813/anne-savisa-boonchuy-amphibia-2019-mbti-personality-type	Amphibia (2019)	905	76	ESFP
+Ned Flanders	https://www.personality-database.com/profile/1961/ned-flanders-the-simpsons-1989-mbti-personality-type	The Simpsons (1989)	607	32	ESFJ
+Pops Maellard	https://www.personality-database.com/profile/3795/pops-maellard-regular-show-2010-mbti-personality-type	Regular Show (2010)	548	65	ESFJ
+Frankie Stein	https://www.personality-database.com/profile/30857/frankie-stein-monster-high-2010-mbti-personality-type	Monster High (2010)	542	9	ENFJ
+Donatello “Donnie”	https://www.personality-database.com/profile/13073/donatello-donnie-teenage-mutant-ninja-turtles-2012-mbti-personality-type	Teenage Mutant Ninja Turtles (2012)	536	24	INTP
+Dokko (Лосяш)	https://www.personality-database.com/profile/207701/dokko--kikorikigogorikismeshariki-mbti-personality-type	KikoRiki/GoGoRiki/Smeshariki(Смешарики)	452	54	INTP
+Devon Joseph "DJ"	https://www.personality-database.com/profile/8582/devon-joseph-dj-total-drama-2007-mbti-personality-type	Total Drama (2007)	477	17	ISFJ
+Lana Loud	https://www.personality-database.com/profile/10505/lana-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	311	23	ESTP
+Eva	https://www.personality-database.com/profile/8584/eva-total-drama-2007-mbti-personality-type	Total Drama (2007)	459	22	ISTP
+Samurai Jack	https://www.personality-database.com/profile/2115/samurai-jack-samurai-jack-mbti-personality-type	Samurai Jack	289	19	ISFJ
+Steve Smith	https://www.personality-database.com/profile/1900/steve-smith-american-dad-mbti-personality-type	American Dad!	252	34	INFP
+Geoff	https://www.personality-database.com/profile/8586/geoff-total-drama-2007-mbti-personality-type	Total Drama (2007)	396	36	ESFP
+Pucca	https://www.personality-database.com/profile/52755/pucca-pucca-2006-mbti-personality-type	Pucca (2006)	335	33	ENFP
+Chad	https://www.personality-database.com/profile/91199/chad-clarence-2013-mbti-personality-type	Clarence (2013)	182	4	ESTP
+Luan Loud	https://www.personality-database.com/profile/10504/luan-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	300	35	ENTP
+Deckard Wizard	https://www.personality-database.com/profile/25122/deckard-wizard-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	241	33	ISFJ
+Hay Lin	https://www.personality-database.com/profile/9368/hay-lin-witch-2004-mbti-personality-type	W.I.T.C.H. (2004)	230	7	ENFP
+Jasmine	https://www.personality-database.com/profile/42196/jasmine-total-drama-2007-mbti-personality-type	Total Drama (2007)	246	24	ESTJ
+Bloo	https://www.personality-database.com/profile/5228/bloo-fosters-home-for-imaginary-friends-mbti-personality-type	Foster's Home for Imaginary Friends	176	7	ENTP
+Puppycat	https://www.personality-database.com/profile/25121/puppycat-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	195	11	INTJ
+Ocho	https://www.personality-database.com/profile/47690/ocho-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	96	12	INTJ
+Raphael "Raph"	https://www.personality-database.com/profile/74936/raphael-raph-rise-of-the-teenage-mutant-ninja-turtles-2018-mbti-personality-type	Rise of the Teenage Mutant Ninja Turtles (2018)	117	16	ESFJ
+Manitoba Smith	https://www.personality-database.com/profile/31996/manitoba-smith-total-drama-2007-mbti-personality-type	Total Drama (2007)	115	1	ENTP
+Principal Scudworth	https://www.personality-database.com/profile/163870/principal-scudworth-clone-high-2002-mbti-personality-type	Clone High (2002)	108	19	ENTP
+Chilli Heeler (Mum)	https://www.personality-database.com/profile/47416/chilli-heeler-mum-bluey-mbti-personality-type	Bluey	99	2	INFJ
+Cardamon	https://www.personality-database.com/profile/25124/cardamon-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	95	2	ISTJ
+Олежа	https://www.personality-database.com/profile/263805/-my-student-spirit--mbti-personality-type	My Student Spirit (Дух Моей Общаги)	110	12	INFJ
+The Cat in the Hat	https://www.personality-database.com/profile/10930/the-cat-in-the-hat-the-cat-in-the-hat-mbti-personality-type	The Cat in the Hat	64	1	XXXX
+Barbara	https://www.personality-database.com/profile/512258/barbara-my-story-animated-mbti-personality-type	My Story Animated	57	3	ENFP
+Crispin Wizard	https://www.personality-database.com/profile/146994/crispin-wizard-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	65	1	ISFP
+Eugene H. Krabs	https://www.personality-database.com/profile/4752/eugene-h-krabs-spongebob-squarepants-1999-mbti-personality-type	SpongeBob SquarePants (1999)	1.9k	295	ESTJ
+Rose Quartz	https://www.personality-database.com/profile/1593/rose-quartz-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	877	174	ENFP
+Bubbles	https://www.personality-database.com/profile/1502/bubbles-the-powerpuff-girls-1998-mbti-personality-type	The Powerpuff Girls (1998)	1.5k	260	INFP
+Daria Morgendorffer	https://www.personality-database.com/profile/5684/daria-morgendorffer-daria-1997-mbti-personality-type	Daria (1997)	1.8k	283	INTP
+Lapis Lazuli	https://www.personality-database.com/profile/1598/lapis-lazuli-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	1.6k	280	INFP
+Lila Rossi	https://www.personality-database.com/profile/39168/lila-rossi-miraculous-tales-of-ladybug-cat-noir-2015-mbti-personality-type	Miraculous: Tales of Ladybug & Cat Noir (2015)	1.2k	273	ENFJ
+Flora	https://www.personality-database.com/profile/9154/flora-winx-club-2004-mbti-personality-type	Winx Club (2004)	1.2k	15	ISFJ
+Prince Stolas of the Ars Goetia	https://www.personality-database.com/profile/72025/prince-stolas-of-the-ars-goetia-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	1.3k	224	ENFJ
+Ice King	https://www.personality-database.com/profile/1262/ice-king-adventure-time-2010-mbti-personality-type	Adventure Time (2010)	1.2k	113	ENFP
+Courtney	https://www.personality-database.com/profile/8581/courtney-total-drama-2007-mbti-personality-type	Total Drama (2007)	1.3k	79	ESTJ
+Connie Maheswaran	https://www.personality-database.com/profile/1590/connie-maheswaran-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	920	125	ISFJ
+Glimmer	https://www.personality-database.com/profile/25088/glimmer-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	1.1k	52	ISFP
+Sunset Shimmer	https://www.personality-database.com/profile/2604/sunset-shimmer-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	1k	66	ENTJ
+Snufkin	https://www.personality-database.com/profile/33803/snufkin-moomins-mbti-personality-type	Moomins	846	122	ISFP
+Alan Keane	https://www.personality-database.com/profile/43348/alan-keane-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	770	85	ENFJ
+Ruby Rose	https://www.personality-database.com/profile/2651/ruby-rose-rwby-2012-mbti-personality-type	RWBY (2012)	703	120	INFP
+Owen	https://www.personality-database.com/profile/8594/owen-total-drama-2007-mbti-personality-type	Total Drama (2007)	528	31	ESFP
+Courage	https://www.personality-database.com/profile/21446/courage-courage-the-cowardly-dog-1999-mbti-personality-type	Courage the Cowardly Dog (1999)	754	70	INFP
+Raphael “Raph”	https://www.personality-database.com/profile/13074/raphael-raph-teenage-mutant-ninja-turtles-2012-mbti-personality-type	Teenage Mutant Ninja Turtles (2012)	720	144	ISTP
+Fiddleford “Old Man” McGucket	https://www.personality-database.com/profile/1234/fiddleford-old-man-mcgucket-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	328	31	ENTP
+Mark Grayson “Invincible”	https://www.personality-database.com/profile/292933/mark-grayson-invincible-invincible-2021-mbti-personality-type	Invincible (2021)	563	129	ISFP
+Scorpia	https://www.personality-database.com/profile/45605/scorpia-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	758	51	ESFJ
+Johnny Bravo	https://www.personality-database.com/profile/2161/johnny-bravo-johnny-bravo-1997-mbti-personality-type	Johnny Bravo (1997)	530	52	ESTP
+Bridgette	https://www.personality-database.com/profile/8579/bridgette-total-drama-2007-mbti-personality-type	Total Drama (2007)	638	35	ISFP
+Robbie Valentino	https://www.personality-database.com/profile/9654/robbie-valentino-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	597	38	ISFP
+Lan Wangji / Zhan	https://www.personality-database.com/profile/23748/lan-wangji-zhan-grandmaster-of-demonic-cultivation-mo-dao-zu-shi-mbti-personality-type	Grandmaster of Demonic Cultivation (Mo Dao Zu Shi)	573	43	ISTJ
+Avatar Roku	https://www.personality-database.com/profile/9220/avatar-roku-avatar-the-last-airbender-2005-mbti-personality-type	Avatar: The Last Airbender (2005)	486	44	INFJ
+Hooty “Hootcifer”	https://www.personality-database.com/profile/84411/hooty-hootcifer-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	664	74	ESFJ
+Lincoln Loud	https://www.personality-database.com/profile/6649/lincoln-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	463	127	INFJ
+Queen Tiabeanie “Bean” Mariabeanie de la Rochambeaux Grunkwitz	https://www.personality-database.com/profile/15212/queen-tiabeanie-bean-mariabeanie-de-la-rochambeaux-grunkwitz-disenchantment-2018-mbti-personality-type	Disenchantment (2018)	459	22	ESFP
+Mermista	https://www.personality-database.com/profile/25101/mermista-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	617	18	ISTP
+Wilbur Soot (Dream SMP)	https://www.personality-database.com/profile/252817/wilbur-soot-dream-smp-dream-smp-mbti-personality-type	Dream SMP	633	140	ENFJ
+Hordak	https://www.personality-database.com/profile/74133/hordak-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	474	29	ISTJ
+Shadow Weaver	https://www.personality-database.com/profile/45606/shadow-weaver-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	552	87	INTJ
+Skips	https://www.personality-database.com/profile/3034/skips-regular-show-2010-mbti-personality-type	Regular Show (2010)	481	26	ISTP
+Dora Márquez	https://www.personality-database.com/profile/49560/dora-mrquez-dora-the-explorer-mbti-personality-type	Dora The Explorer	449	186	ESFJ
+Zane	https://www.personality-database.com/profile/14260/zane-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	470	88	INTJ
+Bugs Bunny	https://www.personality-database.com/profile/296617/bugs-bunny-the-looney-tunes-show-mbti-personality-type	The Looney Tunes Show	483	33	INTP
+Sea Hawk	https://www.personality-database.com/profile/58324/sea-hawk-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	516	27	ENFP
+Bob Belcher	https://www.personality-database.com/profile/4844/bob-belcher-bobs-burgers-2011-mbti-personality-type	Bob's Burgers (2011)	438	70	ISTP
+Eddy	https://www.personality-database.com/profile/1642/eddy-ed-edd-n-eddy-1999-mbti-personality-type	Ed, Edd n Eddy (1999)	489	38	ESTP
+Laramie “Lars” Barriga	https://www.personality-database.com/profile/1597/laramie-lars-barriga-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	420	56	ESTP
+Ambessa Medarda	https://www.personality-database.com/profile/417400/ambessa-medarda-arcane-2021-mbti-personality-type	Arcane (2021)	425	35	ENTJ
+Lloyd Garmadon	https://www.personality-database.com/profile/14264/lloyd-garmadon-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	437	80	ENFJ
+Mrs. Puff	https://www.personality-database.com/profile/25219/mrs-puff-spongebob-squarepants-1999-mbti-personality-type	SpongeBob SquarePants (1999)	422	21	ISFJ
+Ed	https://www.personality-database.com/profile/1643/ed-ed-edd-n-eddy-1999-mbti-personality-type	Ed, Edd n Eddy (1999)	438	22	ENFP
+Penny Fitzgerald	https://www.personality-database.com/profile/1762/penny-fitzgerald-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	354	13	ESFJ
+Lucy Loud	https://www.personality-database.com/profile/10501/lucy-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	417	36	INFP
+Chiko (Ёжик)	https://www.personality-database.com/profile/207699/chiko--kikorikigogorikismeshariki-mbti-personality-type	KikoRiki/GoGoRiki/Smeshariki(Смешарики)	399	34	ISFJ
+Jay	https://www.personality-database.com/profile/14259/jay-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	474	70	ENFP
+Lola Loud	https://www.personality-database.com/profile/10502/lola-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	342	9	ENTJ
+Cole	https://www.personality-database.com/profile/14262/cole-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	444	30	ISTP
+Perfuma	https://www.personality-database.com/profile/25099/perfuma-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	417	12	ESFJ
+Ben	https://www.personality-database.com/profile/142837/ben-talking-tom-and-friends-mbti-personality-type	Talking Tom and Friends	339	83	INTP
+Valtor	https://www.personality-database.com/profile/117880/valtor-winx-club-2004-mbti-personality-type	Winx Club (2004)	309	7	INTJ
+Victoria "Vicky"	https://www.personality-database.com/profile/137004/victoria-vicky-metal-family-mbti-personality-type	Metal Family	370	36	ESFP
+Carmen Sandiego "Black Sheep"	https://www.personality-database.com/profile/46240/carmen-sandiego-black-sheep-carmen-sandiego-2019-mbti-personality-type	Carmen Sandiego (2019)	367	11	ESTP
+Candy Chiu	https://www.personality-database.com/profile/1230/candy-chiu-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	285	10	INFP
+Snoopy	https://www.personality-database.com/profile/9824/snoopy-peanuts-mbti-personality-type	Peanuts	356	25	ENTP
+Leni Loud	https://www.personality-database.com/profile/6651/leni-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	369	31	ESFJ
+Lisa Loud	https://www.personality-database.com/profile/10503/lisa-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	358	12	INTP
+Ranboo (Dream SMP)	https://www.personality-database.com/profile/253657/ranboo-dream-smp-dream-smp-mbti-personality-type	Dream SMP	424	35	INFJ
+Kai	https://www.personality-database.com/profile/14261/kai-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	366	51	ESTP
+Angella	https://www.personality-database.com/profile/86967/angella-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	369	9	ISTJ
+Jack Walten	https://www.personality-database.com/profile/221017/jack-walten-the-walten-files-mbti-personality-type	The Walten Files	270	43	ENFJ
+Dan	https://www.personality-database.com/profile/64745/dan-dan-vs-mbti-personality-type	Dan Vs.	334	61	ENTP
+Linda Belcher	https://www.personality-database.com/profile/4845/linda-belcher-bobs-burgers-2011-mbti-personality-type	Bob's Burgers (2011)	303	21	ESFJ
+Lori Loud	https://www.personality-database.com/profile/6650/lori-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	334	15	ESTJ
+Sonata Dusk	https://www.personality-database.com/profile/7604/sonata-dusk-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	244	4	ENFP
+Beth	https://www.personality-database.com/profile/8578/beth-total-drama-2007-mbti-personality-type	Total Drama (2007)	340	6	ESFJ
+Wally (Бараш)	https://www.personality-database.com/profile/207705/wally--kikorikigogorikismeshariki-mbti-personality-type	KikoRiki/GoGoRiki/Smeshariki(Смешарики)	399	41	INFP
+Principal Hieronymus Bump	https://www.personality-database.com/profile/114046/principal-hieronymus-bump-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	255	37	ENFP
+Luna Loud	https://www.personality-database.com/profile/6652/luna-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	258	7	ESFP
+Justin	https://www.personality-database.com/profile/8589/justin-total-drama-2007-mbti-personality-type	Total Drama (2007)	307	25	ESFP
+George	https://www.personality-database.com/profile/39473/george-curious-george-mbti-personality-type	Curious George	272	27	ENFP
+Nathalie Sancoeur "Mayura"	https://www.personality-database.com/profile/49184/nathalie-sancoeur-mayura-miraculous-tales-of-ladybug-cat-noir-2015-mbti-personality-type	Miraculous: Tales of Ladybug & Cat Noir (2015)	281	23	ISTJ
+Mickey Mouse	https://www.personality-database.com/profile/8952/mickey-mouse-mickey-mouse-clubhouse-mbti-personality-type	Mickey Mouse Clubhouse	285	39	ENFP
+Nya	https://www.personality-database.com/profile/14263/nya-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	266	27	ISTP
+Sevika	https://www.personality-database.com/profile/430761/sevika-arcane-2021-mbti-personality-type	Arcane (2021)	384	38	ISTP
+Jiang Cheng / Wanyin	https://www.personality-database.com/profile/23749/jiang-cheng-wanyin-grandmaster-of-demonic-cultivation-mo-dao-zu-shi-mbti-personality-type	Grandmaster of Demonic Cultivation (Mo Dao Zu Shi)	295	24	ESTJ
+Lynn Loud Jr.	https://www.personality-database.com/profile/10506/lynn-loud-jr-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	262	9	ESTP
+Netossa	https://www.personality-database.com/profile/129382/netossa-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	250	13	ENTJ
+Gaylord Robinson	https://www.personality-database.com/profile/45924/gaylord-robinson-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	219	50	ISTJ
+Hunter	https://www.personality-database.com/profile/100620/hunter-star-wars-the-clone-wars-2008-mbti-personality-type	Star Wars: The Clone Wars (2008)	184	77	INTJ
+Ozpin	https://www.personality-database.com/profile/12894/ozpin-rwby-2012-mbti-personality-type	RWBY (2012)	201	15	INFJ
+Cascão (Smudge)	https://www.personality-database.com/profile/29807/casco-smudge-monicas-gang-turma-da-mnica-mbti-personality-type	Monica's Gang (Turma da Mônica)	303	24	ESFP
+Horde Prime	https://www.personality-database.com/profile/87678/horde-prime-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	239	26	ENTJ
+Moony	https://www.personality-database.com/profile/192458/moony-ena-2020-web-mbti-personality-type	ENA (2020) (Web)	224	21	ESTP
+Lord Hater	https://www.personality-database.com/profile/25352/lord-hater-wander-over-yonder-2013-mbti-personality-type	Wander Over Yonder (2013)	238	7	XXXX
+Gandhi	https://www.personality-database.com/profile/56561/gandhi-clone-high-2002-mbti-personality-type	Clone High (2002)	243	30	ENFP
+Angelo Lawrence	https://www.personality-database.com/profile/32183/angelo-lawrence-angelo-rules-mbti-personality-type	Angelo Rules	162	8	ENTP
+Striker	https://www.personality-database.com/profile/313089/striker-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	226	24	ESTP
+Husk	https://www.personality-database.com/profile/66155/husk-hazbin-hotel-2019-mbti-personality-type	Hazbin Hotel (2019)	190	2	ISTP
+Teri	https://www.personality-database.com/profile/45970/teri-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	170	11	ISTJ
+Rolf	https://www.personality-database.com/profile/8010/rolf-ed-edd-n-eddy-1999-mbti-personality-type	Ed, Edd n Eddy (1999)	204	18	ISTJ
+Verosika Mayday	https://www.personality-database.com/profile/262995/verosika-mayday-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	248	18	ESTP
+Sonic the Hedgehog	https://www.personality-database.com/profile/150411/sonic-the-hedgehog-sonic-boom-mbti-personality-type	Sonic Boom	232	22	ENTP
+Kai	https://www.personality-database.com/profile/9378/kai-the-legend-of-korra-2012-mbti-personality-type	The Legend of Korra (2012)	171	13	ESTP
+Donald Duck	https://www.personality-database.com/profile/8953/donald-duck-mickey-mouse-clubhouse-mbti-personality-type	Mickey Mouse Clubhouse	184	8	ISTP
+Tambry	https://www.personality-database.com/profile/164655/tambry-gravity-falls-2012-mbti-personality-type	Gravity Falls (2012)	197	3	ISFP
+Torrin	https://www.personality-database.com/profile/501299/torrin-love-death-robots-mbti-personality-type	Love, Death & Robots	188	31	INTJ
+Brittany Taylor	https://www.personality-database.com/profile/19270/brittany-taylor-daria-1997-mbti-personality-type	Daria (1997)	206	6	ESFP
+Webbigail "Webby" Vanderquack	https://www.personality-database.com/profile/22955/webbigail-webby-vanderquack-ducktales-2017-mbti-personality-type	DuckTales (2017)	207	4	ENFP
+Jiang Yanli	https://www.personality-database.com/profile/23760/jiang-yanli-grandmaster-of-demonic-cultivation-mo-dao-zu-shi-mbti-personality-type	Grandmaster of Demonic Cultivation (Mo Dao Zu Shi)	194	13	ISFJ
+Mac	https://www.personality-database.com/profile/5227/mac-fosters-home-for-imaginary-friends-mbti-personality-type	Foster's Home for Imaginary Friends	154	13	INFJ
+Spinnerella	https://www.personality-database.com/profile/129383/spinnerella-shera-and-the-princesses-of-power-2018-mbti-personality-type	She-Ra and the Princesses of Power (2018)	185	12	INFP
+Sebastian St. Clair	https://www.personality-database.com/profile/68728/sebastian-st-clair-bojack-horseman-2014-mbti-personality-type	BoJack Horseman (2014)	152	16	ENFJ
+Shelly Marsh	https://www.personality-database.com/profile/65653/shelly-marsh-south-park-1997-mbti-personality-type	South Park (1997)	171	4	ESTJ
+Strawberry Shortcake	https://www.personality-database.com/profile/129824/strawberry-shortcake-strawberry-shortcake-2003-mbti-personality-type	Strawberry Shortcake (2003)	163	9	ESFJ
+Sticks the Badger	https://www.personality-database.com/profile/33397/sticks-the-badger-sonic-boom-mbti-personality-type	Sonic Boom	150	15	ENTP
+Della Duck	https://www.personality-database.com/profile/42262/della-duck-ducktales-2017-mbti-personality-type	DuckTales (2017)	158	8	ENFP
+Morro	https://www.personality-database.com/profile/15405/morro-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	178	25	ISFP
+Cyril Figgis	https://www.personality-database.com/profile/3212/cyril-figgis-archer-mbti-personality-type	Archer	124	8	ISFJ
+Larry the Cucumber	https://www.personality-database.com/profile/52599/larry-the-cucumber-veggietales-1993-mbti-personality-type	VeggieTales (1993)	128	17	ENFP
+Theodore Shackleford “The Man with the Yellow Hat”	https://www.personality-database.com/profile/79187/theodore-shackleford-the-man-with-the-yellow-hat-curious-george-mbti-personality-type	Curious George	135	20	ISFJ
+Jamie Russo	https://www.personality-database.com/profile/45933/jamie-russo-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	117	7	ISTP
+Damon	https://www.personality-database.com/profile/490714/damon-my-story-animated-mbti-personality-type	My Story Animated	105	9	INTJ
+Michelangelo "Mikey"	https://www.personality-database.com/profile/74934/michelangelo-mikey-rise-of-the-teenage-mutant-ninja-turtles-2018-mbti-personality-type	Rise of the Teenage Mutant Ninja Turtles (2018)	157	7	ENFP
+Knuckles the Echidna	https://www.personality-database.com/profile/150416/knuckles-the-echidna-sonic-boom-mbti-personality-type	Sonic Boom	135	26	ESTP
+King Julien XIII	https://www.personality-database.com/profile/75955/king-julien-xiii-all-hail-king-julien-mbti-personality-type	All Hail King Julien	131	3	XXXX
+Nutty	https://www.personality-database.com/profile/54221/nutty-happy-tree-friends-mbti-personality-type	Happy Tree Friends	113	9	ESFP
+Mao Mao	https://www.personality-database.com/profile/39008/mao-mao-mao-mao-heroes-of-pure-heart-mbti-personality-type	Mao Mao: Heroes of Pure Heart	122	11	ESTJ
+Claire Nuñez	https://www.personality-database.com/profile/12212/claire-nuez-trollhunters-tales-of-arcadia-2016-mbti-personality-type	Trollhunters: Tales of Arcadia (2016)	114	34	ENFJ
+General James Ironwood	https://www.personality-database.com/profile/74984/general-james-ironwood-rwby-2012-mbti-personality-type	RWBY (2012)	156	17	ENTJ
+Christophe “The Mole”	https://www.personality-database.com/profile/109497/christophe-the-mole-south-park-1997-mbti-personality-type	South Park (1997)	91	5	ISTP
+Donald Duck	https://www.personality-database.com/profile/163710/donald-duck-classic-mickey-mouse-mbti-personality-type	Classic Mickey Mouse	144	1	ESTJ
+Sr Pelo	https://www.personality-database.com/profile/204677/sr-pelo-sr-pelo-mbti-personality-type	Sr Pelo	86	8	ENFP
+Elliot Birch	https://www.personality-database.com/profile/18732/elliot-birch-big-mouth-2017-mbti-personality-type	Big Mouth (2017)	93	4	ENFJ
+Quackity (Karmaland)	https://www.personality-database.com/profile/519329/quackity-karmaland-karmaland-mbti-personality-type	Karmaland	104	4	ENTP
+Cass Wizard	https://www.personality-database.com/profile/25123/cass-wizard-bee-and-puppycat-2013-mbti-personality-type	Bee and PuppyCat (2013)	97	18	ENTP
+Neutral	https://www.personality-database.com/profile/142158/neutral-futurama-1999-mbti-personality-type	Futurama (1999)	89	6	ISTJ
+Dendy	https://www.personality-database.com/profile/41144/dendy-ok-ko-lets-be-heroes-mbti-personality-type	OK K.O.! Let's Be Heroes	74	2	INTP
+Sara	https://www.personality-database.com/profile/153290/sara-over-the-garden-wall-2014-mbti-personality-type	Over the Garden Wall (2014)	83	3	ISFP
+Mr. Nimbus	https://www.personality-database.com/profile/342529/mr-nimbus-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	101	5	ESTP
+Fizzarolli	https://www.personality-database.com/profile/424481/fizzarolli-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	114	15	ENTP
+Снежка	https://www.personality-database.com/profile/178833/-fantasy-patrol--mbti-personality-type	Fantasy Patrol (Сказочный патруль)	96	1	INFP
+Puff-Puff Humbert	https://www.personality-database.com/profile/216731/puffpuff-humbert-your-favorite-martian-mbti-personality-type	Your Favorite Martian	106	7	ESTP
+Rocky Robinson	https://www.personality-database.com/profile/45972/rocky-robinson-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	79	1	ISFP
+Asmodeus "Ozzie", Ruler of the Lust Ring	https://www.personality-database.com/profile/424569/asmodeus-ozzie-ruler-of-the-lust-ring-helluva-boss-2019-mbti-personality-type	Helluva Boss (2019)	104	7	ESTP
+Eugene	https://www.personality-database.com/profile/14908/eugene-hey-arnold-1996-mbti-personality-type	Hey Arnold! (1996)	86	4	INFP
+Cesar Torres	https://www.personality-database.com/profile/429891/cesar-torres-the-mandela-catalogue-mbti-personality-type	The Mandela Catalogue	62	4	ISTP
+Kion	https://www.personality-database.com/profile/14752/kion-the-lion-guard-2016-mbti-personality-type	The Lion Guard (2016)	65	4	ESTJ
+Pythor P. Chumsworth	https://www.personality-database.com/profile/26799/pythor-p-chumsworth-ninjago-masters-of-spinjitzu-2011-mbti-personality-type	Ninjago: Masters of Spinjitzu (2011)	90	5	ENTJ
+Lucky	https://www.personality-database.com/profile/190730/lucky-spirit-riding-free-mbti-personality-type	Spirit: Riding Free	64	5	XXXX
+Lily Loud	https://www.personality-database.com/profile/124950/lily-loud-the-loud-house-2015-mbti-personality-type	The Loud House (2015)	67	4	ESFP
+Julius Oppenheimmer Jr.	https://www.personality-database.com/profile/45938/julius-oppenheimmer-jr-the-amazing-world-of-gumball-2011-mbti-personality-type	The Amazing World of Gumball (2011)	64	2	ESTP
+Dr. Fox	https://www.personality-database.com/profile/41453/dr-fox-unikitty-mbti-personality-type	Unikitty!	72	3	INTP
+Rick Prime	https://www.personality-database.com/profile/555096/rick-prime-rick-and-morty-2013-mbti-personality-type	Rick and Morty (2013)	149	10	ENTP
+Timber Spruce	https://www.personality-database.com/profile/62732/timber-spruce-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	54	3	ESFJ
+Suki	https://www.personality-database.com/profile/1250/suki-avatar-the-last-airbender-2005-mbti-personality-type	Avatar: The Last Airbender (2005)	1.8k	334	ENFJ
+Applejack	https://www.personality-database.com/profile/1578/applejack-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	1.7k	280	ESTJ
+Buttercup	https://www.personality-database.com/profile/1503/buttercup-the-powerpuff-girls-1998-mbti-personality-type	The Powerpuff Girls (1998)	1.5k	165	ESTP
+Luka Couffaine	https://www.personality-database.com/profile/42378/luka-couffaine-miraculous-tales-of-ladybug-cat-noir-2015-mbti-personality-type	Miraculous: Tales of Ladybug & Cat Noir (2015)	1.4k	131	INFJ
+Rigby	https://www.personality-database.com/profile/3033/rigby-regular-show-2010-mbti-personality-type	Regular Show (2010)	1.3k	120	ESFP
+Princess Celestia	https://www.personality-database.com/profile/1581/princess-celestia-my-little-pony-friendship-is-magic-2010-mbti-personality-type	My Little Pony: Friendship Is Magic (2010)	1.1k	74	ENFJ
+Bolin	https://www.personality-database.com/profile/1274/bolin-the-legend-of-korra-2012-mbti-personality-type	The Legend of Korra (2012)	1.1k	94	ENFP
+Amethyst	https://www.personality-database.com/profile/1591/amethyst-steven-universe-2013-mbti-personality-type	Steven Universe (2013)	1.2k	46	ESFP
+Emperor Belos	https://www.personality-database.com/profile/170884/emperor-belos-the-owl-house-2020-mbti-personality-type	The Owl House (2020)	550	115	INTJ
+Mordecai	https://www.personality-database.com/profile/3036/mordecai-regular-show-2010-mbti-personality-type	Regular Show (2010)	1k	19	ISFP
+Bloom	https://www.personality-database.com/profile/9152/bloom-winx-club-2004-mbti-personality-type	Winx Club (2004)	940	35	ENFJ
+Cassandra	https://www.personality-database.com/profile/16529/cassandra-rapunzels-tangled-adventure-2017-mbti-personality-type	Rapunzel's Tangled Adventure (2017)	577	44	ISTJ
+Jerry the Mouse	https://www.personality-database.com/profile/29338/jerry-the-mouse-tom-and-jerry-mbti-personality-type	Tom and Jerry	915	94	ENTP
+Kagami Tsurugi "Ryuko"	https://www.personality-database.com/profile/47519/kagami-tsurugi-ryuko-miraculous-tales-of-ladybug-cat-noir-2015-mbti-personality-type	Miraculous: Tales of Ladybug & Cat Noir (2015)	955	73	ISTJ

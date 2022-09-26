@@ -1,0 +1,142 @@
+name	link	movie_title	num_votes	num_comments	mbti
+Jennifer Walters "She-Hulk"	https://www.personality-database.com/profile/503558/-jennifer-walters-shehulk-shehulk-attorney-at-law-2022-mbti-personality-type	She-Hulk: Attorney at Law (2022)	628	41	ESTP
+Wong	https://www.personality-database.com/profile/4347/wong-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	301	11	ISTJ
+Raven	https://www.personality-database.com/profile/2645/raven-teen-titans-2003-mbti-personality-type	Teen Titans (2003)	2.1k	173	INTJ
+Bruce Wayne “Batman”	https://www.personality-database.com/profile/417034/bruce-wayne-batman-the-batman-2022-mbti-personality-type	The Batman  (2022)	2.5k	612	INTJ
+Kate Bishop	https://www.personality-database.com/profile/424317/kate-bishop-hawkeye-2021-mbti-personality-type	Hawkeye (2021)	1.4k	208	ENTP
+Matthew Murdock “Daredevil”	https://www.personality-database.com/profile/476/matthew-murdock-daredevil-daredevil-2015-mbti-personality-type	Daredevil (2015)	1.4k	97	INFJ
+Peter Parker “Spider-Man”	https://www.personality-database.com/profile/477/peter-parker-spiderman-the-spiderman-trilogy-2002-mbti-personality-type	The Spider-Man Trilogy (2002)	1.6k	326	INFP
+Starfire	https://www.personality-database.com/profile/2646/starfire-teen-titans-2003-mbti-personality-type	Teen Titans (2003)	972	46	ESFJ
+Yelena Belova	https://www.personality-database.com/profile/126866/yelena-belova-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	1.5k	152	ESFP
+Quentin Beck “Mysterio”	https://www.personality-database.com/profile/41121/quentin-beck-mysterio-mcu-the-villains-mbti-personality-type	MCU: The Villains	1.1k	259	ENFJ
+Pamela Isley “Poison Ivy”	https://www.personality-database.com/profile/73774/pamela-isley-poison-ivy-harley-quinn-2019-mbti-personality-type	Harley Quinn (2019)	603	75	INFJ
+Diana Prince “Wonder Woman”	https://www.personality-database.com/profile/2441/diana-prince-wonder-woman-dc-extended-universe-mbti-personality-type	DC Extended Universe	1.1k	108	ENFJ
+Barry Allen “The Flash”	https://www.personality-database.com/profile/9046/barry-allen-the-flash-dc-extended-universe-mbti-personality-type	DC Extended Universe	724	188	INFP
+Mantis	https://www.personality-database.com/profile/9019/mantis-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	714	48	INFP
+Oswald Cobblepot “The Penguin”	https://www.personality-database.com/profile/1710/oswald-cobblepot-the-penguin-gotham-2014-mbti-personality-type	Gotham (2014)	683	119	INFP
+Starfire	https://www.personality-database.com/profile/15098/starfire-teen-titans-go-2013-mbti-personality-type	Teen Titans Go! (2013)	481	33	ENFP
+Druig	https://www.personality-database.com/profile/416992/druig-mcu-everyone-else-mbti-personality-type	MCU: Everyone Else	879	166	INTJ
+Robin	https://www.personality-database.com/profile/2644/robin-teen-titans-2003-mbti-personality-type	Teen Titans (2003)	923	65	ISTJ
+Baron Helmut Zemo	https://www.personality-database.com/profile/2689/baron-helmut-zemo-mcu-the-villains-mbti-personality-type	MCU: The Villains	782	101	INTJ
+Kal-El/Clark Kent “Superman”	https://www.personality-database.com/profile/1986/kalelclark-kent-superman-dc-comics-mbti-personality-type	DC Comics	684	46	ISFJ
+Harley Quinn/Harleen Quinzel	https://www.personality-database.com/profile/73773/harley-quinnharleen-quinzel-harley-quinn-2019-mbti-personality-type	Harley Quinn (2019)	593	72	ENFP
+Robin	https://www.personality-database.com/profile/15097/robin-teen-titans-go-2013-mbti-personality-type	Teen Titans Go! (2013)	614	21	ESTJ
+Michael Morbius	https://www.personality-database.com/profile/425223/michael-morbius-morbius-2022-mbti-personality-type	Morbius (2022)	309	17	INFJ
+Peter Quill “Star-Lord”	https://www.personality-database.com/profile/2013/peter-quill-starlord-marvel-comics-mbti-personality-type	Marvel Comics	168	11	ENFP
+John Constantine	https://www.personality-database.com/profile/8485/john-constantine-constantine-2014-mbti-personality-type	Constantine (2014)	155	6	ENTP
+Clint Barton "Hawkeye"	https://www.personality-database.com/profile/180/clint-barton-hawkeye-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	1.2k	40	ISTP
+Edward Nygma “The Riddler”	https://www.personality-database.com/profile/1768/edward-nygma-the-riddler-gotham-2014-mbti-personality-type	Gotham (2014)	645	61	INTP
+Beast Boy	https://www.personality-database.com/profile/2647/beast-boy-teen-titans-2003-mbti-personality-type	Teen Titans (2003)	890	22	ESFP
+Peter Maximoff “Quicksilver”	https://www.personality-database.com/profile/7062/peter-maximoff-quicksilver-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	813	44	ESTP
+Peter B. Parker “Spider-Man”	https://www.personality-database.com/profile/22942/peter-b-parker-spiderman-spiderman-into-the-spiderverse-2018-mbti-personality-type	Spider-Man: Into the Spider-Verse (2018)	808	134	INTP
+Nick Fury	https://www.personality-database.com/profile/658/nick-fury-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	756	59	ENTJ
+Marc Spector "Moon Knight"	https://www.personality-database.com/profile/456028/marc-spector-moon-knight-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	872	93	ISTP
+Venom	https://www.personality-database.com/profile/22852/venom-venom-2018-mbti-personality-type	Venom (2018)	894	135	ESTP
+Wilson Fisk “Kingpin”	https://www.personality-database.com/profile/1637/wilson-fisk-kingpin-daredevil-2015-mbti-personality-type	Daredevil (2015)	795	237	INFP
+Sersi	https://www.personality-database.com/profile/416982/sersi-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	530	38	INFJ
+Bruce Wayne “Batman”	https://www.personality-database.com/profile/2440/bruce-wayne-batman-dc-extended-universe-mbti-personality-type	DC Extended Universe	750	105	INTJ
+Tony Stark “Iron Man”	https://www.personality-database.com/profile/1982/tony-stark-iron-man-marvel-comics-mbti-personality-type	Marvel Comics	646	90	ENTP
+Xu Shang-Chi	https://www.personality-database.com/profile/388882/xu-shangchi-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	673	110	ISFP
+Thena	https://www.personality-database.com/profile/416965/thena-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	486	67	ISTP
+Xu Xialing	https://www.personality-database.com/profile/388885/xu-xialing-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	602	57	INTJ
+Frank Castle "Punisher"	https://www.personality-database.com/profile/2415/frank-castle-punisher-the-punisher-2017-mbti-personality-type	The Punisher (2017)	682	93	ISTJ
+Gwen Stacy	https://www.personality-database.com/profile/596/gwen-stacy-the-amazing-spiderman-2012-mbti-personality-type	The Amazing Spider-Man (2012)	581	15	ENFJ
+Adrian Chase “Vigilante”	https://www.personality-database.com/profile/435581/adrian-chase-vigilante-dc-extended-universe-mbti-personality-type	DC Extended Universe	407	37	ENFP
+Jessica Jones	https://www.personality-database.com/profile/1950/jessica-jones-jessica-jones-2015-mbti-personality-type	Jessica Jones (2015)	650	34	ISTP
+Mary Jane Watson	https://www.personality-database.com/profile/921/mary-jane-watson-the-spiderman-trilogy-2002-mbti-personality-type	The Spider-Man Trilogy (2002)	523	68	ISFP
+Sprite	https://www.personality-database.com/profile/416988/sprite-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	377	62	ESFP
+Ikaris	https://www.personality-database.com/profile/317503/ikaris-mcu-the-villains-mbti-personality-type	MCU: The Villains	404	35	ISTJ
+Grandmaster	https://www.personality-database.com/profile/8867/grandmaster-mcu-the-villains-mbti-personality-type	MCU: The Villains	337	10	ENTP
+Phastos	https://www.personality-database.com/profile/416983/phastos-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	266	16	INTP
+Leopold James "Leo" Fitz	https://www.personality-database.com/profile/662/leopold-james-leo-fitz-agents-of-shield-mbti-personality-type	Agents of S.H.I.E.L.D.	222	6	INTP
+Nakia	https://www.personality-database.com/profile/9910/nakia-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	199	3	INFJ
+Layla El-Faouly "Scarlet Scarab"	https://www.personality-database.com/profile/474789/layla-elfaouly-scarlet-scarab-moon-knight-mbti-personality-type	Moon Knight	225	31	ENFJ
+Jason Todd/Red Hood(Under The Red Hood)	https://www.personality-database.com/profile/207962/jason-toddred-hoodunder-the-red-hood-dc-animated-movie-universe-mbti-personality-type	DC Animated Movie Universe	187	15	ISTP
+Arnim Zola	https://www.personality-database.com/profile/4285/arnim-zola-mcu-the-villains-mbti-personality-type	MCU: The Villains	149	2	INTP
+Peter Parker "Spider-Man"	https://www.personality-database.com/profile/16277/peter-parker-spiderman-spiderman-the-animated-series-1994-mbti-personality-type	Spider-Man: The Animated Series (1994)	175	16	ENTP
+Raven	https://www.personality-database.com/profile/137609/raven-dc-animated-movie-universe-mbti-personality-type	DC Animated Movie Universe	153	4	INFJ
+Conner Kent "Superboy"	https://www.personality-database.com/profile/4697/conner-kent-superboy-young-justice-2010-mbti-personality-type	Young Justice (2010)	228	23	ISFP
+Trish Walker	https://www.personality-database.com/profile/1952/trish-walker-jessica-jones-2015-mbti-personality-type	Jessica Jones (2015)	136	4	ENFJ
+Gwen Stacy “Ghost-Spider”	https://www.personality-database.com/profile/28443/gwen-stacy-ghostspider-marvel-comics-mbti-personality-type	Marvel Comics	123	14	ENFP
+Jessica Cruz “Green Lantern”	https://www.personality-database.com/profile/201430/jessica-cruz-green-lantern-dc-super-hero-girls-mbti-personality-type	DC Super Hero Girls	145	5	INFJ
+Felicia Hardy "Black Cat"	https://www.personality-database.com/profile/29406/felicia-hardy-black-cat-marvel-comics-mbti-personality-type	Marvel Comics	154	4	ESTP
+Karen Beecher “Bumblebee”	https://www.personality-database.com/profile/201427/karen-beecher-bumblebee-dc-super-hero-girls-mbti-personality-type	DC Super Hero Girls	104	5	INFP
+Maya Lopez “Echo”	https://www.personality-database.com/profile/424318/maya-lopez-echo-hawkeye-2021-mbti-personality-type	Hawkeye (2021)	103	5	ISFP
+Emil Blonsky “Abomination”	https://www.personality-database.com/profile/4284/emil-blonsky-abomination-mcu-the-villains-mbti-personality-type	MCU: The Villains	101	5	ESTJ
+Uatu "The Watcher"	https://www.personality-database.com/profile/344974/uatu-the-watcher-what-if-2021-mbti-personality-type	What If...? (2021)	103	7	INTP
+Clayface / Basil Karlo	https://www.personality-database.com/profile/73783/clayface-basil-karlo-harley-quinn-2019-mbti-personality-type	Harley Quinn (2019)	74	4	ESFP
+Raina	https://www.personality-database.com/profile/668/raina-agents-of-shield-mbti-personality-type	Agents of S.H.I.E.L.D.	73	2	ENTJ
+Laura Barton	https://www.personality-database.com/profile/17507/laura-barton-mcu-everyone-else-mbti-personality-type	MCU: Everyone Else	63	2	ISFJ
+Eleanor Bishop	https://www.personality-database.com/profile/424320/eleanor-bishop-hawkeye-2021-mbti-personality-type	Hawkeye (2021)	65	0	ESTJ
+Kitty Pryde "Shadowcat"	https://www.personality-database.com/profile/11225/kitty-pryde-shadowcat-xmen-evolution-mbti-personality-type	X-Men: Evolution	53	8	ENFP
+Kurt Wagner "Nightcrawler"	https://www.personality-database.com/profile/11226/kurt-wagner-nightcrawler-xmen-evolution-mbti-personality-type	X-Men: Evolution	55	3	ENFP
+James "Bucky" Barnes "Winter Soldier"	https://www.personality-database.com/profile/344997/james-bucky-barnes-winter-soldier-what-if-2021-mbti-personality-type	What If...? (2021)	50	5	ISTP
+Teth-Adam "Black Adam"	https://www.personality-database.com/profile/3750/tethadam-black-adam-dc-comics-mbti-personality-type	DC Comics	50	1	ESTJ
+Kazimierz "Kazi" Kazimierczak	https://www.personality-database.com/profile/424324/kazimierz-kazi-kazimierczak-hawkeye-2021-mbti-personality-type	Hawkeye (2021)	52	1	INFJ
+Vision	https://www.personality-database.com/profile/655/vision-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	1.8k	108	INFJ
+Peter Parker “Spider-Man”	https://www.personality-database.com/profile/1984/peter-parker-spiderman-marvel-comics-mbti-personality-type	Marvel Comics	1.4k	490	INFP
+Miles Morales “Spider-Man”	https://www.personality-database.com/profile/22941/miles-morales-spiderman-spiderman-into-the-spiderverse-2018-mbti-personality-type	Spider-Man: Into the Spider-Verse (2018)	1.3k	130	ISFP
+Jonathan Crane “Scarecrow”	https://www.personality-database.com/profile/438/jonathan-crane-scarecrow-the-dark-knight-trilogy-2005-mbti-personality-type	The Dark Knight Trilogy (2005)	587	17	INTP
+Logan "Wolverine"	https://www.personality-database.com/profile/474/logan-wolverine-xmen-cinematic-universe-20002009-mbti-personality-type	X-Men Cinematic Universe (2000-2009)	893	47	ISTP
+Darcy Lewis	https://www.personality-database.com/profile/17461/darcy-lewis-mcu-everyone-else-mbti-personality-type	MCU: Everyone Else	808	20	ENTP
+Drax	https://www.personality-database.com/profile/1934/drax-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	653	70	ESTP
+The Joker	https://www.personality-database.com/profile/3390/the-joker-dc-extended-universe-mbti-personality-type	DC Extended Universe	575	94	ESTP
+Jack White "The Joker"	https://www.personality-database.com/profile/2920/jack-white-the-joker-dc-comics-mbti-personality-type	DC Comics	740	61	ENTP
+Xu Wenwu "Mandarin"	https://www.personality-database.com/profile/388884/xu-wenwu-mandarin-mcu-the-villains-mbti-personality-type	MCU: The Villains	499	74	ESTJ
+Shuri	https://www.personality-database.com/profile/9915/shuri-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	558	23	ENTP
+Charles Xavier “Professor X”	https://www.personality-database.com/profile/60317/charles-xavier-professor-x-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	655	76	INFJ
+N'Jadaka “Erik Killmonger”	https://www.personality-database.com/profile/9912/njadaka-erik-killmonger-mcu-the-villains-mbti-personality-type	MCU: The Villains	583	119	ESFP
+Harleen Quinzel “Harley Quinn”	https://www.personality-database.com/profile/3554/harleen-quinzel-harley-quinn-dc-comics-mbti-personality-type	DC Comics	577	38	ENFP
+Skye / Daisy Johnson / "Quake"	https://www.personality-database.com/profile/661/skye-daisy-johnson-quake-agents-of-shield-mbti-personality-type	Agents of S.H.I.E.L.D.	314	17	ENFP
+Gwen Stacy “Spider-Gwen”	https://www.personality-database.com/profile/22943/gwen-stacy-spidergwen-spiderman-into-the-spiderverse-2018-mbti-personality-type	Spider-Man: Into the Spider-Verse (2018)	536	42	ISTP
+Damian Wayne “Robin”	https://www.personality-database.com/profile/2873/damian-wayne-robin-dc-comics-mbti-personality-type	DC Comics	540	68	ENTJ
+Sharon Carter “Power Broker”	https://www.personality-database.com/profile/2688/sharon-carter-power-broker-mcu-the-villains-mbti-personality-type	MCU: The Villains	387	44	ISTJ
+Erik Lehnsherr “Magneto”	https://www.personality-database.com/profile/60318/erik-lehnsherr-magneto-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	570	45	INTJ
+Harry Osborn	https://www.personality-database.com/profile/1084/harry-osborn-the-spiderman-trilogy-2002-mbti-personality-type	The Spider-Man Trilogy (2002)	413	62	ESFP
+Blackfire	https://www.personality-database.com/profile/52863/blackfire-teen-titans-2003-mbti-personality-type	Teen Titans (2003)	437	24	ENTP
+J. Jonah Jameson	https://www.personality-database.com/profile/1085/j-jonah-jameson-the-spiderman-trilogy-2002-mbti-personality-type	The Spider-Man Trilogy (2002)	450	43	ESTJ
+Beast Boy	https://www.personality-database.com/profile/15100/beast-boy-teen-titans-go-2013-mbti-personality-type	Teen Titans Go! (2013)	394	2	ESFP
+Makkari	https://www.personality-database.com/profile/416986/makkari-mcu-the-heroes-mbti-personality-type	MCU: The Heroes	283	8	ENFP
+Bruce Wayne	https://www.personality-database.com/profile/1805/bruce-wayne-gotham-2014-mbti-personality-type	Gotham (2014)	374	14	INTJ
+John Constantine	https://www.personality-database.com/profile/7763/john-constantine-dc-comics-mbti-personality-type	DC Comics	405	43	ENTP
+James Howlett “Wolverine”	https://www.personality-database.com/profile/2002/james-howlett-wolverine-marvel-comics-mbti-personality-type	Marvel Comics	357	43	ISTP
+Harleen Quinzel "Harley Quinn"	https://www.personality-database.com/profile/1633/harleen-quinzel-harley-quinn-batman-the-animated-series-1992-mbti-personality-type	Batman: The Animated Series (1992)	315	23	ENFP
+Adrian Toomes “Vulture”	https://www.personality-database.com/profile/6822/adrian-toomes-vulture-mcu-the-villains-mbti-personality-type	MCU: The Villains	275	15	ENTJ
+Lex Luthor	https://www.personality-database.com/profile/3593/lex-luthor-dc-comics-mbti-personality-type	DC Comics	319	27	ENTJ
+Christine Palmer	https://www.personality-database.com/profile/4424/christine-palmer-mcu-everyone-else-mbti-personality-type	MCU: Everyone Else	210	6	ENFJ
+Hank McCoy “Beast”	https://www.personality-database.com/profile/3846/hank-mccoy-beast-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	248	6	INTP
+Bruce Banner "Hulk"	https://www.personality-database.com/profile/2003/bruce-banner-hulk-marvel-comics-mbti-personality-type	Marvel Comics	215	9	INTP
+Vanessa Carlysle	https://www.personality-database.com/profile/12225/vanessa-carlysle-deadpool-2016-mbti-personality-type	Deadpool (2016)	171	31	INFJ
+Amanda Waller	https://www.personality-database.com/profile/3397/amanda-waller-dc-extended-universe-mbti-personality-type	DC Extended Universe	248	8	ENTJ
+Jemma Simmons	https://www.personality-database.com/profile/663/jemma-simmons-agents-of-shield-mbti-personality-type	Agents of S.H.I.E.L.D.	187	12	ISTJ
+Illyana Rasputin “Magik”	https://www.personality-database.com/profile/135312/illyana-rasputin-magik-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	348	13	ENTP
+Kevin Thompson “Kilgrave”	https://www.personality-database.com/profile/1953/kevin-thompson-kilgrave-jessica-jones-2015-mbti-personality-type	Jessica Jones (2015)	178	15	ENTP
+Leonard Snart "Captain Cold"	https://www.personality-database.com/profile/1978/leonard-snart-captain-cold-legends-of-tomorrow-2016-mbti-personality-type	Legends of Tomorrow (2016)	167	7	ISTP
+Jack Napier "Joker"	https://www.personality-database.com/profile/21999/jack-napier-joker-batman-19891992-mbti-personality-type	Batman (1989-1992)	195	10	ENTJ
+Zatanna Zatara	https://www.personality-database.com/profile/2028/zatanna-zatara-dc-comics-mbti-personality-type	DC Comics	137	5	ISFP
+Dark Knight Returns Batman	https://www.personality-database.com/profile/72618/dark-knight-returns-batman-dc-comics-mbti-personality-type	DC Comics	199	31	ENTJ
+Ororo Munroe “Storm”	https://www.personality-database.com/profile/521/ororo-munroe-storm-xmen-cinematic-universe-20002009-mbti-personality-type	X-Men Cinematic Universe (2000-2009)	125	5	ISFJ
+Dru-Zod "General Zod"	https://www.personality-database.com/profile/2339/druzod-general-zod-dc-extended-universe-mbti-personality-type	DC Extended Universe	154	16	ESTJ
+Kurt Wagner “Nightcrawler”	https://www.personality-database.com/profile/3250/kurt-wagner-nightcrawler-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	124	2	INFP
+Mera	https://www.personality-database.com/profile/22448/mera-dc-extended-universe-mbti-personality-type	DC Extended Universe	154	6	ISFP
+Eobard Thawne "Reverse-Flash"	https://www.personality-database.com/profile/4276/eobard-thawne-reverseflash-the-flash-2014-mbti-personality-type	The Flash (2014)	166	10	INTJ
+Luke Cage	https://www.personality-database.com/profile/1951/luke-cage-luke-cage-2016-mbti-personality-type	Luke Cage (2016)	146	11	ISFJ
+Bart Allen "Impulse" / "Kid Flash"	https://www.personality-database.com/profile/7092/bart-allen-impulse-kid-flash-young-justice-2010-mbti-personality-type	Young Justice (2010)	117	10	ENTP
+Roy Harper "Arsenal"	https://www.personality-database.com/profile/34844/roy-harper-arsenal-dc-comics-mbti-personality-type	DC Comics	117	9	ENTP
+Kyle Rayner "Green Lantern"	https://www.personality-database.com/profile/37403/kyle-rayner-green-lantern-dc-comics-mbti-personality-type	DC Comics	118	4	INFP
+Nathaniel Heywood "Citizen Steel"	https://www.personality-database.com/profile/4059/nathaniel-heywood-citizen-steel-legends-of-tomorrow-2016-mbti-personality-type	Legends of Tomorrow (2016)	59	2	ENFJ
+Jeri Hogarth	https://www.personality-database.com/profile/4075/jeri-hogarth-jessica-jones-2015-mbti-personality-type	Jessica Jones (2015)	106	3	ENTJ
+Malcolm Ducasse	https://www.personality-database.com/profile/1954/malcolm-ducasse-jessica-jones-2015-mbti-personality-type	Jessica Jones (2015)	76	3	ISFP
+Jack Duquesne	https://www.personality-database.com/profile/424319/jack-duquesne-hawkeye-2021-mbti-personality-type	Hawkeye (2021)	89	9	ENFJ
+Martin Stein	https://www.personality-database.com/profile/1970/martin-stein-legends-of-tomorrow-2016-mbti-personality-type	Legends of Tomorrow (2016)	76	0	INTP
+Mick Rory "Heat Wave"	https://www.personality-database.com/profile/1979/mick-rory-heat-wave-legends-of-tomorrow-2016-mbti-personality-type	Legends of Tomorrow (2016)	74	1	ESTP
+Muneeba Khan	https://www.personality-database.com/profile/314496/muneeba-khan-ms-marvel-mbti-personality-type	Ms. Marvel	79	2	ISTJ
+Alex Summers “Havok”	https://www.personality-database.com/profile/10442/alex-summers-havok-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	70	2	ESTP
+Ororo Munroe "Storm"	https://www.personality-database.com/profile/46774/ororo-munroe-storm-marvel-comics-mbti-personality-type	Marvel Comics	63	1	ENFJ
+Peter Parker "Spider Man"	https://www.personality-database.com/profile/393593/peter-parker-spider-man-what-if-2021-mbti-personality-type	What If...? (2021)	85	11	ENFP
+Peter Parker “Spider-Man Noir”	https://www.personality-database.com/profile/205185/peter-parker-spiderman-noir-marvel-comics-mbti-personality-type	Marvel Comics	58	24	INFJ
+Dick Grayson “Nightwing”	https://www.personality-database.com/profile/532288/dick-grayson-nightwing-harley-quinn-2019-mbti-personality-type	Harley Quinn (2019)	58	5	ENTP
+Logan "Wolverine"	https://www.personality-database.com/profile/11220/logan-wolverine-xmen-evolution-mbti-personality-type	X-Men: Evolution	68	2	ISTP
+Ororo Munroe "Storm"	https://www.personality-database.com/profile/11221/ororo-munroe-storm-xmen-evolution-mbti-personality-type	X-Men: Evolution	53	3	INTJ
+Sebastian Shaw	https://www.personality-database.com/profile/60324/sebastian-shaw-xmen-cinematic-universe-20112020-mbti-personality-type	X-Men Cinematic Universe (2011-2020)	65	0	ENTJ
+Peter Parker "Spider-Man" Symbiote	https://www.personality-database.com/profile/31067/peter-parker-spiderman-symbiote-the-spectacular-spiderman-2008-mbti-personality-type	The Spectacular Spider-Man (2008)	63	4	ESTJ

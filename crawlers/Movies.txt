@@ -1,0 +1,301 @@
+name	link	movie_title	num_votes	num_comments	mbti
+Eleanor Levetan	https://www.personality-database.com/profile/529670/eleanor-levetan-do-revenge-2022-mbti-personality-type	Do Revenge (2022)	239	42	INTJ
+Drea Torres	https://www.personality-database.com/profile/529669/drea-torres-do-revenge-2022-mbti-personality-type	Do Revenge (2022)	235	12	ENTJ
+Gabbi Broussard	https://www.personality-database.com/profile/561506/gabbi-broussard-do-revenge-2022-mbti-personality-type	Do Revenge (2022)	107	2	XXXX
+Diana	https://www.personality-database.com/profile/341586/diana-spencer-mbti-personality-type	Spencer	316	23	INFP
+Josephine “Jo” March	https://www.personality-database.com/profile/77751/josephine-jo-march-little-women-2019-mbti-personality-type	Little Women (2019)	2.1k	231	ENFP
+The Narrator	https://www.personality-database.com/profile/6817/the-narrator-fight-club-1999-mbti-personality-type	Fight Club (1999)	1.9k	398	ISFJ
+Josephine Chesterfield	https://www.personality-database.com/profile/47873/josephine-chesterfield-the-hustle-2019-mbti-personality-type	The Hustle (2019)	122	3	ENTJ
+Miriam Mendelsohn	https://www.personality-database.com/profile/429774/miriam-mendelsohn-turning-red-2022-mbti-personality-type	Turning Red (2022)	1.1k	165	ENFJ
+Cher Horowitz	https://www.personality-database.com/profile/18378/cher-horowitz-clueless-1995-mbti-personality-type	Clueless (1995)	1.6k	214	ESFJ
+Jennifer Check	https://www.personality-database.com/profile/126943/jennifer-check-jennifers-body-2009-mbti-personality-type	Jennifer's Body (2009)	1.4k	193	ESTP
+Eddie Kaspbrak	https://www.personality-database.com/profile/16660/eddie-kaspbrak-it-2017-mbti-personality-type	It (2017)	1.1k	91	ESTJ
+Tangerine	https://www.personality-database.com/profile/514541/tangerine-bullet-train-mbti-personality-type	Bullet Train	67	1	ENTP
+Michael Corleone	https://www.personality-database.com/profile/4034/michael-corleone-the-godfather-1972-mbti-personality-type	The Godfather (1972)	1.6k	194	INTJ
+Anger	https://www.personality-database.com/profile/862/anger-inside-out-2015-mbti-personality-type	Inside Out (2015)	1.4k	69	ESTJ
+Allison Reynolds	https://www.personality-database.com/profile/2923/allison-reynolds-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	1.2k	77	ISFP
+Andrew Neiman	https://www.personality-database.com/profile/14890/andrew-neiman-whiplash-2014-mbti-personality-type	Whiplash (2014)	898	193	ISFP
+Otis “OJ” Haywood Jr.	https://www.personality-database.com/profile/453125/otis-oj-haywood-jr-nope-2022-mbti-personality-type	Nope (2022)	236	38	ISTP
+Disgust	https://www.personality-database.com/profile/863/disgust-inside-out-2015-mbti-personality-type	Inside Out (2015)	1.7k	158	ESTP
+Scar	https://www.personality-database.com/profile/865/scar-the-lion-king-franchise-mbti-personality-type	The Lion King (Franchise)	2k	359	INTJ
+Mother Gothel	https://www.personality-database.com/profile/2355/mother-gothel-tangled-2010-mbti-personality-type	Tangled (2010)	1.3k	151	ESTJ
+The Driver	https://www.personality-database.com/profile/16982/the-driver-drive-2011-mbti-personality-type	Drive (2011)	560	71	ISTP
+Sadness	https://www.personality-database.com/profile/860/sadness-inside-out-2015-mbti-personality-type	Inside Out (2015)	1.9k	241	INFP
+Ariel	https://www.personality-database.com/profile/826/ariel-the-little-mermaid-1989-mbti-personality-type	The Little Mermaid (1989)	1.9k	127	ENFP
+Hiro Hamada	https://www.personality-database.com/profile/829/hiro-hamada-big-hero-6-2014-mbti-personality-type	Big Hero 6 (2014)	1.7k	231	INTP
+Alberto Scorfano	https://www.personality-database.com/profile/259964/alberto-scorfano-luca-2021-mbti-personality-type	Luca (2021)	1.9k	255	ESTP
+Nina Sayers / The Swan Queen	https://www.personality-database.com/profile/11343/nina-sayers-the-swan-queen-black-swan-2010-mbti-personality-type	Black Swan (2010)	1.7k	111	INFJ
+Esther Coleman	https://www.personality-database.com/profile/11336/esther-coleman-orphan-20092022-mbti-personality-type	Orphan (2009-2022)	764	99	INFJ
+Neil Perry	https://www.personality-database.com/profile/12063/neil-perry-dead-poets-society-1989-mbti-personality-type	Dead Poets Society (1989)	1.6k	211	ENFJ
+O-ren Ishii "Cottonmouth"	https://www.personality-database.com/profile/15619/oren-ishii-cottonmouth-kill-bill-2003-mbti-personality-type	Kill Bill (2003)	668	25	ENTJ
+Matilda Wormwood	https://www.personality-database.com/profile/92132/matilda-wormwood-matilda-1996-mbti-personality-type	Matilda (1996)	503	31	INTJ
+Uma	https://www.personality-database.com/profile/43206/uma-descendants-franchise-mbti-personality-type	Descendants (Franchise)	315	16	ENTJ
+Robin Arellano	https://www.personality-database.com/profile/516344/robin-arellano-the-black-phone-mbti-personality-type	The Black Phone	180	32	ENFJ
+Emerald “Em” Haywood	https://www.personality-database.com/profile/453126/emerald-em-haywood-nope-2022-mbti-personality-type	Nope (2022)	205	3	ESFP
+Ladybug	https://www.personality-database.com/profile/514539/ladybug-bullet-train-mbti-personality-type	Bullet Train	80	3	ISFP
+Louis Bloom	https://www.personality-database.com/profile/4655/louis-bloom-nightcrawler-2014-mbti-personality-type	Nightcrawler (2014)	990	194	ENTJ
+Isabella “Bella” Swan	https://www.personality-database.com/profile/11574/isabella-bella-swan-twilight-franchise-mbti-personality-type	Twilight (Franchise)	1.7k	506	ISFP
+WALL-E	https://www.personality-database.com/profile/4351/walle-walle-2008-mbti-personality-type	WALL-E (2008)	1.2k	145	INFP
+The Beldam “Other Mother”	https://www.personality-database.com/profile/7248/the-beldam-other-mother-coraline-2009-mbti-personality-type	Coraline (2009)	1.3k	84	ENFJ
+Maleficent	https://www.personality-database.com/profile/19113/maleficent-maleficent-2014-mbti-personality-type	Maleficent (2014)	1k	156	INTJ
+Mia Dolan	https://www.personality-database.com/profile/5774/mia-dolan-la-la-land-2016-mbti-personality-type	La La Land (2016)	634	33	ENFJ
+Tom Riddle	https://www.personality-database.com/profile/286885/tom-riddle-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	830	68	INTJ
+Mal Bertha	https://www.personality-database.com/profile/43201/mal-bertha-descendants-franchise-mbti-personality-type	Descendants (Franchise)	551	55	ISFP
+Louisa "Lou" Clark	https://www.personality-database.com/profile/16682/louisa-lou-clark-me-before-you-2016-mbti-personality-type	Me Before You (2016)	417	23	ENFP
+Andrew Clark	https://www.personality-database.com/profile/2926/andrew-clark-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	440	32	ISFJ
+Jobu Tupaki	https://www.personality-database.com/profile/484000/jobu-tupaki-everything-everywhere-all-at-once-mbti-personality-type	Everything Everywhere All At Once	408	63	ISFP
+Carlos de Vil	https://www.personality-database.com/profile/43204/carlos-de-vil-descendants-franchise-mbti-personality-type	Descendants (Franchise)	363	14	INFP
+Gogo Yubari	https://www.personality-database.com/profile/16061/gogo-yubari-kill-bill-2003-mbti-personality-type	Kill Bill (2003)	371	7	ESTP
+Ricky "Jupe" Park	https://www.personality-database.com/profile/453127/ricky-jupe-park-nope-2022-mbti-personality-type	Nope (2022)	102	16	ENFJ
+Violet Parr	https://www.personality-database.com/profile/6585/violet-parr-the-incredibles-franchise-mbti-personality-type	The Incredibles (Franchise)	1.6k	153	INFP
+Charlie Kelmeckis	https://www.personality-database.com/profile/9736/charlie-kelmeckis-the-perks-of-being-a-wallflower-2012-mbti-personality-type	The Perks of Being a Wallflower (2012)	1.5k	258	INFP
+Vito Corleone	https://www.personality-database.com/profile/4033/vito-corleone-the-godfather-1972-mbti-personality-type	The Godfather (1972)	1.2k	232	INFJ
+Richard ''Richie'' Tozier	https://www.personality-database.com/profile/7805/richard-richie-tozier-it-2017-mbti-personality-type	It (2017)	1.2k	93	ENTP
+Gretchen Wieners	https://www.personality-database.com/profile/8797/gretchen-wieners-mean-girls-2004-mbti-personality-type	Mean Girls (2004)	1.3k	124	ESFJ
+Tinker Bell	https://www.personality-database.com/profile/35153/tinker-bell-tinker-bell-2008-mbti-personality-type	Tinker Bell (2008)	1.2k	97	ENFP
+Esmeralda	https://www.personality-database.com/profile/5514/esmeralda-the-hunchback-of-notre-dame-1996-mbti-personality-type	The Hunchback of Notre Dame (1996)	1.1k	71	ESFP
+Alice Kingsleigh	https://www.personality-database.com/profile/28528/alice-kingsleigh-alice-in-wonderland-through-the-looking-glass-2010-2016-mbti-personality-type	Alice in Wonderland / Through the Looking Glass (2010 - 2016)	1.1k	81	INFP
+Jack Dawson	https://www.personality-database.com/profile/2835/jack-dawson-titanic-1997-mbti-personality-type	Titanic (1997)	924	63	ESFP
+Victor Van Dort	https://www.personality-database.com/profile/5593/victor-van-dort-corpse-bride-2005-mbti-personality-type	Corpse Bride (2005)	913	71	INFP
+Anton Chigurh	https://www.personality-database.com/profile/23913/anton-chigurh-no-country-for-old-men-2007-mbti-personality-type	No Country for Old Men (2007)	966	314	INTP
+Lisa Rowe	https://www.personality-database.com/profile/10754/lisa-rowe-girl-interrupted-1999-mbti-personality-type	Girl, Interrupted (1999)	1k	85	ESTP
+Andy Dufresne	https://www.personality-database.com/profile/8705/andy-dufresne-the-shawshank-redemption-1994-mbti-personality-type	The Shawshank Redemption (1994)	804	137	INTJ
+Charlotte “Lottie” LaBouff	https://www.personality-database.com/profile/14698/charlotte-lottie-labouff-the-princess-and-the-frog-2009-mbti-personality-type	The Princess and the Frog (2009)	938	28	ESFP
+Prince Naveen of Maldonia	https://www.personality-database.com/profile/6343/prince-naveen-of-maldonia-the-princess-and-the-frog-2009-mbti-personality-type	The Princess and the Frog (2009)	653	52	ESFP
+Joel Barish	https://www.personality-database.com/profile/5636/joel-barish-eternal-sunshine-of-the-spotless-mind-2004-mbti-personality-type	Eternal Sunshine of the Spotless Mind (2004)	597	57	ISFJ
+Beverly Marsh	https://www.personality-database.com/profile/7777/beverly-marsh-it-2017-mbti-personality-type	It (2017)	640	34	ISFP
+Lady Izumi Hideko	https://www.personality-database.com/profile/23851/lady-izumi-hideko-the-handmaiden-2016-mbti-personality-type	The Handmaiden (2016)	321	9	INTJ
+Radagast the Brown	https://www.personality-database.com/profile/19551/radagast-the-brown-the-hobbit-film-trilogy-mbti-personality-type	The Hobbit (Film Trilogy)	130	5	INFP
+Dr. Livesey	https://www.personality-database.com/profile/337714/dr-livesey-treasure-island-1988-mbti-personality-type	Treasure Island (1988)	132	15	ENTP
+Emma Grossman	https://www.personality-database.com/profile/283789/emma-grossman-the-bad-seed-2018-mbti-personality-type	The Bad Seed (2018)	112	6	INTJ
+Jeanne	https://www.personality-database.com/profile/190369/jeanne-belladonna-of-sadness-mbti-personality-type	Belladonna of Sadness	132	8	INFJ
+Angel Torres	https://www.personality-database.com/profile/529746/angel-torres-nope-2022-mbti-personality-type	Nope (2022)	112	5	ENFP
+Tricia Albright	https://www.personality-database.com/profile/539596/tricia-albright-orphan-20092022-mbti-personality-type	Orphan (2009-2022)	85	9	ENTJ
+Jonas Taylor	https://www.personality-database.com/profile/229339/jonas-taylor-the-meg-2018-mbti-personality-type	The Meg (2018)	56	2	ISTP
+Peeta Mellark	https://www.personality-database.com/profile/722/peeta-mellark-the-hunger-games-franchise-mbti-personality-type	The Hunger Games (Franchise)	1.6k	202	ENFP
+Elizabeth Bennet	https://www.personality-database.com/profile/7574/elizabeth-bennet-pride-and-prejudice-2005-mbti-personality-type	Pride and Prejudice (2005)	1.5k	204	ENFP
+Newton "Newt" Artemis Fido Scamander	https://www.personality-database.com/profile/4633/newton-newt-artemis-fido-scamander-fantastic-beasts-mbti-personality-type	Fantastic Beasts	1.5k	167	INFP
+Jason Dean "J.D."	https://www.personality-database.com/profile/1946/jason-dean-jd-heathers-1989-mbti-personality-type	Heathers (1989)	1.9k	227	ENTP
+Alma “Abuela” Madrigal	https://www.personality-database.com/profile/403595/alma-abuela-madrigal-encanto-2021-mbti-personality-type	Encanto (2021)	1.6k	199	ISTJ
+Ginny Weasley	https://www.personality-database.com/profile/2683/ginny-weasley-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	938	76	ISFJ
+Elio Perlman	https://www.personality-database.com/profile/19812/elio-perlman-call-me-by-your-name-2017-mbti-personality-type	Call Me by Your Name (2017)	1.4k	218	INFP
+Tadashi Hamada	https://www.personality-database.com/profile/830/tadashi-hamada-big-hero-6-2014-mbti-personality-type	Big Hero 6 (2014)	1.1k	83	INFJ
+Simba	https://www.personality-database.com/profile/868/simba-the-lion-king-franchise-mbti-personality-type	The Lion King (Franchise)	1k	135	ESFP
+Fear	https://www.personality-database.com/profile/861/fear-inside-out-2015-mbti-personality-type	Inside Out (2015)	1.3k	51	ISFJ
+Alice Cullen	https://www.personality-database.com/profile/11577/alice-cullen-twilight-franchise-mbti-personality-type	Twilight (Franchise)	1k	79	ENFP
+Qui-Gon Jinn	https://www.personality-database.com/profile/61/quigon-jinn-star-wars-mbti-personality-type	Star Wars	794	158	INFJ
+Todd Anderson	https://www.personality-database.com/profile/12064/todd-anderson-dead-poets-society-1989-mbti-personality-type	Dead Poets Society (1989)	1.2k	172	INFP
+John Kramer “Jigsaw”	https://www.personality-database.com/profile/5482/john-kramer-jigsaw-saw-series-2004-mbti-personality-type	Saw Series (2004)	1.1k	258	INFJ
+Beast	https://www.personality-database.com/profile/3920/beast-beauty-and-the-beast-1991-mbti-personality-type	Beauty and the Beast (1991)	936	106	ISFP
+Hans Landa	https://www.personality-database.com/profile/11055/hans-landa-inglourious-basterds-2009-mbti-personality-type	Inglourious Basterds (2009)	871	128	ENTP
+Jesse Wallace	https://www.personality-database.com/profile/11357/jesse-wallace-the-before-trilogy-mbti-personality-type	The Before Trilogy	645	98	ENTP
+John Bender	https://www.personality-database.com/profile/2924/john-bender-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	917	91	ESTP
+Céline	https://www.personality-database.com/profile/11358/cline-the-before-trilogy-mbti-personality-type	The Before Trilogy	718	72	INFP
+Jasmine	https://www.personality-database.com/profile/35857/jasmine-aladdin-2019-mbti-personality-type	Aladdin (2019)	496	85	ENFJ
+Miranda Priestly	https://www.personality-database.com/profile/14712/miranda-priestly-the-devil-wears-prada-2006-mbti-personality-type	The Devil Wears Prada (2006)	702	75	ENTJ
+Simon Seville	https://www.personality-database.com/profile/68753/simon-seville-alvin-and-the-chipmunks-2007-mbti-personality-type	Alvin And The Chipmunks (2007)	644	37	INTP
+Tobias "Four" Eaton	https://www.personality-database.com/profile/791/tobias-four-eaton-divergent-2014-mbti-personality-type	Divergent (2014)	465	32	ISTJ
+Lord Shen	https://www.personality-database.com/profile/6513/lord-shen-kung-fu-panda-franchise-mbti-personality-type	Kung Fu Panda (Franchise)	693	32	ENTJ
+Maximus Decimus Meridius	https://www.personality-database.com/profile/8884/maximus-decimus-meridius-gladiator-2000-mbti-personality-type	Gladiator (2000)	528	112	ENTJ
+Evie Zamora	https://www.personality-database.com/profile/74036/evie-zamora-thirteen-2003-mbti-personality-type	Thirteen (2003)	451	74	ESTP
+Nymphadora Tonks	https://www.personality-database.com/profile/45169/nymphadora-tonks-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	462	12	ENFP
+Aurora	https://www.personality-database.com/profile/19114/aurora-maleficent-2014-mbti-personality-type	Maleficent (2014)	426	12	INFP
+Queen Grimhilde "The Evil Queen"	https://www.personality-database.com/profile/12094/queen-grimhilde-the-evil-queen-snow-white-and-the-seven-dwarfs-1937-mbti-personality-type	Snow White and the Seven Dwarfs (1937)	492	28	INTJ
+Sean Maguire	https://www.personality-database.com/profile/10427/sean-maguire-good-will-hunting-1997-mbti-personality-type	Good Will Hunting (1997)	419	78	INFP
+Joe (Officer K)	https://www.personality-database.com/profile/9650/joe-officer-k-blade-runner-mbti-personality-type	Blade Runner	457	25	ISTJ
+King Candy / Turbo	https://www.personality-database.com/profile/831/king-candy-turbo-wreckit-ralph-franchise-mbti-personality-type	Wreck-It Ralph (Franchise)	279	55	ENTJ
+Waymond Wang	https://www.personality-database.com/profile/481561/waymond-wang-everything-everywhere-all-at-once-mbti-personality-type	Everything Everywhere All At Once	406	48	INFP
+Stuart	https://www.personality-database.com/profile/30005/stuart-despicable-me-franchise-mbti-personality-type	Despicable Me (Franchise)	265	28	ENTP
+Miss Jennifer Honey	https://www.personality-database.com/profile/92134/miss-jennifer-honey-matilda-1996-mbti-personality-type	Matilda (1996)	295	7	INFJ
+Randle McMurphy	https://www.personality-database.com/profile/3346/randle-mcmurphy-one-flew-over-the-cuckoos-nest-1975-mbti-personality-type	One Flew Over the Cuckoo's Nest (1975)	286	15	ESTP
+Maxine Minx	https://www.personality-database.com/profile/468832/maxine-minx-x-2022-mbti-personality-type	X (2022)	289	35	ESFP
+Brady	https://www.personality-database.com/profile/131052/brady-teen-beach-movie-mbti-personality-type	Teen Beach Movie	201	12	ENFP
+Eris	https://www.personality-database.com/profile/31813/eris-sinbad-legend-of-the-seven-seas-2003-mbti-personality-type	Sinbad: Legend of the Seven Seas (2003)	285	31	ENTP
+The Baby	https://www.personality-database.com/profile/500947/the-baby-encanto-2021-mbti-personality-type	Encanto (2021)	117	28	ENTJ
+Adrian Griffin	https://www.personality-database.com/profile/104663/adrian-griffin-the-invisible-man-2020-mbti-personality-type	The Invisible Man (2020)	78	1	ENTJ
+Darth Sidious	https://www.personality-database.com/profile/58/darth-sidious-star-wars-mbti-personality-type	Star Wars	2k	605	INTJ
+Edward Cullen	https://www.personality-database.com/profile/11575/edward-cullen-twilight-franchise-mbti-personality-type	Twilight (Franchise)	1.4k	284	INFJ
+Wednesday Addams	https://www.personality-database.com/profile/12604/wednesday-addams-the-addams-family-mbti-personality-type	The Addams Family	1.6k	128	INTJ
+Felonius Gru	https://www.personality-database.com/profile/3354/felonius-gru-despicable-me-franchise-mbti-personality-type	Despicable Me (Franchise)	1.5k	119	INTJ
+Elle Woods	https://www.personality-database.com/profile/15459/elle-woods-legally-blonde-2001-mbti-personality-type	Legally Blonde (2001)	1.6k	179	ENFJ
+Neo	https://www.personality-database.com/profile/303/neo-the-matrix-trilogy-mbti-personality-type	The Matrix Trilogy	1.3k	161	INTP
+Oliver	https://www.personality-database.com/profile/19813/oliver-call-me-by-your-name-2017-mbti-personality-type	Call Me by Your Name (2017)	1.1k	149	ENTP
+Frank Abagnale Jr.	https://www.personality-database.com/profile/34037/frank-abagnale-jr-catch-me-if-you-can-2002-mbti-personality-type	Catch Me If You Can (2002)	1.1k	131	ESTP
+Mike Wazowski	https://www.personality-database.com/profile/10517/mike-wazowski-monsters-inc-2001-mbti-personality-type	Monsters, Inc. (2001)	1.3k	291	ENTJ
+Donkey	https://www.personality-database.com/profile/1936/donkey-shrek-franchise-mbti-personality-type	Shrek (Franchise)	1.2k	144	ESFP
+Padmé Amidala	https://www.personality-database.com/profile/62/padm-amidala-star-wars-mbti-personality-type	Star Wars	1.3k	84	ENFJ
+Jack Skellington	https://www.personality-database.com/profile/762/jack-skellington-the-nightmare-before-christmas-1993-mbti-personality-type	The Nightmare Before Christmas (1993)	1.2k	108	ENTP
+Fitzwilliam Darcy	https://www.personality-database.com/profile/7575/fitzwilliam-darcy-pride-and-prejudice-2005-mbti-personality-type	Pride and Prejudice (2005)	1.2k	116	INTJ
+George Weasley	https://www.personality-database.com/profile/719/george-weasley-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	1.1k	44	ENTP
+Remy	https://www.personality-database.com/profile/10522/remy-ratatouille-2007-mbti-personality-type	Ratatouille (2007)	1.2k	203	ISFP
+Sherlock Holmes	https://www.personality-database.com/profile/5485/sherlock-holmes-sherlock-holmes-mbti-personality-type	Sherlock Holmes	880	147	ENTP
+John Wick	https://www.personality-database.com/profile/9972/john-wick-john-wick-mbti-personality-type	John Wick	951	194	ISTP
+Patrick Verona	https://www.personality-database.com/profile/15565/patrick-verona-10-things-i-hate-about-you-1999-mbti-personality-type	10 Things I Hate About You (1999)	1k	78	ISTP
+John Keating	https://www.personality-database.com/profile/12061/john-keating-dead-poets-society-1989-mbti-personality-type	Dead Poets Society (1989)	1.3k	124	ENFP
+Riley Andersen	https://www.personality-database.com/profile/12585/riley-andersen-inside-out-2015-mbti-personality-type	Inside Out (2015)	1.1k	117	ISFP
+Travis Bickle	https://www.personality-database.com/profile/4450/travis-bickle-taxi-driver-1976-mbti-personality-type	Taxi Driver (1976)	1.3k	306	ISTP
+ᾍδης (Hades)	https://www.personality-database.com/profile/7077/-hades-hercules-franchise-mbti-personality-type	Hercules (franchise)	909	98	ENTP
+Will Hunting	https://www.personality-database.com/profile/10425/will-hunting-good-will-hunting-1997-mbti-personality-type	Good Will Hunting (1997)	1k	348	INTP
+Brian Johnson	https://www.personality-database.com/profile/2925/brian-johnson-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	952	92	ISFJ
+Li Shang	https://www.personality-database.com/profile/908/li-shang-mulan-1998-mbti-personality-type	Mulan (1998)	930	50	ESTJ
+Raya	https://www.personality-database.com/profile/184516/raya-raya-and-the-last-dragon-2021-mbti-personality-type	Raya and the Last Dragon (2021)	994	202	ISTP
+Marlin	https://www.personality-database.com/profile/3071/marlin-finding-nemo-franchise-mbti-personality-type	Finding Nemo (Franchise)	919	110	ISTJ
+Katie Mitchell	https://www.personality-database.com/profile/299097/katie-mitchell-the-mitchells-vs-the-machines-2021-mbti-personality-type	The Mitchells vs. the Machines (2021)	987	102	ENFP
+Arthur Weasley	https://www.personality-database.com/profile/13732/arthur-weasley-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	749	70	INTP
+Sharpay Evans	https://www.personality-database.com/profile/27289/sharpay-evans-high-school-musical-film-trilogy-mbti-personality-type	High School Musical (Film Trilogy)	1k	64	ENTJ
+Baroness von Hellman	https://www.personality-database.com/profile/272914/baroness-von-hellman-cruella-2021-mbti-personality-type	Cruella (2021)	880	49	ESTJ
+Lightning McQueen	https://www.personality-database.com/profile/13653/lightning-mcqueen-cars-franchise-mbti-personality-type	Cars (Franchise)	766	61	ESTP
+Theodore “Laurie” Laurence	https://www.personality-database.com/profile/77754/theodore-laurie-laurence-little-women-2019-mbti-personality-type	Little Women (2019)	663	64	ISFP
+Flint Lockwood	https://www.personality-database.com/profile/34669/flint-lockwood-cloudy-with-a-chance-of-meatballs-2009-mbti-personality-type	Cloudy with a Chance of Meatballs (2009)	731	105	ENFP
+Jay Gatsby	https://www.personality-database.com/profile/36857/jay-gatsby-the-great-gatsby-2013-mbti-personality-type	The Great Gatsby (2013)	635	38	INFJ
+Anne Shirley	https://www.personality-database.com/profile/925/anne-shirley-anne-of-green-gables-1985-mbti-personality-type	Anne of Green Gables (1985)	517	57	INFP
+Sisu	https://www.personality-database.com/profile/184517/sisu-raya-and-the-last-dragon-2021-mbti-personality-type	Raya and the Last Dragon (2021)	642	64	ENFP
+Claire Standish	https://www.personality-database.com/profile/2922/claire-standish-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	683	9	ESFJ
+Marta Cabrera	https://www.personality-database.com/profile/69872/marta-cabrera-knives-out-2019-mbti-personality-type	Knives Out (2019)	653	42	ISFJ
+Vincent Vega	https://www.personality-database.com/profile/4925/vincent-vega-pulp-fiction-1994-mbti-personality-type	Pulp Fiction (1994)	545	60	ISTP
+Detective Benoit Blanc	https://www.personality-database.com/profile/63426/detective-benoit-blanc-knives-out-2019-mbti-personality-type	Knives Out (2019)	555	62	INTJ
+Rafiki	https://www.personality-database.com/profile/871/rafiki-the-lion-king-franchise-mbti-personality-type	The Lion King (Franchise)	483	68	ENTP
+Beatrix Kiddo "Black Mamba"	https://www.personality-database.com/profile/15618/beatrix-kiddo-black-mamba-kill-bill-2003-mbti-personality-type	Kill Bill (2003)	566	18	ISFP
+Lily / The Black Swan	https://www.personality-database.com/profile/11344/lily-the-black-swan-black-swan-2010-mbti-personality-type	Black Swan (2010)	605	30	ESTP
+Nancy Downs	https://www.personality-database.com/profile/13851/nancy-downs-the-craft-1996-mbti-personality-type	The Craft (1996)	569	60	ENTP
+Noah Calhoun	https://www.personality-database.com/profile/12546/noah-calhoun-the-notebook-2004-mbti-personality-type	The Notebook (2004)	253	34	ISFP
+Dr. Facilier	https://www.personality-database.com/profile/14699/dr-facilier-the-princess-and-the-frog-2009-mbti-personality-type	The Princess and the Frog (2009)	447	35	ENTP
+Stanley "Stan" Uris	https://www.personality-database.com/profile/8959/stanley-stan-uris-it-2017-mbti-personality-type	It (2017)	451	12	ISTJ
+The Man with No Name‎‎	https://www.personality-database.com/profile/3367/the-man-with-no-name-the-dollars-trilogy-mbti-personality-type	The Dollars Trilogy	509	63	ISTP
+Juli Baker	https://www.personality-database.com/profile/24883/juli-baker-flipped-2010-mbti-personality-type	Flipped (2010)	394	58	ENFP
+Lord Maximus Farquaad	https://www.personality-database.com/profile/2820/lord-maximus-farquaad-shrek-franchise-mbti-personality-type	Shrek (Franchise)	417	55	ESTJ
+Theodore Twombly	https://www.personality-database.com/profile/11332/theodore-twombly-her-2013-mbti-personality-type	Her (2013)	394	43	INFP
+Catherine Tramell	https://www.personality-database.com/profile/82995/catherine-tramell-basic-instinct-1992-mbti-personality-type	Basic Instinct (1992)	356	32	ENTJ
+Daisy Randone	https://www.personality-database.com/profile/14886/daisy-randone-girl-interrupted-1999-mbti-personality-type	Girl, Interrupted (1999)	408	27	ISFJ
+Hazel Grace Lancaster	https://www.personality-database.com/profile/8975/hazel-grace-lancaster-the-fault-in-our-stars-2014-mbti-personality-type	The Fault in Our Stars (2014)	288	22	INFP
+Will Traynor	https://www.personality-database.com/profile/16681/will-traynor-me-before-you-2016-mbti-personality-type	Me Before You (2016)	300	8	ENTJ
+Carrie White	https://www.personality-database.com/profile/11353/carrie-white-carrie-1976-mbti-personality-type	Carrie (1976)	425	54	ISFJ
+Chicken Little	https://www.personality-database.com/profile/53644/chicken-little-chicken-little-2005-mbti-personality-type	Chicken Little (2005)	268	55	ENTP
+Scarlet Overkill	https://www.personality-database.com/profile/202400/scarlet-overkill-despicable-me-franchise-mbti-personality-type	Despicable Me (Franchise)	413	57	ENTJ
+Nathan Drake	https://www.personality-database.com/profile/385331/nathan-drake-uncharted-2022-mbti-personality-type	Uncharted (2022)	274	25	ESFP
+June George	https://www.personality-database.com/profile/35199/june-george-mean-girls-2004-mbti-personality-type	Mean Girls (2004)	357	11	ESFJ
+Mike Hanlon	https://www.personality-database.com/profile/10528/mike-hanlon-it-2017-mbti-personality-type	It (2017)	302	5	ISFJ
+Queen Of Hearts	https://www.personality-database.com/profile/4924/queen-of-hearts-alice-in-wonderland-1951-mbti-personality-type	Alice in Wonderland (1951)	324	12	ESTJ
+Bill	https://www.personality-database.com/profile/16060/bill-kill-bill-2003-mbti-personality-type	Kill Bill (2003)	297	18	ENTP
+Annie Graham	https://www.personality-database.com/profile/35349/annie-graham-hereditary-2018-mbti-personality-type	Hereditary (2018)	319	56	INFJ
+Finney Blake	https://www.personality-database.com/profile/515443/finney-blake-the-black-phone-mbti-personality-type	The Black Phone	313	50	INTP
+Hal 9000	https://www.personality-database.com/profile/5404/hal-9000-2001-a-space-odyssey-1968-mbti-personality-type	2001: A Space Odyssey (1968)	274	33	INTJ
+Benja	https://www.personality-database.com/profile/260989/benja-raya-and-the-last-dragon-2021-mbti-personality-type	Raya and the Last Dragon (2021)	263	10	ENFJ
+Daniel LaRusso	https://www.personality-database.com/profile/11831/daniel-larusso-the-karate-kid-franchise-mbti-personality-type	The Karate Kid (Franchise)	284	10	ESFP
+Dolores Haze "Lolita"	https://www.personality-database.com/profile/49480/dolores-haze-lolita-lolita-1997-mbti-personality-type	Lolita (1997)	331	32	ESFP
+Llewelyn Moss	https://www.personality-database.com/profile/23914/llewelyn-moss-no-country-for-old-men-2007-mbti-personality-type	No Country for Old Men (2007)	241	3	ISTP
+Elle Driver "California Mountain Snake"	https://www.personality-database.com/profile/15620/elle-driver-california-mountain-snake-kill-bill-2003-mbti-personality-type	Kill Bill (2003)	255	5	ESTP
+Richard Vernon	https://www.personality-database.com/profile/2927/richard-vernon-the-breakfast-club-1985-mbti-personality-type	The Breakfast Club (1985)	244	15	ESTJ
+Raoul	https://www.personality-database.com/profile/118118/raoul-a-monster-in-paris-mbti-personality-type	A Monster in Paris	157	5	ENFP
+Merryweather	https://www.personality-database.com/profile/8754/merryweather-sleeping-beauty-1959-mbti-personality-type	Sleeping Beauty (1959)	162	7	ISTP
+Cecilia Lisbon	https://www.personality-database.com/profile/36053/cecilia-lisbon-the-virgin-suicides-2000-mbti-personality-type	The Virgin Suicides (2000)	248	11	INFP
+Ray	https://www.personality-database.com/profile/14701/ray-the-princess-and-the-frog-2009-mbti-personality-type	The Princess and the Frog (2009)	163	7	ENFP
+Luke Hobbs	https://www.personality-database.com/profile/4308/luke-hobbs-the-fast-and-the-furious-film-franchise-mbti-personality-type	The Fast and the Furious (Film Franchise)	165	2	ENTJ
+Cypher	https://www.personality-database.com/profile/307/cypher-the-matrix-trilogy-mbti-personality-type	The Matrix Trilogy	156	8	ESTP
+Ellen	https://www.personality-database.com/profile/67919/ellen-to-the-bone-2017-mbti-personality-type	To the Bone (2017)	162	7	ISFP
+Cole Johnson	https://www.personality-database.com/profile/184767/cole-johnson-the-babysitter-mbti-personality-type	The Babysitter	145	1	INTP
+Ted Wiggins	https://www.personality-database.com/profile/10990/ted-wiggins-the-lorax-2012-mbti-personality-type	The Lorax (2012)	108	18	ISFP
+Agatha Trunchbull	https://www.personality-database.com/profile/92133/agatha-trunchbull-matilda-1996-mbti-personality-type	Matilda (1996)	164	3	ESTJ
+Fauna	https://www.personality-database.com/profile/8753/fauna-sleeping-beauty-1959-mbti-personality-type	Sleeping Beauty (1959)	140	13	ISFJ
+Flora	https://www.personality-database.com/profile/8752/flora-sleeping-beauty-1959-mbti-personality-type	Sleeping Beauty (1959)	148	5	ESTJ
+Roddy St. James	https://www.personality-database.com/profile/42894/roddy-st-james-flushed-away-2006-mbti-personality-type	Flushed Away (2006)	138	2	ENTP
+Anna	https://www.personality-database.com/profile/200456/anna-possession-1981-mbti-personality-type	Possession (1981)	180	19	INFP
+Stephanie Conway	https://www.personality-database.com/profile/500148/stephanie-conway-senior-year-mbti-personality-type	Senior Year	129	19	ESFP
+Griffin	https://www.personality-database.com/profile/195601/griffin-hotel-transylvania-2012-mbti-personality-type	Hotel Transylvania (2012)	83	57	ENTP
+Mark Hoffman	https://www.personality-database.com/profile/5484/mark-hoffman-saw-series-2004-mbti-personality-type	Saw Series (2004)	117	13	ISTJ
+Lorraine Day	https://www.personality-database.com/profile/468833/lorraine-day-x-2022-mbti-personality-type	X (2022)	121	5	INFJ
+Jamal Malik	https://www.personality-database.com/profile/49430/jamal-malik-slumdog-millionaire-2008-mbti-personality-type	Slumdog Millionaire (2008)	66	6	INFP
+Bobby-Lynne	https://www.personality-database.com/profile/468837/bobbylynne-x-2022-mbti-personality-type	X (2022)	119	3	ESFP
+Vance Hopper	https://www.personality-database.com/profile/516348/vance-hopper-the-black-phone-mbti-personality-type	The Black Phone	85	7	ESTP
+Buffy Gilmore	https://www.personality-database.com/profile/234037/buffy-gilmore-scary-movie-mbti-personality-type	Scary Movie	54	3	ENTJ
+V	https://www.personality-database.com/profile/1865/v-v-for-vendetta-2005-mbti-personality-type	V for Vendetta (2005)	1.7k	166	INTJ
+Alex DeLarge	https://www.personality-database.com/profile/11570/alex-delarge-a-clockwork-orange-1971-mbti-personality-type	A Clockwork Orange (1971)	1.6k	346	ENTP
+Giulia Marcovaldo	https://www.personality-database.com/profile/259965/giulia-marcovaldo-luca-2021-mbti-personality-type	Luca (2021)	1.7k	169	ESFP
+Tiana	https://www.personality-database.com/profile/4666/tiana-the-princess-and-the-frog-2009-mbti-personality-type	The Princess and the Frog (2009)	1.7k	215	ESTJ
+Cinderella	https://www.personality-database.com/profile/824/cinderella-cinderella-1950-mbti-personality-type	Cinderella (1950)	1.6k	229	ISFJ
+Luisa Madrigal	https://www.personality-database.com/profile/352950/luisa-madrigal-encanto-2021-mbti-personality-type	Encanto (2021)	2.2k	454	ISFJ
+Rose Dewitt Bukater	https://www.personality-database.com/profile/2836/rose-dewitt-bukater-titanic-1997-mbti-personality-type	Titanic (1997)	1.2k	197	ISFP
+Olaf	https://www.personality-database.com/profile/751/olaf-frozen-franchise-mbti-personality-type	Frozen (Franchise)	1.2k	49	ENFP
+Hans Westergaard	https://www.personality-database.com/profile/752/hans-westergaard-frozen-franchise-mbti-personality-type	Frozen (Franchise)	1.2k	162	ENFJ
+Mavis Dracula	https://www.personality-database.com/profile/12270/mavis-dracula-hotel-transylvania-2012-mbti-personality-type	Hotel Transylvania (2012)	1.1k	125	ENFP
+Dolores Madrigal	https://www.personality-database.com/profile/395200/dolores-madrigal-encanto-2021-mbti-personality-type	Encanto (2021)	1.5k	265	ISFP
+Bellatrix Lestrange	https://www.personality-database.com/profile/4045/bellatrix-lestrange-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	1.2k	60	ESFP
+Neville Longbottom	https://www.personality-database.com/profile/714/neville-longbottom-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	1.1k	122	ISFJ
+Cedric Diggory	https://www.personality-database.com/profile/3822/cedric-diggory-harry-potter-wizarding-world-films-mbti-personality-type	Harry Potter / Wizarding World Films	1.1k	64	ESFJ
+Mufasa	https://www.personality-database.com/profile/866/mufasa-the-lion-king-franchise-mbti-personality-type	The Lion King (Franchise)	955	57	ENFJ
+Enola Holmes	https://www.personality-database.com/profile/153088/enola-holmes-enola-holmes-2020-mbti-personality-type	Enola Holmes (2020)	928	52	ENFP
+The Cat	https://www.personality-database.com/profile/7251/the-cat-coraline-2009-mbti-personality-type	Coraline (2009)	913	80	ISTP
+Kim Ki-jeong	https://www.personality-database.com/profile/54828/kim-kijeong-parasite-2019-mbti-personality-type	Parasite (2019)	973	59	ISTP
+Lara Jean Covey	https://www.personality-database.com/profile/15172/lara-jean-covey-to-all-the-boys-trilogy-mbti-personality-type	To All the Boys (trilogy)	831	195	INFP
+Hannibal Lecter	https://www.personality-database.com/profile/2862/hannibal-lecter-the-silence-of-the-lambs-1991-mbti-personality-type	The Silence of the Lambs (1991)	1.1k	91	INTJ
+Emily "Corpse Bride"	https://www.personality-database.com/profile/5598/emily-corpse-bride-corpse-bride-2005-mbti-personality-type	Corpse Bride (2005)	1.1k	128	ENFP
+Terence Fletcher	https://www.personality-database.com/profile/14891/terence-fletcher-whiplash-2014-mbti-personality-type	Whiplash (2014)	1.3k	187	ENTJ
+Snow White	https://www.personality-database.com/profile/594/snow-white-snow-white-and-the-seven-dwarfs-1937-mbti-personality-type	Snow White and the Seven Dwarfs (1937)	1.1k	83	ESFJ
+Mushu	https://www.personality-database.com/profile/4833/mushu-mulan-1998-mbti-personality-type	Mulan (1998)	889	26	ENTP
+Lucy Pevensie	https://www.personality-database.com/profile/4531/lucy-pevensie-the-chronicles-of-narnia-film-trilogy-mbti-personality-type	The Chronicles of Narnia (Film Trilogy)	752	30	INFP
+Aladdin	https://www.personality-database.com/profile/611/aladdin-aladdin-1992-mbti-personality-type	Aladdin (1992)	800	61	ESFP
+Ziggy Berman	https://www.personality-database.com/profile/324857/ziggy-berman-fear-street-franchise-mbti-personality-type	Fear Street (Franchise)	881	74	ISTP
+James Bond (Craig)	https://www.personality-database.com/profile/95400/james-bond-craig-james-bond-film-series-mbti-personality-type	James Bond Film Series	504	115	ISTP
+Charlie “Nuwanda” Dalton	https://www.personality-database.com/profile/12062/charlie-nuwanda-dalton-dead-poets-society-1989-mbti-personality-type	Dead Poets Society (1989)	847	37	ENTP
+Finnick Odair	https://www.personality-database.com/profile/3171/finnick-odair-the-hunger-games-franchise-mbti-personality-type	The Hunger Games (Franchise)	708	47	ENFJ
+Tom Hansen	https://www.personality-database.com/profile/5637/tom-hansen-500-days-of-summer-2009-mbti-personality-type	500 Days of Summer (2009)	836	126	INFP
+Margaret “Meg” March	https://www.personality-database.com/profile/77750/margaret-meg-march-little-women-2019-mbti-personality-type	Little Women (2019)	776	28	ESFJ
+Marla Singer	https://www.personality-database.com/profile/6820/marla-singer-fight-club-1999-mbti-personality-type	Fight Club (1999)	798	63	ESFP
+James P. Sullivan	https://www.personality-database.com/profile/10516/james-p-sullivan-monsters-inc-2001-mbti-personality-type	Monsters, Inc. (2001)	738	71	ISFP
+Ramona Flowers	https://www.personality-database.com/profile/9835/ramona-flowers-scott-pilgrim-vs-the-world-2010-mbti-personality-type	Scott Pilgrim vs. the World (2010)	786	41	ISTP
+Jane Porter	https://www.personality-database.com/profile/11326/jane-porter-tarzan-1999-mbti-personality-type	Tarzan (1999)	563	32	ENTP
+Morticia Addams	https://www.personality-database.com/profile/12602/morticia-addams-the-addams-family-mbti-personality-type	The Addams Family	703	32	INFJ
+Claude Frollo	https://www.personality-database.com/profile/5513/claude-frollo-the-hunchback-of-notre-dame-1996-mbti-personality-type	The Hunchback of Notre Dame (1996)	883	71	INTJ
+Willy Wonka	https://www.personality-database.com/profile/3695/willy-wonka-willy-wonka-and-the-chocolate-factory-1971-mbti-personality-type	Willy Wonka and the Chocolate Factory (1971)	539	94	ENTP
+Ferris Bueller	https://www.personality-database.com/profile/7782/ferris-bueller-ferris-buellers-day-off-1986-mbti-personality-type	Ferris Bueller's Day Off (1986)	842	72	ENTP
+Miguel Rivera	https://www.personality-database.com/profile/10477/miguel-rivera-coco-2017-mbti-personality-type	Coco (2017)	642	42	ESFP
+Patrizia Reggiani	https://www.personality-database.com/profile/332069/patrizia-reggiani-house-of-gucci-mbti-personality-type	House of Gucci	634	104	ESFP
+Sonic	https://www.personality-database.com/profile/65897/sonic-sonic-the-hedgehog-film-series-mbti-personality-type	Sonic the Hedgehog (Film Series)	623	116	ESFP
+Gabriella Montez	https://www.personality-database.com/profile/27286/gabriella-montez-high-school-musical-film-trilogy-mbti-personality-type	High School Musical (Film Trilogy)	560	81	ISFP
+Kida Nedakh	https://www.personality-database.com/profile/4227/kida-nedakh-atlantis-the-lost-empire-2001-mbti-personality-type	Atlantis: The Lost Empire (2001)	471	48	INFJ
+Sebastian “Seb” Wilder	https://www.personality-database.com/profile/5773/sebastian-seb-wilder-la-la-land-2016-mbti-personality-type	La La Land (2016)	493	54	ISFP
+Lilo Pelekai	https://www.personality-database.com/profile/873/lilo-pelekai-lilo-stitch-2002-mbti-personality-type	Lilo & Stitch (2002)	589	29	ENFP
+Susan Pevensie	https://www.personality-database.com/profile/4532/susan-pevensie-the-chronicles-of-narnia-film-trilogy-mbti-personality-type	The Chronicles of Narnia (Film Trilogy)	531	9	ISTJ
+Dani	https://www.personality-database.com/profile/43094/dani-midsommar-2019-mbti-personality-type	Midsommar (2019)	576	22	ISFP
+Susanna Kaysen	https://www.personality-database.com/profile/10753/susanna-kaysen-girl-interrupted-1999-mbti-personality-type	Girl, Interrupted (1999)	697	47	INFP
+Genie	https://www.personality-database.com/profile/2929/genie-aladdin-1992-mbti-personality-type	Aladdin (1992)	506	19	ENFP
+Casey Cooke	https://www.personality-database.com/profile/5755/casey-cooke-split-2016-mbti-personality-type	Split (2016)	586	61	INTJ
+Quasimodo	https://www.personality-database.com/profile/5512/quasimodo-the-hunchback-of-notre-dame-1996-mbti-personality-type	The Hunchback of Notre Dame (1996)	595	38	INFP
+PT Barnum	https://www.personality-database.com/profile/28400/pt-barnum-the-greatest-showman-2017-mbti-personality-type	The Greatest Showman (2017)	493	76	ENTP
+Veruca Salt	https://www.personality-database.com/profile/45441/veruca-salt-charlie-and-the-chocolate-factory-2005-mbti-personality-type	Charlie and the Chocolate Factory (2005)	602	27	ESTJ
+Jenny Curran	https://www.personality-database.com/profile/7022/jenny-curran-forrest-gump-1994-mbti-personality-type	Forrest Gump (1994)	492	52	ESFP
+Maleficent	https://www.personality-database.com/profile/8530/maleficent-sleeping-beauty-1959-mbti-personality-type	Sleeping Beauty (1959)	661	104	INTJ
+Jacob Black	https://www.personality-database.com/profile/11576/jacob-black-twilight-franchise-mbti-personality-type	Twilight (Franchise)	487	54	ISFP
+Hugh Ransom Drysdale	https://www.personality-database.com/profile/69871/hugh-ransom-drysdale-knives-out-2019-mbti-personality-type	Knives Out (2019)	503	26	ESTP
+Poppy	https://www.personality-database.com/profile/121787/poppy-trolls-2016-mbti-personality-type	Trolls (2016)	394	29	ENFP
+Prince Charming	https://www.personality-database.com/profile/3447/prince-charming-shrek-franchise-mbti-personality-type	Shrek (Franchise)	425	21	ESTP
+Scott Pilgrim	https://www.personality-database.com/profile/9834/scott-pilgrim-scott-pilgrim-vs-the-world-2010-mbti-personality-type	Scott Pilgrim vs. the World (2010)	514	63	ISFP
+Evelyn Wang	https://www.personality-database.com/profile/481559/evelyn-wang-everything-everywhere-all-at-once-mbti-personality-type	Everything Everywhere All At Once	468	49	ESTJ
+Marla Grayson	https://www.personality-database.com/profile/255122/marla-grayson-i-care-a-lot-2020-mbti-personality-type	I Care a Lot (2020)	556	65	ENTJ
+Tow Mater	https://www.personality-database.com/profile/13654/tow-mater-cars-franchise-mbti-personality-type	Cars (Franchise)	366	23	ESFP
+Allie Hamilton	https://www.personality-database.com/profile/12547/allie-hamilton-the-notebook-2004-mbti-personality-type	The Notebook (2004)	217	14	ESFJ
+Gustave H.	https://www.personality-database.com/profile/19781/gustave-h-the-grand-budapest-hotel-2014-mbti-personality-type	The Grand Budapest Hotel (2014)	355	27	ENTP
+Aldo Raine	https://www.personality-database.com/profile/11056/aldo-raine-inglourious-basterds-2009-mbti-personality-type	Inglourious Basterds (2009)	395	14	ESTP
+Atticus Finch	https://www.personality-database.com/profile/1180/atticus-finch-to-kill-a-mockingbird-1962-mbti-personality-type	To Kill a Mockingbird (1962)	384	9	INFJ
+Theodore Seville	https://www.personality-database.com/profile/68754/theodore-seville-alvin-and-the-chipmunks-2007-mbti-personality-type	Alvin And The Chipmunks (2007)	428	45	ISFJ
+John Milton	https://www.personality-database.com/profile/17066/john-milton-the-devils-advocate-1997-mbti-personality-type	The Devil's Advocate (1997)	283	35	ENTJ
+Grandma Tala	https://www.personality-database.com/profile/23922/grandma-tala-moana-2016-mbti-personality-type	Moana (2016)	269	24	INFJ
+Arthur	https://www.personality-database.com/profile/1109/arthur-inception-2010-mbti-personality-type	Inception (2010)	298	23	ISTJ
+Jonathan “Jon” Larson	https://www.personality-database.com/profile/410733/jonathan-jon-larson-tick-tickboom-mbti-personality-type	tick, tick...BOOM!	360	28	ENFP
+Ben Hanscom	https://www.personality-database.com/profile/7806/ben-hanscom-it-2017-mbti-personality-type	It (2017)	379	14	INFP
+Ellie Chu	https://www.personality-database.com/profile/117465/ellie-chu-the-half-of-it-2020-mbti-personality-type	The Half of It (2020)	315	24	INTP
+Josh Johnson	https://www.personality-database.com/profile/325995/josh-johnson-fear-street-franchise-mbti-personality-type	Fear Street (Franchise)	300	13	INTP
+Ms. Sharon Norbury	https://www.personality-database.com/profile/35198/ms-sharon-norbury-mean-girls-2004-mbti-personality-type	Mean Girls (2004)	291	40	INFJ
+Lorraine Warren	https://www.personality-database.com/profile/37126/lorraine-warren-the-conjuring-mbti-personality-type	The Conjuring	326	10	INFJ
+Betelgeuse	https://www.personality-database.com/profile/6541/betelgeuse-beetlejuice-1988-mbti-personality-type	Beetlejuice (1988)	308	19	ESTP
+Ian Lightfoot	https://www.personality-database.com/profile/97789/ian-lightfoot-onward-2020-mbti-personality-type	Onward (2020)	295	25	ISFJ
+Bo-Peep	https://www.personality-database.com/profile/881/bopeep-toy-story-franchise-mbti-personality-type	Toy Story (Franchise)	260	15	ISFJ
+Bo-Peep (Toy Story 4)	https://www.personality-database.com/profile/40475/bopeep-toy-story-4-toy-story-franchise-mbti-personality-type	Toy Story (Franchise)	297	45	ENFJ
+Mary Adler	https://www.personality-database.com/profile/98957/mary-adler-gifted-2017-mbti-personality-type	Gifted (2017)	325	28	INTP
+Ofelia	https://www.personality-database.com/profile/2864/ofelia-pans-labyrinth-2006-mbti-personality-type	Pan's Labyrinth (2006)	324	13	INFP
+Stella Grant	https://www.personality-database.com/profile/30162/stella-grant-five-feet-apart-2019-mbti-personality-type	Five Feet Apart (2019)	218	14	ESTJ
+Princess Anneliese	https://www.personality-database.com/profile/55898/princess-anneliese-barbie-as-the-princess-and-the-pauper-2004-mbti-personality-type	Barbie as the Princess and the Pauper (2004)	266	10	ISFJ
+Lux Lisbon	https://www.personality-database.com/profile/36051/lux-lisbon-the-virgin-suicides-2000-mbti-personality-type	The Virgin Suicides (2000)	359	32	ESFP
+Rocky Balboa	https://www.personality-database.com/profile/3827/rocky-balboa-rocky-mbti-personality-type	Rocky	262	11	ISFP
+Cry Baby	https://www.personality-database.com/profile/57811/cry-baby-k12-2019-mbti-personality-type	K-12 (2019)	352	6	INFP
+Knox Overstreet	https://www.personality-database.com/profile/12065/knox-overstreet-dead-poets-society-1989-mbti-personality-type	Dead Poets Society (1989)	269	14	ISFP
