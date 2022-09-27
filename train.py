@@ -87,16 +87,14 @@ def train():
     print('\n##############VAL EXAMPLE#################\n')
     val_test_iter = iter(val_data)
     val_test_iter.next()
-    tokenized_sentences, candidate_specific_segements, mention_positions, quote_indicies, one_hot_label, true_index= val_test_iter.next()
+    tokenized_sentences, candidate_specific_segements, quote_indicies, context_indices, mention_indices, one_hot_label, true_index = val_test_iter.next()
     print('Tokenized Sentences :')
     print(tokenized_sentences)
     print('\nCandidate-specific segments:')
     for i, css in enumerate(candidate_specific_segements):
-        print('\ni : ', css)
-    print('\nMention Positions:')
-    print(mention_positions)
-    print('\nQuote Indices:')
-    print(quote_indicies)
+        print(f'\n{i} : {css}')
+        print(f'q:{quote_indicies[i]}, c:{context_indices[i]}, m:{mention_indices[i]}')
+
     print('\none-hot-label:')
     print(one_hot_label)
     print('\ntrue index:')
@@ -136,10 +134,13 @@ def train():
         optimizer.zero_grad()
 
         print(f'#########\nEpoch: {epoch+1} begins:\n')
-        for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(train_data)):
+        for i, (_, candidate_specific_segements, quote_indicies, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(train_data)):
             try:
                 #candidate_specific_segments : instance의 css들 list
                 features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
+                # print(features[0].tokens[mention_indices[0]+1])
+                # print(features[0].tokens[context_indices[0][0]+1:context_indices[0][1]+1])
+                # print(features[0].tokens[quote_indicies[0][0]+1:quote_indicies[0][1]+1])
                 scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
 
                 for (false, true) in zip(scores_false, scores_true):
@@ -205,9 +206,12 @@ def train():
 
             eval_sum_loss = 0
 
-            for i, (_, candidate_specific_segements, mention_positions, quote_indicies, _, true_index) in enumerate(tqdm(eval_data)):
+            for i, (_, candidate_specific_segements, quote_indicies, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(eval_data)):
                 with torch.no_grad():
                     features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
+                    print(features[0].tokens[quote_indicies[0]+1])
+                    print(features[0].tokens[context_indices[0][0]+1:context_indices[0][1]+1])
+                    print(features[0].tokens[mention_indices[0][0]+1:mention_indices[0]])
                     scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
                     loss_list = [loss_function(x.unsqueeze(0), y.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device)) for x, y in zip(scores_false, scores_true)]
                 

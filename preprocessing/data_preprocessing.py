@@ -89,11 +89,12 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
     Return
         
     """
-    #To Do : 걍 여기서 Quote, Mention, Context 찍어버려 아니네 index만 찍어야되는게 bert 들어갈 때 앞뒤 있어야함
+    #TODO : 걍 여기서 Quote, Mention, Context 찍어버려 아니네 index만 찍어야되는게 bert 들어갈 때 앞뒤 있어야함 len(tokenized_sentece)로 조지면 될듯 ㅎ
     candidate_specific_segments = []
     mention_positions = []
     quote_indices = []
 
+    #character index
     context_indices = []
     mention_indices = []
     quote_indices = []
@@ -105,28 +106,33 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
         if nearest_position[0] <= window_size:
             #candidate_specific_segment = sentence that contain character neareset position ~ quote
             candidate_specific_segment = copy.deepcopy(tokenized_sentences[nearest_position[0] : window_size+1])
-            #if candidate in before quote, 0 is candidate sentence index
-            mention_position = [0, nearest_position[1]] 
-            
-            quote_index = window_size - nearest_position[0]
+
+            context_index = (0, len(candidate_specific_segment[0]))
+            mention_index = nearest_position[1]
+            start_index = 0
+            for i in range(window_size-nearest_position[0]):
+                start_index += len(candidate_specific_segment[i])
+            quote_index = (start_index, candidate_specific_segment[window_size-nearest_position[0]])
         else:
             #candidate_specific_segment = quote ~ sentence that contain character neareset position
             candidate_specific_segment = copy.deepcopy(tokenized_sentences[window_size : nearest_position[0]+1])
-            
-            mention_position = [nearest_position[0]-window_size, nearest_position[1]]
-            #if candidate in after quote, 0 is quote
-            quote_index = 0
 
-        #i think it doesnt need
-        #candidate_specific_segments.append(' '.join([' '.join(sentence) for sentence in candidate_specific_segment]))
+            quote_index = (0, len(candidate_specific_segment[0]))   #0~len(candidae_specific_seg)-1까지니까 그대로 쓰면 됨
+            start_index = 0
+            for i in range(nearest_position[0]-window_size):
+                start_index += len(candidate_specific_segment[i])
+            mention_index = start_index + nearest_position[1]
+            context_index = (start_index, start_index+len(candidate_specific_segment[nearest_position[0]-window_size])) #이것도 그대로 쓰면 됨
+
+        quote_indices.append(quote_index)
+        context_indices.append(context_index)
+        mention_indices.append(mention_index)
         css = []
         for x in candidate_specific_segment:
             css.append(x)
         candidate_specific_segments.append(css)
-        mention_positions.append(mention_position)
-        quote_indices.append(quote_index)
     
-    return candidate_specific_segments, mention_positions, quote_indices
+    return candidate_specific_segments, quote_indices, context_indices, mention_indices
     
 
 class InstanceDataSet(Dataset):
@@ -179,12 +185,12 @@ def build_data_loader(data_file, alias_to_id, args, tokenizer):
             
             tokenized_sentences, candidate_mention_positions = tokenize_and_locate_mention(raw_sentences_in_list, alias_to_id, tokenizer)
 
-            candidate_specific_segements, mention_positions, quote_indicies = \
+            candidate_specific_segements, quote_indicies, context_indices, mention_indices= \
             create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size)
 
             one_hot_label = [0 if character_index != alias_to_id[speaker_name.lower()] else 1 for character_index in candidate_mention_positions.keys()]
             true_index = one_hot_label.index(1) if 1 in one_hot_label else 0 #0은 one-hot-label의 index0이랑 겹칠 수도 있는 거 아닌가?
 
-            data_list.append((tokenized_sentences, candidate_specific_segements, mention_positions, quote_indicies, one_hot_label, true_index))
+            data_list.append((tokenized_sentences, candidate_specific_segements, quote_indicies, context_indices, mention_indices, one_hot_label, true_index))
 
     return DataLoader(InstanceDataSet(data_list), batch_size=1, collate_fn=lambda x: x[0])

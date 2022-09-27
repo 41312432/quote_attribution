@@ -31,11 +31,13 @@ def convert_examples_to_features(examples, tokenizer):
             for word in sentence:
                 new_tokens.append(word)
                 input_type_ids.append([0])
-            new_tokens.append("[SEP]")
-            input_type_ids.append(0)
+        new_tokens.append("[SEP]")
+        input_type_ids.append(0)
 
         input_ids = tokenizer.convert_tokens_to_ids(new_tokens)
         input_mask = [1] * len(input_ids)
+
+        print(new_tokens)
 
         features.append(
             InputFeatures(
