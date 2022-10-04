@@ -37,8 +37,6 @@ def convert_examples_to_features(examples, tokenizer):
         input_ids = tokenizer.convert_tokens_to_ids(new_tokens)
         input_mask = [1] * len(input_ids)
 
-        print(new_tokens)
-
         features.append(
             InputFeatures(
                 tokens=new_tokens,

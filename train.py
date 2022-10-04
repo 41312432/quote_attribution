@@ -1,4 +1,5 @@
 
+from re import T
 import time
 import json
 import os
@@ -86,14 +87,13 @@ def train():
 
     print('\n##############VAL EXAMPLE#################\n')
     val_test_iter = iter(val_data)
-    val_test_iter.next()
-    tokenized_sentences, candidate_specific_segements, quote_indicies, context_indices, mention_indices, one_hot_label, true_index = val_test_iter.next()
+    tokenized_sentences, candidate_specific_segements, quote_indices, context_indices, mention_indices, one_hot_label, true_index = val_test_iter.next()
     print('Tokenized Sentences :')
     print(tokenized_sentences)
     print('\nCandidate-specific segments:')
     for i, css in enumerate(candidate_specific_segements):
         print(f'\n{i} : {css}')
-        print(f'q:{quote_indicies[i]}, c:{context_indices[i]}, m:{mention_indices[i]}')
+        print(f'q:{quote_indices[i]}, c:{context_indices[i]}, m:{mention_indices[i]}')
 
     print('\none-hot-label:')
     print(one_hot_label)
@@ -131,45 +131,37 @@ def train():
         train_loss = 0
 
         model.train()
-        optimizer.zero_grad()
 
         print(f'#########\nEpoch: {epoch+1} begins:\n')
-        for i, (_, candidate_specific_segements, quote_indicies, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(train_data)):
-            try:
-                #candidate_specific_segments : instance의 css들 list
-                features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
-                # print(features[0].tokens[mention_indices[0]+1])
-                # print(features[0].tokens[context_indices[0][0]+1:context_indices[0][1]+1])
-                # print(features[0].tokens[quote_indicies[0][0]+1:quote_indicies[0][1]+1])
-                scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
+        for i, (_, candidate_specific_segements, quote_indices, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(train_data)):
+            features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
+            # print(features[0].tokens[mention_indices[0]+1])
+            # print(features[0].tokens[context_indices[0][0]+1:context_indices[0][1]+1])
+            # print(features[0].tokens[quote_indices[0][0]+1:quote_indices[0][1]+1])
+            scores, scores_false, scores_true = model(features, quote_indices, context_indices, mention_indices, true_index, device)
 
-                for (false, true) in zip(scores_false, scores_true):
-                    #Loss
-                    loss = loss_function(false.unsqueeze(0), true.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device))
-                    train_loss += loss.item()
+            for (false, true) in zip(scores_false, scores_true):
+                optimizer.zero_grad()
 
-                    #Back Propagation
-                    loss = loss / args.batch_size
-                    loss.backward(retain_graph=True)
-                    backward_counter += 1
+                #Loss
+                loss = loss_function(false.unsqueeze(0), true.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device))
+                #loss.requires_grad(True)
 
-                    #Update Weights
-                    if backward_counter % args.batch_size == 0:
-                        optimizer.step()
-                        optimizer.zero_grad()
-            
-                #print(scores(max(0)))
-                acc_numerator += 1 if scores.max(0)[1].item()==true_index else 0
-                #acc_numertate += 1
-                acc_denominator += 1
+                #Back Propagation
+                loss.backward(retain_graph=True)
+                backward_counter += 1
 
-            except Exception as e:
-                print(e)
-                break
+                train_loss = train_loss + loss.item()
+
+                #Update Weights
+                optimizer.step()
+
+            acc_numerator += 1 if scores.clone().max(0)[1].item()==true_index else 0
+            acc_denominator += 1
         
         ######Train Finish#####
         train_acc = acc_numerator / acc_denominator
-        train_loss = train_loss / len(train_data)
+        train_loss /= len(train_data)
 
         print(f'{epoch+1} : train acc : {train_acc}, train loss : {train_loss} \n')
 
@@ -206,13 +198,10 @@ def train():
 
             eval_sum_loss = 0
 
-            for i, (_, candidate_specific_segements, quote_indicies, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(eval_data)):
+            for i, (_, candidate_specific_segements, quote_indices, context_indices, mention_indices, _ , true_index) in enumerate(tqdm(eval_data)):
                 with torch.no_grad():
                     features = convert_examples_to_features(examples=candidate_specific_segements, tokenizer=tokenizer)
-                    print(features[0].tokens[quote_indicies[0]+1])
-                    print(features[0].tokens[context_indices[0][0]+1:context_indices[0][1]+1])
-                    print(features[0].tokens[mention_indices[0][0]+1:mention_indices[0]])
-                    scores, scores_false, scores_true = model(features, mention_positions, quote_indicies, true_index, device)
+                    scores, scores_false, scores_true = model(features, quote_indices, context_indices, mention_indices, true_index, device)
                     loss_list = [loss_function(x.unsqueeze(0), y.unsqueeze(0), torch.tensor(-1.0).unsqueeze(0).to(device)) for x, y in zip(scores_false, scores_true)]
                 
                 eval_sum_loss += sum(x.item() for x in loss_list)

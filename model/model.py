@@ -1,3 +1,4 @@
+from math import fabs
 import torch.nn as nn
 import torch
 from transformers import AutoModel, TransfoXLModel
@@ -6,7 +7,7 @@ def get_nonlinear(nonlinear):
     """
     Activation function.
     """
-    nonlinear_dict = {'relu':nn.ReLU(), 'tanh':nn.Tanh(), 'sigmoid':nn.Sigmoid(), 'softmax':nn.Softmax(dim=-1)}
+    nonlinear_dict = {'relu':nn.ReLU(inplace=True), 'tanh':nn.Tanh(), 'sigmoid':nn.Sigmoid(), 'softmax':nn.Softmax(dim=-1)}
     try:
         return nonlinear_dict[nonlinear]
     except:
@@ -52,14 +53,16 @@ class MLP_Scorer(nn.Module):
     """
     def __init__(self, args, classifier_input_size):
         super(MLP_Scorer, self).__init__()
-        self.scorer = nn.ModuleList()
-        self.scorer.append(nn.Linear(classifier_input_size, args.classifier_intermediate_dim))
-        self.scorer.append(nn.Linear(args.classifier_intermediate_dim, 1))
+        self.linear_1 = nn.Linear(classifier_input_size, args.classifier_intermediate_dim)
+        self.linear_2 = nn.Linear(args.classifier_intermediate_dim, 1)
         self.nonlinear = get_nonlinear(args.nonlinear_type)
 
     def forward(self, x):
-        for model in self.scorer:
-            x = self.nonlinear(model(x))
+        x = self.linear_1(x).clone().detach()
+        x = self.nonlinear(x)
+        x = self.linear_2(x)
+        x = self.nonlinear(x)
+
         return x
 
 class CSN(nn.Module):
@@ -73,10 +76,10 @@ class CSN(nn.Module):
         self.args = args
         self.model = model
         self.pooling = SeqPooling(args.pooling_type, self.model.config.hidden_size)
-        self.mlp_scorer = MLP_Scorer(args, self.model.config.hidden_size)
+        self.mlp_scorer = MLP_Scorer(args, self.model.config.hidden_size * 3)
         self.dropout = nn.Dropout(args.dropout)
 
-    def forward(self, features, mention_positions, quote_indicies, true_index, device):
+    def forward(self, features, quote_indices, context_indices, mention_indices, true_index, device):
         """
         params
             features: the candidate-specific segments (CSS) converted into the form of BERT input.  
@@ -95,60 +98,33 @@ class CSN(nn.Module):
         # encoding
         quote_hidden = [] #quote
         context_hidden = [] #context
-        candidate_hidden = [] #mention
-        qs_hid = []
-        ctx_hid = []
-        cdd_hid = []
+        mention_hidden = [] #mention
 
-        css_hidden = []
-        for i, (cdd_mention_pos, cdd_quote_idx) in enumerate(zip(mention_positions, quote_indicies)):
+        for i, (cdd_quote_idx, cdd_context_idx, cdd_mention_idx) in enumerate(zip(quote_indices, context_indices, mention_indices)):
 
-            model_output = self.model(torch.tensor([features[i].input_ids], dtype=torch.long).to(device))
+            model_output = self.model(torch.tensor([features[i].input_ids]).to(device))
 
-            print(f"{i} Tokens : {features[i].tokens}")
+            CSS_hidden = model_output['last_hidden_state'][0][1:]
 
-            accum_char_len = []#전체 char 길이 [0, 10, 20, 30]요런식으로 (각 세 문장 길이가 10이였다면)
-
-            #그리고 char len 없이 짤라보는거 생각
-            print(cdd_mention_pos, cdd_quote_idx)
-            print(len(model_output['last_hidden_state'][0]))    #instance i의 css마다 [CLS], [SEP] 추가시킨 last hidden state
-            #model_output['last_hidden_state'][0] : feature word 길이
-            #model_output['last_hidden_state'][0][0] : 한 word는 768차원 tensor
-
-            #css_hidden.append(model_output['last_hidden_state'][0]) #Except [CLS], [SEP]
-            css_hidden.append(model_output['last_hidden_state'][0][0])
-
-            # CSS_hid = model_output['last_hidden_state'][0][1:sum(cdd_sent_char_lens) + 1]
-            # qs_hid.append(CSS_hid[accum_char_len[cdd_quote_idx]:accum_char_len[cdd_quote_idx + 1]])
-
-            # if len(cdd_sent_char_lens) == 1:
-            #     ctx_hid.append(torch.zeros(1, CSS_hid.size(1)).to(device))
-            # elif cdd_mention_pos[0] == 0:
-            #     ctx_hid.append(CSS_hid[:accum_char_len[-2]])
-            # else:
-            #     ctx_hid.append(CSS_hid[accum_char_len[1]:])
-            
-            # cdd_hid.append(CSS_hid[cdd_mention_pos[1]:cdd_mention_pos[2]])
-
+            quote_hidden.append(CSS_hidden[cdd_quote_idx[0]:cdd_quote_idx[1]])
+            context_hidden.append(CSS_hidden[cdd_context_idx[0]:cdd_context_idx[1]])
+            mention_hidden.append(CSS_hidden[cdd_mention_idx].unsqueeze(0))
         # pooling
-        # qs_rep = self.pooling(qs_hid)
-        # ctx_rep = self.pooling(ctx_hid)
-        # cdd_rep = self.pooling(cdd_hid)
+        quote_rep = self.pooling(quote_hidden)
+        context_rep = self.pooling(context_hidden)
+        mention_rep = self.pooling(mention_hidden)
 
         # # concatenate
-        # feature_vector = torch.cat([qs_rep, ctx_rep, cdd_rep], dim=-1)
-        #feature_vector = torch.cat([css_represent], dim=-1)
+        feature_vector = torch.cat([quote_rep, context_rep, mention_rep], dim=-1)
 
         # # dropout
-        # feature_vector = self.dropout(feature_vector)
+        feature_vector = self.dropout(feature_vector)
 
         # # scoring
         scores = self.mlp_scorer(feature_vector).view(-1)
-        
-        print('scores', scores, scores.size())
         scores_false = [scores[i] for i in range(scores.size(0)) if i != true_index]
-        print('s false', scores_false, len(scores_false))
         scores_true = [scores[true_index] for i in range(scores.size(0) - 1)]
-        print('s truye', scores_true, len(scores_true))
+
+        del feature_vector
 
         return scores, scores_false, scores_true

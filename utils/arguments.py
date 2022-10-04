@@ -19,22 +19,22 @@ def get_train_args():
     parser.add_argument('--test_file', type=str, default='')
     parser.add_argument('--name_list', type=str, default='')
 
-    parser.add_argument('--window_size', type=int, default=10)
+    parser.add_argument('--window_size', type=int, default=8)
 
     #model
-    parser.add_argument('--pooling_type', type=str, default='mean_pooling')
+    parser.add_argument('--pooling_type', type=str, default='max_pooling')
     parser.add_argument('--classifier_intermediate_dim', type=int, default=100)
     parser.add_argument('--nonlinear_type', type=str, default='relu')
 
     #training
     parser.add_argument('--margin', type=float, default=1.0)
     parser.add_argument('--lr', type=float, default=1e-5)
-    parser.add_argument('--optimizer', type=str, default='sgd')
-    parser.add_argument('--dropout', type=float, default=0.5)
-    parser.add_argument('--num_epochs', type=int, default=30)
-    parser.add_argument('--batch_size', type=int, default=16)
+    parser.add_argument('--optimizer', type=str, default='adam')
+    parser.add_argument('--dropout', type=float, default=0.3)
+    parser.add_argument('--num_epochs', type=int, default=50)
+    parser.add_argument('--batch_size', type=int, default=1)
     parser.add_argument('--lr_decay', type=float, default=0.95)
-    parser.add_argument('--patience', type=int, default=5)
+    parser.add_argument('--patience', type=int, default=7)
 
     args = parser.parse_args()
     return args

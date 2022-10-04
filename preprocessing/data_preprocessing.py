@@ -112,7 +112,7 @@ def create_candidate_specific_segments(tokenized_sentences, candidate_mention_po
             start_index = 0
             for i in range(window_size-nearest_position[0]):
                 start_index += len(candidate_specific_segment[i])
-            quote_index = (start_index, candidate_specific_segment[window_size-nearest_position[0]])
+            quote_index = (start_index, start_index+len(candidate_specific_segment[window_size-nearest_position[0]]))
         else:
             #candidate_specific_segment = quote ~ sentence that contain character neareset position
             candidate_specific_segment = copy.deepcopy(tokenized_sentences[window_size : nearest_position[0]+1])
@@ -169,28 +169,30 @@ def build_data_loader(data_file, alias_to_id, args, tokenizer):
     data_list = []
 
     for i, line in enumerate(tqdm(data_lines, ncols=100, total=len(data_lines))):
-        offset = i%24
+        offset = i%18
 
         #instant index
         if offset == 0:
             raw_sentences_in_list = []
         
         #line[1]~[10]:context line[11]:quote line[12]~[21]:context
-        elif offset < 22:
+        #line[1]~[5]:context line[6]:quote line[7]~[11]:context
+        #line[1]~[7]:context line[8]:quote line[9]~[15]:context
+        elif offset < 16:
             raw_sentences_in_list.append(line.strip().lower())
 
         # speaker
-        elif offset == 22:
+        elif offset == 16:
             speaker_name = line.strip().split()[-1]
             
             tokenized_sentences, candidate_mention_positions = tokenize_and_locate_mention(raw_sentences_in_list, alias_to_id, tokenizer)
 
-            candidate_specific_segements, quote_indicies, context_indices, mention_indices= \
+            candidate_specific_segements, quote_indices, context_indices, mention_indices= \
             create_candidate_specific_segments(tokenized_sentences, candidate_mention_positions, args.window_size)
 
             one_hot_label = [0 if character_index != alias_to_id[speaker_name.lower()] else 1 for character_index in candidate_mention_positions.keys()]
             true_index = one_hot_label.index(1) if 1 in one_hot_label else 0 #0은 one-hot-label의 index0이랑 겹칠 수도 있는 거 아닌가?
 
-            data_list.append((tokenized_sentences, candidate_specific_segements, quote_indicies, context_indices, mention_indices, one_hot_label, true_index))
+            data_list.append((tokenized_sentences, candidate_specific_segements, quote_indices, context_indices, mention_indices, one_hot_label, true_index))
 
-    return DataLoader(InstanceDataSet(data_list), batch_size=1, collate_fn=lambda x: x[0])
+    return DataLoader(InstanceDataSet(data_list), batch_size=1, collate_fn=lambda x: x[0], num_workers=8)
